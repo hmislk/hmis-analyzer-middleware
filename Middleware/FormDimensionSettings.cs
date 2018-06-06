@@ -57,6 +57,7 @@ namespace Middleware
                 txtBitLength.Text = (String)key.GetValue("BitLength", "8");
                 txtStopBits.Text = (String)key.GetValue("StopBits", "One");
                 txtParity.Text = (String)key.GetValue("Parity", "NONE");
+                txtUrl.Text = (String)key.GetValue("Url", "");
             }
 
          
@@ -173,7 +174,7 @@ namespace Middleware
             {
                 if (com.IsOpen)
                 {
-                    txtReceive.Text = com.ReadExisting();
+                    txtReceive.Text += com.ReadExisting();
                     txtSend.Clear();
                 }
 
@@ -199,7 +200,7 @@ namespace Middleware
             key.SetValue("BaudRate", txtBaudRate.Text);
             key.SetValue("Parity", txtParity.Text);
             key.SetValue("StopBits", txtStopBits.Text);
-
+            key.SetValue("Url", txtUrl.Text);
 
         }
 
@@ -208,7 +209,7 @@ namespace Middleware
         private static void com_DataReceived(object sender, SerialDataReceivedEventArgs e  )
         {
             try {
-                receivedText = com.ReadExisting();
+                receivedText += com.ReadExisting();
             }
             catch(Exception ex)
             {
@@ -219,6 +220,13 @@ namespace Middleware
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             txtReceive.Text = receivedText;
+        }
+
+        private void btnSendNoRequest_Click(object sender, EventArgs e)
+        {
+            // { <DLE> , <STX> , "G" , <DLE> , <ETX> , 16 BIT CRC CCITT split into two bytes}
+            byte[] byteToSend = new byte[] { 0x10, 0x02, 0x47, 0x10, 0x03, 0x42, 0x1F };
+            com.Write(byteToSend, 0, byteToSend.Length);
         }
     }
 }

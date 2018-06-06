@@ -50,6 +50,13 @@
             this.txtParity = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.btnRefresh = new System.Windows.Forms.Button();
+            this.btnSendNoRequest = new System.Windows.Forms.Button();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.lblPw = new System.Windows.Forms.Label();
+            this.txtUrl = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -237,11 +244,76 @@
             this.btnRefresh.UseVisualStyleBackColor = true;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
+            // btnSendNoRequest
+            // 
+            this.btnSendNoRequest.Location = new System.Drawing.Point(660, 307);
+            this.btnSendNoRequest.Name = "btnSendNoRequest";
+            this.btnSendNoRequest.Size = new System.Drawing.Size(264, 23);
+            this.btnSendNoRequest.TabIndex = 13;
+            this.btnSendNoRequest.Text = "Send No Request Message";
+            this.btnSendNoRequest.UseVisualStyleBackColor = true;
+            this.btnSendNoRequest.Click += new System.EventHandler(this.btnSendNoRequest_Click);
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.Location = new System.Drawing.Point(264, 230);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(154, 20);
+            this.txtUsername.TabIndex = 15;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(175, 237);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(55, 13);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "Username";
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(264, 261);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(154, 20);
+            this.txtPassword.TabIndex = 17;
+            // 
+            // lblPw
+            // 
+            this.lblPw.AutoSize = true;
+            this.lblPw.Location = new System.Drawing.Point(175, 268);
+            this.lblPw.Name = "lblPw";
+            this.lblPw.Size = new System.Drawing.Size(53, 13);
+            this.lblPw.TabIndex = 16;
+            this.lblPw.Text = "Password";
+            // 
+            // txtUrl
+            // 
+            this.txtUrl.Location = new System.Drawing.Point(101, 155);
+            this.txtUrl.Name = "txtUrl";
+            this.txtUrl.Size = new System.Drawing.Size(446, 20);
+            this.txtUrl.TabIndex = 19;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(12, 162);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(73, 13);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "LIMS Address";
+            // 
             // FormDimensionSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1018, 450);
+            this.Controls.Add(this.txtUrl);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.lblPw);
+            this.Controls.Add(this.txtUsername);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.btnSendNoRequest);
             this.Controls.Add(this.txtParity);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtStopBits);
@@ -287,5 +359,12 @@
         private System.Windows.Forms.TextBox txtParity;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnRefresh;
+        private System.Windows.Forms.Button btnSendNoRequest;
+        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Label lblPw;
+        private System.Windows.Forms.TextBox txtUrl;
+        private System.Windows.Forms.Label label9;
     }
 }

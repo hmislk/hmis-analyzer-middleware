@@ -28,17 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbPort = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.btnOpen = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtSend = new System.Windows.Forms.TextBox();
-            this.txtReceive = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.btnReceive = new System.Windows.Forms.Button();
             this.btnSend = new System.Windows.Forms.Button();
+            this.txtReceive = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtSend = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnOpen = new System.Windows.Forms.Button();
+            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,40 +79,25 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Test Port";
             // 
-            // btnClose
+            // btnReceive
             // 
-            this.btnClose.Location = new System.Drawing.Point(236, 19);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
-            this.btnClose.TabIndex = 5;
-            this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnReceive.Location = new System.Drawing.Point(367, 175);
+            this.btnReceive.Name = "btnReceive";
+            this.btnReceive.Size = new System.Drawing.Size(75, 23);
+            this.btnReceive.TabIndex = 11;
+            this.btnReceive.Text = "Receive";
+            this.btnReceive.UseVisualStyleBackColor = true;
+            this.btnReceive.Click += new System.EventHandler(this.btnReceive_Click);
             // 
-            // btnOpen
+            // btnSend
             // 
-            this.btnOpen.Location = new System.Drawing.Point(155, 19);
-            this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(75, 23);
-            this.btnOpen.TabIndex = 4;
-            this.btnOpen.Text = "Open";
-            this.btnOpen.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 58);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "To Send Text";
-            // 
-            // txtSend
-            // 
-            this.txtSend.Location = new System.Drawing.Point(97, 55);
-            this.txtSend.Multiline = true;
-            this.txtSend.Name = "txtSend";
-            this.txtSend.Size = new System.Drawing.Size(264, 105);
-            this.txtSend.TabIndex = 7;
+            this.btnSend.Location = new System.Drawing.Point(368, 55);
+            this.btnSend.Name = "btnSend";
+            this.btnSend.Size = new System.Drawing.Size(75, 23);
+            this.btnSend.TabIndex = 10;
+            this.btnSend.Text = "Send";
+            this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // txtReceive
             // 
@@ -129,23 +116,42 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Received Text";
             // 
-            // btnReceive
+            // txtSend
             // 
-            this.btnReceive.Location = new System.Drawing.Point(367, 175);
-            this.btnReceive.Name = "btnReceive";
-            this.btnReceive.Size = new System.Drawing.Size(75, 23);
-            this.btnReceive.TabIndex = 11;
-            this.btnReceive.Text = "Receive";
-            this.btnReceive.UseVisualStyleBackColor = true;
+            this.txtSend.Location = new System.Drawing.Point(97, 55);
+            this.txtSend.Multiline = true;
+            this.txtSend.Name = "txtSend";
+            this.txtSend.Size = new System.Drawing.Size(264, 105);
+            this.txtSend.TabIndex = 7;
             // 
-            // btnSend
+            // label2
             // 
-            this.btnSend.Location = new System.Drawing.Point(368, 55);
-            this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(75, 23);
-            this.btnSend.TabIndex = 10;
-            this.btnSend.Text = "Send";
-            this.btnSend.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(15, 58);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 13);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "To Send Text";
+            // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(236, 19);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.TabIndex = 5;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnOpen
+            // 
+            this.btnOpen.Location = new System.Drawing.Point(155, 19);
+            this.btnOpen.Name = "btnOpen";
+            this.btnOpen.Size = new System.Drawing.Size(75, 23);
+            this.btnOpen.TabIndex = 4;
+            this.btnOpen.Text = "Open";
+            this.btnOpen.UseVisualStyleBackColor = true;
+            this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
             // FormDimensionSettings
             // 
@@ -178,5 +184,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnOpen;
+        private System.IO.Ports.SerialPort serialPort1;
     }
 }

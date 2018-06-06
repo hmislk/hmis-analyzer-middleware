@@ -8,3 +8,4 @@ E:\Company\Development\Middleware\Middleware\Middleware\obj\Debug\Middleware.csp
 E:\Company\Development\Middleware\Middleware\Middleware\obj\Debug\Middleware.csproj.CoreCompileInputs.cache
 E:\Company\Development\Middleware\Middleware\Middleware\obj\Debug\Middleware.exe
 E:\Company\Development\Middleware\Middleware\Middleware\obj\Debug\Middleware.pdb
+E:\Company\Development\Middleware\Middleware\Middleware\obj\Debug\Middleware.FormDimensionSettings.resources

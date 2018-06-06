@@ -49,7 +49,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtParity = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnRefresh = new System.Windows.Forms.Button();
+            this.btnRefreshAna = new System.Windows.Forms.Button();
             this.btnSendNoRequest = new System.Windows.Forms.Button();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -57,6 +57,8 @@
             this.lblPw = new System.Windows.Forms.Label();
             this.txtUrl = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.btnLimsRequest = new System.Windows.Forms.Button();
+            this.btnRefreshLims = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,7 +82,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnRefresh);
             this.groupBox1.Controls.Add(this.btnReceive);
             this.groupBox1.Controls.Add(this.btnSend);
             this.groupBox1.Controls.Add(this.txtReceive);
@@ -234,21 +235,21 @@
             this.label7.TabIndex = 11;
             this.label7.Text = "Parity";
             // 
-            // btnRefresh
+            // btnRefreshAna
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(286, 19);
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(75, 23);
-            this.btnRefresh.TabIndex = 12;
-            this.btnRefresh.Text = "Refresh";
-            this.btnRefresh.UseVisualStyleBackColor = true;
-            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
+            this.btnRefreshAna.Location = new System.Drawing.Point(850, 307);
+            this.btnRefreshAna.Name = "btnRefreshAna";
+            this.btnRefreshAna.Size = new System.Drawing.Size(155, 23);
+            this.btnRefreshAna.TabIndex = 12;
+            this.btnRefreshAna.Text = "Refresh Analyzer";
+            this.btnRefreshAna.UseVisualStyleBackColor = true;
+            this.btnRefreshAna.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnSendNoRequest
             // 
             this.btnSendNoRequest.Location = new System.Drawing.Point(660, 307);
             this.btnSendNoRequest.Name = "btnSendNoRequest";
-            this.btnSendNoRequest.Size = new System.Drawing.Size(264, 23);
+            this.btnSendNoRequest.Size = new System.Drawing.Size(184, 23);
             this.btnSendNoRequest.TabIndex = 13;
             this.btnSendNoRequest.Text = "Send No Request Message";
             this.btnSendNoRequest.UseVisualStyleBackColor = true;
@@ -302,11 +303,34 @@
             this.label9.TabIndex = 18;
             this.label9.Text = "LIMS Address";
             // 
+            // btnLimsRequest
+            // 
+            this.btnLimsRequest.Location = new System.Drawing.Point(660, 336);
+            this.btnLimsRequest.Name = "btnLimsRequest";
+            this.btnLimsRequest.Size = new System.Drawing.Size(184, 23);
+            this.btnLimsRequest.TabIndex = 20;
+            this.btnLimsRequest.Text = "Send Request to LIMS";
+            this.btnLimsRequest.UseVisualStyleBackColor = true;
+            this.btnLimsRequest.Click += new System.EventHandler(this.btnLimsRequest_Click);
+            // 
+            // btnRefreshLims
+            // 
+            this.btnRefreshLims.Location = new System.Drawing.Point(850, 336);
+            this.btnRefreshLims.Name = "btnRefreshLims";
+            this.btnRefreshLims.Size = new System.Drawing.Size(155, 23);
+            this.btnRefreshLims.TabIndex = 21;
+            this.btnRefreshLims.Text = "Refresh LIMS";
+            this.btnRefreshLims.UseVisualStyleBackColor = true;
+            this.btnRefreshLims.Click += new System.EventHandler(this.btnRefreshLims_Click);
+            // 
             // FormDimensionSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1018, 450);
+            this.Controls.Add(this.btnRefreshLims);
+            this.Controls.Add(this.btnRefreshAna);
+            this.Controls.Add(this.btnLimsRequest);
             this.Controls.Add(this.txtUrl);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtPassword);
@@ -358,7 +382,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtParity;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button btnRefresh;
+        private System.Windows.Forms.Button btnRefreshAna;
         private System.Windows.Forms.Button btnSendNoRequest;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label8;
@@ -366,5 +390,7 @@
         private System.Windows.Forms.Label lblPw;
         private System.Windows.Forms.TextBox txtUrl;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btnLimsRequest;
+        private System.Windows.Forms.Button btnRefreshLims;
     }
 }

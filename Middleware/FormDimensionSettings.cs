@@ -9,6 +9,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net.Http;
+using System.Net;
+using System.Web;
 
 namespace Middleware
 {
@@ -17,6 +20,13 @@ namespace Middleware
 
         static SerialPort com = new SerialPort();
         static String receivedText = "";
+        private static readonly HttpClient client = new HttpClient();
+        static List<String> messageReceivedFromAnalyzerToBeProcessed = new List<string>();
+        static List<String> messageReceivedFromLimsToBeProcessed = new List<string>();
+
+        static string url = "";
+        static string username = "";
+        static string password = "";
 
         public FormDimensionSettings()
         {
@@ -53,14 +63,14 @@ namespace Middleware
             else
             {
                 cmbPort.Text = (String)key.GetValue("Port");
-                txtBaudRate.Text = (String)key.GetValue("BaudRate","9600");
+                txtBaudRate.Text = (String)key.GetValue("BaudRate", "9600");
                 txtBitLength.Text = (String)key.GetValue("BitLength", "8");
                 txtStopBits.Text = (String)key.GetValue("StopBits", "One");
                 txtParity.Text = (String)key.GetValue("Parity", "NONE");
                 txtUrl.Text = (String)key.GetValue("Url", "");
             }
 
-         
+
 
 
         }
@@ -69,7 +79,10 @@ namespace Middleware
         {
             btnOpen.Enabled = false;
             btnClose.Enabled = true;
-            
+            url = txtUrl.Text;
+            username = txtUsername.Text;
+            password = txtPassword.Text;
+
             try
             {
                 com.PortName = cmbPort.Text;
@@ -89,7 +102,8 @@ namespace Middleware
                 else if (strSb.Equals("One", StringComparison.InvariantCultureIgnoreCase))
                 {
                     sb = StopBits.One;
-                }else if (strSb.Equals("OnePointFive", StringComparison.InvariantCultureIgnoreCase))
+                }
+                else if (strSb.Equals("OnePointFive", StringComparison.InvariantCultureIgnoreCase))
                 {
                     sb = StopBits.OnePointFive;
                 }
@@ -127,9 +141,10 @@ namespace Middleware
 
                 com.Open();
 
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
-                MessageBox.Show(ex.Message,"Message",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             com.DataReceived += new SerialDataReceivedEventHandler(com_DataReceived);
@@ -204,22 +219,55 @@ namespace Middleware
 
         }
 
-
-
-        private static void com_DataReceived(object sender, SerialDataReceivedEventArgs e  )
+        private static void com_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
-            try {
-                receivedText += com.ReadExisting();
+            try
+            {
+                String msg = com.ReadExisting();
+                messageReceivedFromAnalyzerToBeProcessed.Add(msg);
+                SendDataToLimsAsync().Wait();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
         }
 
+
+
+        private static async Task SendDataToLimsAsync()
+        {
+            foreach (String msg in messageReceivedFromAnalyzerToBeProcessed)
+            {
+
+
+                string longurl = url;
+                var uriBuilder = new UriBuilder(longurl);
+                
+                var query = HttpUtility.ParseQueryString(uriBuilder.Query);
+                query["username"] = username;
+                query["password"] = password;
+                query["msg"] = msg;
+                uriBuilder.Query = query.ToString();
+                longurl = uriBuilder.ToString();
+
+                // var values = new Dictionary<string, string> { { "username", username }, { "password", password }, { "msg", msg } };
+                // var content = new FormUrlEncodedContent(values);
+
+                var response = await client.GetAsync(longurl);
+                var responseString = await response.Content.ReadAsStringAsync();
+                messageReceivedFromLimsToBeProcessed.Add(responseString);
+               
+            }
+        }
+
         private void btnRefresh_Click(object sender, EventArgs e)
         {
-            txtReceive.Text = receivedText;
+            foreach (String s in messageReceivedFromAnalyzerToBeProcessed)
+            {
+                txtReceive.Text += s;
+            }
+
         }
 
         private void btnSendNoRequest_Click(object sender, EventArgs e)
@@ -227,6 +275,19 @@ namespace Middleware
             // { <DLE> , <STX> , "G" , <DLE> , <ETX> , 16 BIT CRC CCITT split into two bytes}
             byte[] byteToSend = new byte[] { 0x10, 0x02, 0x47, 0x10, 0x03, 0x42, 0x1F };
             com.Write(byteToSend, 0, byteToSend.Length);
+        }
+
+        private void btnLimsRequest_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRefreshLims_Click(object sender, EventArgs e)
+        {
+            foreach (String s in messageReceivedFromLimsToBeProcessed)
+            {
+                txtReceive.Text += s;
+            }
         }
     }
 }

@@ -27,6 +27,7 @@ namespace Middleware
         static string url = "";
         static string username = "";
         static string password = "";
+        static string status = "";
 
         public FormDimensionSettings()
         {
@@ -147,7 +148,7 @@ namespace Middleware
                 MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            com.DataReceived += new SerialDataReceivedEventHandler(com_DataReceived);
+           com.DataReceived += new SerialDataReceivedEventHandler(com_DataReceived);
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -219,13 +220,49 @@ namespace Middleware
 
         }
 
+        private static String resultAcceptanceMessage()
+        {
+            char stx = (char)2;
+            char etx = (char)2;
+            char fx = (char)63;
+
+            String m = stx + "M" + fx + "A" + fx+fx +"E2" + etx;
+
+            return m;
+        }
+
+
+        private static String noRequestMessage()
+        {
+            char stx = (char)2;
+            char etx = (char)3;
+            char fx = (char)63;
+            //<STX>N<FS>6A<ETX>
+            String m = stx + "N" + fx + "6A" + etx;
+            return m;
+        }
+
+        private static String ack()
+        {
+            char ack = (char)6;
+            String m = ack.ToString();
+            return m;
+        }
+
         private static void com_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
+            status += "Data Received from Port " + Environment.NewLine;
+           
             try
             {
                 String msg = com.ReadExisting();
+                string originalMsg = msg;
+                msg = stringToStringOfBytes(msg); 
                 messageReceivedFromAnalyzerToBeProcessed.Add(msg);
-                SendDataToLimsAsync().Wait();
+                status += originalMsg + Environment.NewLine;
+                //com.WriteLine(ack());
+                //SendDataToLimsAsync().Wait();
+
             }
             catch (Exception ex)
             {
@@ -233,21 +270,33 @@ namespace Middleware
             }
         }
 
-
+        private static String stringToStringOfBytes(String input)
+        {
+            String s = "";
+            foreach (char c in input)
+            {
+                Console.WriteLine((int)c);
+                s = s + "" + (int)c + "|";
+            }
+            return s;
+        }
 
         private static async Task SendDataToLimsAsync()
         {
+            status += "Trying to send Data to LIMS";
             foreach (String msg in messageReceivedFromAnalyzerToBeProcessed)
             {
-
-
                 string longurl = url;
                 var uriBuilder = new UriBuilder(longurl);
                 
                 var query = HttpUtility.ParseQueryString(uriBuilder.Query);
                 query["username"] = username;
                 query["password"] = password;
-                query["msg"] = msg;
+                
+                query["msg"] = stringToStringOfBytes(msg);
+
+                status += msg;
+
                 uriBuilder.Query = query.ToString();
                 longurl = uriBuilder.ToString();
 
@@ -287,6 +336,60 @@ namespace Middleware
             foreach (String s in messageReceivedFromLimsToBeProcessed)
             {
                 txtReceive.Text += s;
+            }
+        }
+
+        private void btnClearAnalyzer_Click(object sender, EventArgs e)
+        {
+            messageReceivedFromAnalyzerToBeProcessed = new List<string>();
+            txtReceive.Text = "";
+        }
+
+        private void btnClearLims_Click(object sender, EventArgs e)
+        {
+            messageReceivedFromLimsToBeProcessed = new List<string>();
+            txtReceive.Text = "";
+        }
+
+        private void btnListStatus_Click(object sender, EventArgs e)
+        {
+            txtStatus.Text = txtStatus.Text + status;
+        }
+
+        private void btnClearStatus_Click(object sender, EventArgs e)
+        {
+            txtStatus.Text = "";
+        }
+
+        private void btnAck_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (com.IsOpen)
+                {
+                    com.Write(ack());
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnNr_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (com.IsOpen)
+                {
+                    com.Write(noRequestMessage());
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

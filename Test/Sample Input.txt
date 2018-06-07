@@ -1,0 +1,128 @@
+Data Received from Port 
+2	|63	|42	|63	|63	|74	|63	|63	|63	|49	|63	|46	|63	|41	|63	|63	|20	|63	|63	|49	|63	|63	|
+
+Msg	<STX>	N	<FS>	6	A	<ETX>
+Hex	2	4e	3f	36	41	3
+Dec	2	78	63	54	65	3
+
+<STX>	?	*	?	?	J	?	?	?	0	?	.	?	
+Data Received from Port 
+63|48|63|68|63|63|
+Data Received from Port 
+63|
+Data Received from Port 
+53|
+Data Received from Port 
+63|76|
+Data Received from Port 
+63|63|
+Data Received from Port 
+63|63|32|
+Data Received from Port 
+19|
+Data Received from Port 
+63|
+Data Received from Port 
+63|49|
+Data Received from Port 
+63|63|
+Data Received from Port 
+49|
+Data Received from Port 
+63|63|20|
+Data Received from Port 
+63|
+Data Received from Port 
+55|
+Data Received from Port 
+63|63|
+Data Received from Port 
+5|
+Data Received from Port 
+63|28|
+Data Received from Port 
+63|63|
+Data Received from Port 
+63|49|
+Data Received from Port 
+63|63|
+Data Received from Port 
+75|
+Data Received from Port 
+63|63|
+Data Received from Port 
+63|63|28|
+Data Received from Port 
+76|
+Data Received from Port 
+63|
+Data Received from Port 
+67|
+Data Received from Port 
+63|63|
+Data Received from Port 
+63|63|
+Data Received from Port 
+63|28|
+Data Received from Port 
+63|76|
+Data Received from Port 
+63|
+Data Received from Port 
+84|
+Data Received from Port 
+63|63|
+Data Received from Port 
+63|28|
+Data Received from Port 
+63|20|
+Data Received from Port 
+63|63|
+Data Received from Port 
+63|28|
+Data Received from Port 
+63|63|
+Data Received from Port 
+61|
+Data Received from Port 
+63|63|83|
+Data Received from Port 
+63|
+Data Received from Port 
+63|28|
+Data Received from Port 
+63|76|
+Data Received from Port 
+63|
+Data Received from Port 
+65|
+Data Received from Port 
+63|42|
+Data Received from Port 
+21|
+Data Received from Port 
+63|63|63|
+Data Received from Port 
+28|
+Data Received from Port 
+63|76|
+Data Received from Port 
+63|
+Data Received from Port 
+66|
+Data Received from Port 
+63|85|
+Data Received from Port 
+63|
+Data Received from Port 
+63|63|
+Data Received from Port 
+63|28|
+Data Received from Port 
+63|76|
+Data Received from Port 
+63|
+Data Received from Port 
+70|
+Data Received from Port 
+63|63|

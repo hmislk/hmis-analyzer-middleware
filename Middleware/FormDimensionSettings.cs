@@ -20,6 +20,8 @@ namespace Middleware
 
         static SerialPort com = new SerialPort();
         static String receivedText = "";
+        static String preText = "";
+        static String postText = "";
         private static readonly HttpClient client = new HttpClient();
         static List<String> messageReceivedFromAnalyzerToBeProcessed = new List<string>();
         static List<String> messageReceivedFromLimsToBeProcessed = new List<string>();
@@ -260,7 +262,7 @@ namespace Middleware
                 msg = stringToStringOfBytes(msg); 
                 messageReceivedFromAnalyzerToBeProcessed.Add(msg);
                 status += originalMsg + Environment.NewLine;
-                //com.WriteLine(ack());
+                com.WriteLine(ack());
                 //SendDataToLimsAsync().Wait();
 
             }

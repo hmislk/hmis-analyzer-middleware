@@ -31,6 +31,32 @@ namespace Middleware
         static string password = "";
         static string status = "";
 
+
+        private static void com_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        {
+            status += "Data Received from Port " + Environment.NewLine;
+
+            try
+            {
+                String msg = com.ReadExisting();
+                string originalMsg = msg;
+                msg = stringToStringOfBytes(msg);
+                messageReceivedFromAnalyzerToBeProcessed.Add(msg);
+                status += originalMsg + Environment.NewLine;
+                if(msg!=null && !msg.Equals(""))
+                {
+                    com.WriteLine(ack());
+                }
+                //SendDataToLimsAsync().Wait();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+
         public FormDimensionSettings()
         {
             InitializeComponent();
@@ -251,27 +277,7 @@ namespace Middleware
             return m;
         }
 
-        private static void com_DataReceived(object sender, SerialDataReceivedEventArgs e)
-        {
-            status += "Data Received from Port " + Environment.NewLine;
-           
-            try
-            {
-                String msg = com.ReadExisting();
-                string originalMsg = msg;
-                msg = stringToStringOfBytes(msg); 
-                messageReceivedFromAnalyzerToBeProcessed.Add(msg);
-                status += originalMsg + Environment.NewLine;
-                com.WriteLine(ack());
-                //SendDataToLimsAsync().Wait();
-
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-        }
-
+       
         private static String stringToStringOfBytes(String input)
         {
             String s = "";
@@ -282,6 +288,8 @@ namespace Middleware
             }
             return s;
         }
+
+
 
         private static async Task SendDataToLimsAsync()
         {

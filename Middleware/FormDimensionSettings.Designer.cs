@@ -31,16 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbPort = new System.Windows.Forms.ComboBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnAck = new System.Windows.Forms.Button();
-            this.btnReceive = new System.Windows.Forms.Button();
-            this.btnSend = new System.Windows.Forms.Button();
-            this.txtReceive = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtSend = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.btnOpen = new System.Windows.Forms.Button();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.label4 = new System.Windows.Forms.Label();
             this.txtBaudRate = new System.Windows.Forms.TextBox();
@@ -50,21 +40,17 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtParity = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnRefreshAna = new System.Windows.Forms.Button();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.lblPw = new System.Windows.Forms.Label();
             this.txtUrl = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.btnRefreshLims = new System.Windows.Forms.Button();
-            this.btnClearLims = new System.Windows.Forms.Button();
-            this.btnClearAnalyzer = new System.Windows.Forms.Button();
             this.txtStatus = new System.Windows.Forms.TextBox();
             this.btnListStatus = new System.Windows.Forms.Button();
             this.btnClearStatus = new System.Windows.Forms.Button();
-            this.btnNr = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnOpen = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -84,109 +70,6 @@
             this.cmbPort.Name = "cmbPort";
             this.cmbPort.Size = new System.Drawing.Size(254, 21);
             this.cmbPort.TabIndex = 1;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.btnNr);
-            this.groupBox1.Controls.Add(this.btnAck);
-            this.groupBox1.Controls.Add(this.btnReceive);
-            this.groupBox1.Controls.Add(this.btnSend);
-            this.groupBox1.Controls.Add(this.txtReceive);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.txtSend);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.btnClose);
-            this.groupBox1.Controls.Add(this.btnOpen);
-            this.groupBox1.Location = new System.Drawing.Point(563, 15);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(443, 286);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Test Port";
-            // 
-            // btnAck
-            // 
-            this.btnAck.Location = new System.Drawing.Point(367, 81);
-            this.btnAck.Name = "btnAck";
-            this.btnAck.Size = new System.Drawing.Size(75, 23);
-            this.btnAck.TabIndex = 12;
-            this.btnAck.Text = "ACK";
-            this.btnAck.UseVisualStyleBackColor = true;
-            this.btnAck.Click += new System.EventHandler(this.btnAck_Click);
-            // 
-            // btnReceive
-            // 
-            this.btnReceive.Location = new System.Drawing.Point(367, 175);
-            this.btnReceive.Name = "btnReceive";
-            this.btnReceive.Size = new System.Drawing.Size(75, 23);
-            this.btnReceive.TabIndex = 11;
-            this.btnReceive.Text = "Receive";
-            this.btnReceive.UseVisualStyleBackColor = true;
-            this.btnReceive.Click += new System.EventHandler(this.btnReceive_Click);
-            // 
-            // btnSend
-            // 
-            this.btnSend.Location = new System.Drawing.Point(368, 55);
-            this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(75, 23);
-            this.btnSend.TabIndex = 10;
-            this.btnSend.Text = "Send";
-            this.btnSend.UseVisualStyleBackColor = true;
-            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
-            // 
-            // txtReceive
-            // 
-            this.txtReceive.Location = new System.Drawing.Point(97, 175);
-            this.txtReceive.Multiline = true;
-            this.txtReceive.Name = "txtReceive";
-            this.txtReceive.Size = new System.Drawing.Size(264, 105);
-            this.txtReceive.TabIndex = 9;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 178);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Received Text";
-            // 
-            // txtSend
-            // 
-            this.txtSend.Location = new System.Drawing.Point(97, 55);
-            this.txtSend.Multiline = true;
-            this.txtSend.Name = "txtSend";
-            this.txtSend.Size = new System.Drawing.Size(264, 105);
-            this.txtSend.TabIndex = 7;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 58);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "To Send Text";
-            // 
-            // btnClose
-            // 
-            this.btnClose.Location = new System.Drawing.Point(189, 19);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
-            this.btnClose.TabIndex = 5;
-            this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
-            // btnOpen
-            // 
-            this.btnOpen.Location = new System.Drawing.Point(97, 19);
-            this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(75, 23);
-            this.btnOpen.TabIndex = 4;
-            this.btnOpen.Text = "Open";
-            this.btnOpen.UseVisualStyleBackColor = true;
-            this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
             // label4
             // 
@@ -252,16 +135,6 @@
             this.label7.TabIndex = 11;
             this.label7.Text = "Parity";
             // 
-            // btnRefreshAna
-            // 
-            this.btnRefreshAna.Location = new System.Drawing.Point(850, 307);
-            this.btnRefreshAna.Name = "btnRefreshAna";
-            this.btnRefreshAna.Size = new System.Drawing.Size(155, 23);
-            this.btnRefreshAna.TabIndex = 12;
-            this.btnRefreshAna.Text = "Refresh Analyzer";
-            this.btnRefreshAna.UseVisualStyleBackColor = true;
-            this.btnRefreshAna.Click += new System.EventHandler(this.btnRefresh_Click);
-            // 
             // txtUsername
             // 
             this.txtUsername.Location = new System.Drawing.Point(393, 51);
@@ -310,36 +183,6 @@
             this.label9.TabIndex = 18;
             this.label9.Text = "LIMS Address";
             // 
-            // btnRefreshLims
-            // 
-            this.btnRefreshLims.Location = new System.Drawing.Point(850, 336);
-            this.btnRefreshLims.Name = "btnRefreshLims";
-            this.btnRefreshLims.Size = new System.Drawing.Size(155, 23);
-            this.btnRefreshLims.TabIndex = 21;
-            this.btnRefreshLims.Text = "Refresh LIMS";
-            this.btnRefreshLims.UseVisualStyleBackColor = true;
-            this.btnRefreshLims.Click += new System.EventHandler(this.btnRefreshLims_Click);
-            // 
-            // btnClearLims
-            // 
-            this.btnClearLims.Location = new System.Drawing.Point(689, 336);
-            this.btnClearLims.Name = "btnClearLims";
-            this.btnClearLims.Size = new System.Drawing.Size(155, 23);
-            this.btnClearLims.TabIndex = 23;
-            this.btnClearLims.Text = "Clear LIMS";
-            this.btnClearLims.UseVisualStyleBackColor = true;
-            this.btnClearLims.Click += new System.EventHandler(this.btnClearLims_Click);
-            // 
-            // btnClearAnalyzer
-            // 
-            this.btnClearAnalyzer.Location = new System.Drawing.Point(689, 307);
-            this.btnClearAnalyzer.Name = "btnClearAnalyzer";
-            this.btnClearAnalyzer.Size = new System.Drawing.Size(155, 23);
-            this.btnClearAnalyzer.TabIndex = 22;
-            this.btnClearAnalyzer.Text = "Clear Analyzer";
-            this.btnClearAnalyzer.UseVisualStyleBackColor = true;
-            this.btnClearAnalyzer.Click += new System.EventHandler(this.btnClearAnalyzer_Click);
-            // 
             // txtStatus
             // 
             this.txtStatus.Location = new System.Drawing.Point(15, 192);
@@ -350,7 +193,7 @@
             // 
             // btnListStatus
             // 
-            this.btnListStatus.Location = new System.Drawing.Point(553, 307);
+            this.btnListStatus.Location = new System.Drawing.Point(553, 192);
             this.btnListStatus.Name = "btnListStatus";
             this.btnListStatus.Size = new System.Drawing.Size(97, 23);
             this.btnListStatus.TabIndex = 25;
@@ -360,7 +203,7 @@
             // 
             // btnClearStatus
             // 
-            this.btnClearStatus.Location = new System.Drawing.Point(553, 336);
+            this.btnClearStatus.Location = new System.Drawing.Point(553, 221);
             this.btnClearStatus.Name = "btnClearStatus";
             this.btnClearStatus.Size = new System.Drawing.Size(97, 23);
             this.btnClearStatus.TabIndex = 26;
@@ -368,28 +211,34 @@
             this.btnClearStatus.UseVisualStyleBackColor = true;
             this.btnClearStatus.Click += new System.EventHandler(this.btnClearStatus_Click);
             // 
-            // btnNr
+            // btnClose
             // 
-            this.btnNr.Location = new System.Drawing.Point(367, 107);
-            this.btnNr.Name = "btnNr";
-            this.btnNr.Size = new System.Drawing.Size(75, 23);
-            this.btnNr.TabIndex = 13;
-            this.btnNr.Text = "NR";
-            this.btnNr.UseVisualStyleBackColor = true;
-            this.btnNr.Click += new System.EventHandler(this.btnNr_Click);
+            this.btnClose.Location = new System.Drawing.Point(553, 78);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.TabIndex = 28;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            // 
+            // btnOpen
+            // 
+            this.btnOpen.Location = new System.Drawing.Point(553, 49);
+            this.btnOpen.Name = "btnOpen";
+            this.btnOpen.Size = new System.Drawing.Size(75, 23);
+            this.btnOpen.TabIndex = 27;
+            this.btnOpen.Text = "Open";
+            this.btnOpen.UseVisualStyleBackColor = true;
             // 
             // FormDimensionSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1018, 450);
+            this.ClientSize = new System.Drawing.Size(663, 450);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnOpen);
             this.Controls.Add(this.btnClearStatus);
             this.Controls.Add(this.btnListStatus);
             this.Controls.Add(this.txtStatus);
-            this.Controls.Add(this.btnClearLims);
-            this.Controls.Add(this.btnClearAnalyzer);
-            this.Controls.Add(this.btnRefreshLims);
-            this.Controls.Add(this.btnRefreshAna);
             this.Controls.Add(this.txtUrl);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtPassword);
@@ -404,15 +253,12 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtBaudRate);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.cmbPort);
             this.Controls.Add(this.label1);
             this.Name = "FormDimensionSettings";
             this.Text = "Dimension Settings";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormDimensionSettings_FormClosing);
             this.Load += new System.EventHandler(this.FormDimensionSettings_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -422,15 +268,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbPort;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnReceive;
-        private System.Windows.Forms.Button btnSend;
-        private System.Windows.Forms.TextBox txtReceive;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtSend;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Button btnOpen;
         private System.IO.Ports.SerialPort serialPort1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtBaudRate;
@@ -440,20 +277,16 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtParity;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button btnRefreshAna;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label lblPw;
         private System.Windows.Forms.TextBox txtUrl;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button btnRefreshLims;
-        private System.Windows.Forms.Button btnClearLims;
-        private System.Windows.Forms.Button btnClearAnalyzer;
         private System.Windows.Forms.TextBox txtStatus;
         private System.Windows.Forms.Button btnListStatus;
         private System.Windows.Forms.Button btnClearStatus;
-        private System.Windows.Forms.Button btnAck;
-        private System.Windows.Forms.Button btnNr;
+        private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Button btnOpen;
     }
 }

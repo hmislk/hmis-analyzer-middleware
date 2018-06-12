@@ -38,8 +38,7 @@ namespace Middleware
 
         static List<byte> messageInBytes = new List<byte>();
 
-        private static byte _terminator = 0x4;
-        private static string tString = string.Empty;
+
 
         private static void com_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
@@ -47,52 +46,29 @@ namespace Middleware
             Console.WriteLine("Data Received from Port " + Environment.NewLine );
             try
             {
-
-
-                byte[] buffer = new byte[com.ReadBufferSize];
-
-                //There is no accurate method for checking how many bytes are read 
-                //unless you check the return from the Read method 
-                int bytesRead = com.Read(buffer, 0, buffer.Length);
-
-                //For the example assume the data we are received is ASCII data. 
-                tString += Encoding.ASCII.GetString(buffer, 0, bytesRead);
-                //Check if string contains the terminator  
-                if (tString.IndexOf((char)_terminator) > -1)
-                {
-                    //If tString does contain terminator we cannot assume that it is the last character received 
-                    string workingString = tString.Substring(0, tString.IndexOf((char)_terminator));
-                    //Remove the data up to the terminator from tString 
-                    tString = tString.Substring(tString.IndexOf((char)_terminator));
-                    //Do something with workingString 
-                    Console.WriteLine(workingString);
-                }
-
-
-
-          //      String msg = "";
+                String msg = "";
 
                 
-            //    msg = com.ReadExisting();
-             //  Console.WriteLine(msg);
+                msg = com.ReadExisting();
+               Console.WriteLine(msg);
 
                // msg = com.ReadByte().ToString();
                 //Console.WriteLine(msg);
 
-             //   if (msg.Equals(Enq()))
-              //  {
-                //    com.WriteLine(Ack());
-                  //  status += "Received Eng at " + DateTime.Now.ToString("h:mm:ss tt") + ". Ack Sent";
+                if (msg.Equals(Enq()))
+                {
+                    com.WriteLine(Ack());
+                    status += "Received Eng at " + DateTime.Now.ToString("h:mm:ss tt") + ". Ack Sent";
                    
-               //  }
-              //  else
-              //  {
-                //    status += "Message Received at " + DateTime.Now.ToString("h:mm:ss tt");
-                  //  messagesString += msg;
-                   // messageInBytes.AddRange(StringsToBytes(msg));
-                   // messagesBinary += StringToStringOfBytes(msg);
+                 }
+                else
+                {
+                    status += "Message Received at " + DateTime.Now.ToString("h:mm:ss tt");
+                    messagesString += msg;
+                    messageInBytes.AddRange(StringsToBytes(msg));
+                    messagesBinary += StringToStringOfBytes(msg);
 
-               // }
+                }
                 //SendDataToLimsAsync().Wait();
             }
             catch (Exception ex)

@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Analyzer.cs" />
     <Compile Include="CommunicateProtocol.cs" />
     <Compile Include="FormDimensionSettings.cs">
       <SubType>Form</SubType>

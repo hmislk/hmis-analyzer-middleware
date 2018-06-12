@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
             this.cmbPort = new System.Windows.Forms.ComboBox();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.label4 = new System.Windows.Forms.Label();
@@ -46,22 +45,20 @@
             this.lblPw = new System.Windows.Forms.Label();
             this.txtUrl = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.txtStatus = new System.Windows.Forms.TextBox();
+            this.txtMessages = new System.Windows.Forms.TextBox();
             this.btnListStatus = new System.Windows.Forms.Button();
             this.btnClearStatus = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnOpen = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtStatus = new System.Windows.Forms.TextBox();
+            this.btnClearMessages = new System.Windows.Forms.Button();
+            this.btnListMessages = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.optBinary = new System.Windows.Forms.RadioButton();
+            this.optString = new System.Windows.Forms.RadioButton();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Port";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // cmbPort
             // 
@@ -183,13 +180,14 @@
             this.label9.TabIndex = 18;
             this.label9.Text = "LIMS Address";
             // 
-            // txtStatus
+            // txtMessages
             // 
-            this.txtStatus.Location = new System.Drawing.Point(15, 192);
-            this.txtStatus.Multiline = true;
-            this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(532, 185);
-            this.txtStatus.TabIndex = 24;
+            this.txtMessages.Location = new System.Drawing.Point(15, 192);
+            this.txtMessages.Multiline = true;
+            this.txtMessages.Name = "txtMessages";
+            this.txtMessages.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.txtMessages.Size = new System.Drawing.Size(532, 185);
+            this.txtMessages.TabIndex = 24;
             // 
             // btnListStatus
             // 
@@ -219,6 +217,7 @@
             this.btnClose.TabIndex = 28;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click_1);
             // 
             // btnOpen
             // 
@@ -228,17 +227,94 @@
             this.btnOpen.TabIndex = 27;
             this.btnOpen.Text = "Open";
             this.btnOpen.UseVisualStyleBackColor = true;
+            this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click_1);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(26, 13);
+            this.label1.TabIndex = 29;
+            this.label1.Text = "Port";
+            // 
+            // txtStatus
+            // 
+            this.txtStatus.Location = new System.Drawing.Point(656, 192);
+            this.txtStatus.Multiline = true;
+            this.txtStatus.Name = "txtStatus";
+            this.txtStatus.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.txtStatus.Size = new System.Drawing.Size(243, 185);
+            this.txtStatus.TabIndex = 30;
+            // 
+            // btnClearMessages
+            // 
+            this.btnClearMessages.Location = new System.Drawing.Point(553, 279);
+            this.btnClearMessages.Name = "btnClearMessages";
+            this.btnClearMessages.Size = new System.Drawing.Size(97, 23);
+            this.btnClearMessages.TabIndex = 32;
+            this.btnClearMessages.Text = "Clear Messages";
+            this.btnClearMessages.UseVisualStyleBackColor = true;
+            this.btnClearMessages.Click += new System.EventHandler(this.btnClearMessages_Click);
+            // 
+            // btnListMessages
+            // 
+            this.btnListMessages.Location = new System.Drawing.Point(553, 250);
+            this.btnListMessages.Name = "btnListMessages";
+            this.btnListMessages.Size = new System.Drawing.Size(97, 23);
+            this.btnListMessages.TabIndex = 31;
+            this.btnListMessages.Text = "List Messages";
+            this.btnListMessages.UseVisualStyleBackColor = true;
+            this.btnListMessages.Click += new System.EventHandler(this.btnListMessages_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.optString);
+            this.groupBox1.Controls.Add(this.optBinary);
+            this.groupBox1.Location = new System.Drawing.Point(554, 311);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(95, 65);
+            this.groupBox1.TabIndex = 33;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Message";
+            // 
+            // optBinary
+            // 
+            this.optBinary.AutoSize = true;
+            this.optBinary.Location = new System.Drawing.Point(7, 20);
+            this.optBinary.Name = "optBinary";
+            this.optBinary.Size = new System.Drawing.Size(54, 17);
+            this.optBinary.TabIndex = 0;
+            this.optBinary.TabStop = true;
+            this.optBinary.Text = "Binary";
+            this.optBinary.UseVisualStyleBackColor = true;
+            // 
+            // optString
+            // 
+            this.optString.AutoSize = true;
+            this.optString.Location = new System.Drawing.Point(7, 42);
+            this.optString.Name = "optString";
+            this.optString.Size = new System.Drawing.Size(52, 17);
+            this.optString.TabIndex = 1;
+            this.optString.TabStop = true;
+            this.optString.Text = "String";
+            this.optString.UseVisualStyleBackColor = true;
             // 
             // FormDimensionSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(663, 450);
+            this.ClientSize = new System.Drawing.Size(911, 450);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.btnClearMessages);
+            this.Controls.Add(this.btnListMessages);
+            this.Controls.Add(this.txtStatus);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnOpen);
             this.Controls.Add(this.btnClearStatus);
             this.Controls.Add(this.btnListStatus);
-            this.Controls.Add(this.txtStatus);
+            this.Controls.Add(this.txtMessages);
             this.Controls.Add(this.txtUrl);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtPassword);
@@ -254,19 +330,18 @@
             this.Controls.Add(this.txtBaudRate);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.cmbPort);
-            this.Controls.Add(this.label1);
             this.Name = "FormDimensionSettings";
             this.Text = "Dimension Settings";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormDimensionSettings_FormClosing);
             this.Load += new System.EventHandler(this.FormDimensionSettings_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbPort;
         private System.IO.Ports.SerialPort serialPort1;
         private System.Windows.Forms.Label label4;
@@ -283,10 +358,17 @@
         private System.Windows.Forms.Label lblPw;
         private System.Windows.Forms.TextBox txtUrl;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtStatus;
+        private System.Windows.Forms.TextBox txtMessages;
         private System.Windows.Forms.Button btnListStatus;
         private System.Windows.Forms.Button btnClearStatus;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnOpen;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtStatus;
+        private System.Windows.Forms.Button btnClearMessages;
+        private System.Windows.Forms.Button btnListMessages;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton optString;
+        private System.Windows.Forms.RadioButton optBinary;
     }
 }

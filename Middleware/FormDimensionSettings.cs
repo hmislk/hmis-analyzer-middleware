@@ -18,7 +18,7 @@ namespace Middleware
     public partial class FormDimensionSettings : Form
     {
 
-        static SerialPort com = new SerialPort();
+        SerialPort com = new SerialPort();
         static String receivedText = "";
         static String previousMessage = "";
         static String nextMessage = "";
@@ -40,7 +40,7 @@ namespace Middleware
 
 
 
-        private static void com_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        private void com_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             
             Console.WriteLine("Data Received from Port " + Environment.NewLine );
@@ -48,8 +48,8 @@ namespace Middleware
             {
                 String msg = "";
 
-                
                 msg = com.ReadExisting();
+
                Console.WriteLine(msg);
 
                // msg = com.ReadByte().ToString();
@@ -69,6 +69,7 @@ namespace Middleware
                     messagesBinary += StringToStringOfBytes(msg);
 
                 }
+                this.Invoke(new EventHandler(DisplayText));
                 //SendDataToLimsAsync().Wait();
             }
             catch (Exception ex)
@@ -226,10 +227,37 @@ namespace Middleware
         }
 
 
+        private void FillMessages()
+        {
+            if (optBinary.Checked)
+            {
+                txtMessages.Text = messagesBinary;
+            }
+            else
+            {
+                txtMessages.Text = messagesString;
+            }
+           
+        }
+
         #endregion
 
 
         #region FormEvents
+
+        private void DisplayText(object sender, EventArgs e)
+        {
+            if (optBinary.Checked)
+            {
+                txtMessages.Text = messagesBinary;
+            }
+            else
+            {
+                txtMessages.Text = messagesString;
+            }
+            txtMessages.Refresh();
+        }
+
 
         public FormDimensionSettings()
         {
@@ -327,14 +355,7 @@ namespace Middleware
 
         private void btnListMessages_Click(object sender, EventArgs e)
         {
-            if (optBinary.Checked)
-            {
-                txtMessages.Text = messagesBinary;
-            }
-            else
-            {
-                txtMessages.Text = messagesString;
-            }
+            FillMessages();
         }
 
         private void btnClearMessages_Click(object sender, EventArgs e)
@@ -378,12 +399,17 @@ namespace Middleware
                 {
                     sb = StopBits.OnePointFive;
                 }
+                else if (strSb.Equals("Two", StringComparison.InvariantCultureIgnoreCase))
+                {
+                    sb = StopBits.Two;
+                }
                 else
                 {
                     sb = StopBits.Two;
                 }
-                com.StopBits = sb;
-
+                com.StopBits = StopBits.One;
+                com.DtrEnable = true;
+                com.RtsEnable = true;
                 Parity p;
                 String strParity = txtParity.Text;
 
@@ -403,9 +429,13 @@ namespace Middleware
                 {
                     p = Parity.Odd;
                 }
-                else
+                else if (strSb.Equals("Space", StringComparison.InvariantCultureIgnoreCase))
                 {
                     p = Parity.Space;
+                }
+                else
+                {
+                    p = Parity.None;
                 }
 
                 com.Parity = p;

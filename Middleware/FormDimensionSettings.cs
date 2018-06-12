@@ -58,9 +58,15 @@ namespace Middleware
                 if (msg.Equals(Enq()))
                 {
                     com.WriteLine(Ack());
-                    status += "Received Eng at " + DateTime.Now.ToString("h:mm:ss tt") + ". Ack Sent";
+                    status += "Received Enq at " + DateTime.Now.ToString("h:mm:ss tt") + ". Ack Sent";
                    
                  }
+                else if (msg.Equals(Ack()))
+                {
+                   
+                    status += "Received Ack at " + DateTime.Now.ToString("h:mm:ss tt") + ". Ack Sent";
+
+                }
                 else
                 {
                     status += "Message Received at " + DateTime.Now.ToString("h:mm:ss tt");
@@ -247,6 +253,7 @@ namespace Middleware
 
         private void DisplayText(object sender, EventArgs e)
         {
+            txtStatus.Text = status;
             if (optBinary.Checked)
             {
                 txtMessages.Text = messagesBinary;
@@ -256,6 +263,7 @@ namespace Middleware
                 txtMessages.Text = messagesString;
             }
             txtMessages.Refresh();
+            txtStatus.Refresh();
         }
 
 

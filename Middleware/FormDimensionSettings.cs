@@ -52,8 +52,7 @@ namespace Middleware
 
                Console.WriteLine(msg);
 
-               // msg = com.ReadByte().ToString();
-                //Console.WriteLine(msg);
+              
 
                 if (msg.Equals(Enq()))
                 {

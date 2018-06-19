@@ -45,18 +45,19 @@
             this.lblPw = new System.Windows.Forms.Label();
             this.txtUrl = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.txtMessages = new System.Windows.Forms.TextBox();
-            this.btnListStatus = new System.Windows.Forms.Button();
-            this.btnClearStatus = new System.Windows.Forms.Button();
+            this.txtAnaToLims = new System.Windows.Forms.TextBox();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnOpen = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtStatus = new System.Windows.Forms.TextBox();
+            this.txtLimsToAna = new System.Windows.Forms.TextBox();
             this.btnClearMessages = new System.Windows.Forms.Button();
             this.btnListMessages = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.optBinary = new System.Windows.Forms.RadioButton();
             this.optString = new System.Windows.Forms.RadioButton();
+            this.optBinary = new System.Windows.Forms.RadioButton();
+            this.txtStatus = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -180,34 +181,34 @@
             this.label9.TabIndex = 18;
             this.label9.Text = "LIMS Address";
             // 
-            // txtMessages
+            // txtAnaToLims
             // 
-            this.txtMessages.Location = new System.Drawing.Point(15, 192);
-            this.txtMessages.Multiline = true;
-            this.txtMessages.Name = "txtMessages";
-            this.txtMessages.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.txtMessages.Size = new System.Drawing.Size(532, 185);
-            this.txtMessages.TabIndex = 24;
+            this.txtAnaToLims.Location = new System.Drawing.Point(15, 192);
+            this.txtAnaToLims.Multiline = true;
+            this.txtAnaToLims.Name = "txtAnaToLims";
+            this.txtAnaToLims.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.txtAnaToLims.Size = new System.Drawing.Size(250, 185);
+            this.txtAnaToLims.TabIndex = 24;
             // 
-            // btnListStatus
+            // btnUpdate
             // 
-            this.btnListStatus.Location = new System.Drawing.Point(553, 192);
-            this.btnListStatus.Name = "btnListStatus";
-            this.btnListStatus.Size = new System.Drawing.Size(97, 23);
-            this.btnListStatus.TabIndex = 25;
-            this.btnListStatus.Text = "List Status";
-            this.btnListStatus.UseVisualStyleBackColor = true;
-            this.btnListStatus.Click += new System.EventHandler(this.btnListStatus_Click);
+            this.btnUpdate.Location = new System.Drawing.Point(676, 155);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(97, 23);
+            this.btnUpdate.TabIndex = 25;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnListStatus_Click);
             // 
-            // btnClearStatus
+            // btnClear
             // 
-            this.btnClearStatus.Location = new System.Drawing.Point(553, 221);
-            this.btnClearStatus.Name = "btnClearStatus";
-            this.btnClearStatus.Size = new System.Drawing.Size(97, 23);
-            this.btnClearStatus.TabIndex = 26;
-            this.btnClearStatus.Text = "Clear Status";
-            this.btnClearStatus.UseVisualStyleBackColor = true;
-            this.btnClearStatus.Click += new System.EventHandler(this.btnClearStatus_Click);
+            this.btnClear.Location = new System.Drawing.Point(676, 184);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(97, 23);
+            this.btnClear.TabIndex = 26;
+            this.btnClear.Text = "Clear All";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClearStatus_Click);
             // 
             // btnClose
             // 
@@ -238,18 +239,18 @@
             this.label1.TabIndex = 29;
             this.label1.Text = "Port";
             // 
-            // txtStatus
+            // txtLimsToAna
             // 
-            this.txtStatus.Location = new System.Drawing.Point(656, 192);
-            this.txtStatus.Multiline = true;
-            this.txtStatus.Name = "txtStatus";
-            this.txtStatus.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.txtStatus.Size = new System.Drawing.Size(243, 185);
-            this.txtStatus.TabIndex = 30;
+            this.txtLimsToAna.Location = new System.Drawing.Point(271, 191);
+            this.txtLimsToAna.Multiline = true;
+            this.txtLimsToAna.Name = "txtLimsToAna";
+            this.txtLimsToAna.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.txtLimsToAna.Size = new System.Drawing.Size(243, 185);
+            this.txtLimsToAna.TabIndex = 30;
             // 
             // btnClearMessages
             // 
-            this.btnClearMessages.Location = new System.Drawing.Point(553, 279);
+            this.btnClearMessages.Location = new System.Drawing.Point(676, 242);
             this.btnClearMessages.Name = "btnClearMessages";
             this.btnClearMessages.Size = new System.Drawing.Size(97, 23);
             this.btnClearMessages.TabIndex = 32;
@@ -259,7 +260,7 @@
             // 
             // btnListMessages
             // 
-            this.btnListMessages.Location = new System.Drawing.Point(553, 250);
+            this.btnListMessages.Location = new System.Drawing.Point(676, 213);
             this.btnListMessages.Name = "btnListMessages";
             this.btnListMessages.Size = new System.Drawing.Size(97, 23);
             this.btnListMessages.TabIndex = 31;
@@ -271,27 +272,17 @@
             // 
             this.groupBox1.Controls.Add(this.optString);
             this.groupBox1.Controls.Add(this.optBinary);
-            this.groupBox1.Location = new System.Drawing.Point(554, 311);
+            this.groupBox1.Location = new System.Drawing.Point(676, 271);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(95, 65);
             this.groupBox1.TabIndex = 33;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Message";
             // 
-            // optBinary
-            // 
-            this.optBinary.AutoSize = true;
-            this.optBinary.Location = new System.Drawing.Point(7, 20);
-            this.optBinary.Name = "optBinary";
-            this.optBinary.Size = new System.Drawing.Size(54, 17);
-            this.optBinary.TabIndex = 0;
-            this.optBinary.TabStop = true;
-            this.optBinary.Text = "Binary";
-            this.optBinary.UseVisualStyleBackColor = true;
-            // 
             // optString
             // 
             this.optString.AutoSize = true;
+            this.optString.Checked = true;
             this.optString.Location = new System.Drawing.Point(7, 42);
             this.optString.Name = "optString";
             this.optString.Size = new System.Drawing.Size(52, 17);
@@ -300,21 +291,41 @@
             this.optString.Text = "String";
             this.optString.UseVisualStyleBackColor = true;
             // 
+            // optBinary
+            // 
+            this.optBinary.AutoSize = true;
+            this.optBinary.Location = new System.Drawing.Point(7, 20);
+            this.optBinary.Name = "optBinary";
+            this.optBinary.Size = new System.Drawing.Size(54, 17);
+            this.optBinary.TabIndex = 0;
+            this.optBinary.Text = "Binary";
+            this.optBinary.UseVisualStyleBackColor = true;
+            // 
+            // txtStatus
+            // 
+            this.txtStatus.Location = new System.Drawing.Point(519, 192);
+            this.txtStatus.Multiline = true;
+            this.txtStatus.Name = "txtStatus";
+            this.txtStatus.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.txtStatus.Size = new System.Drawing.Size(151, 185);
+            this.txtStatus.TabIndex = 34;
+            // 
             // FormDimensionSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(911, 450);
+            this.Controls.Add(this.txtStatus);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnClearMessages);
             this.Controls.Add(this.btnListMessages);
-            this.Controls.Add(this.txtStatus);
+            this.Controls.Add(this.txtLimsToAna);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnOpen);
-            this.Controls.Add(this.btnClearStatus);
-            this.Controls.Add(this.btnListStatus);
-            this.Controls.Add(this.txtMessages);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.txtAnaToLims);
             this.Controls.Add(this.txtUrl);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtPassword);
@@ -358,17 +369,18 @@
         private System.Windows.Forms.Label lblPw;
         private System.Windows.Forms.TextBox txtUrl;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtMessages;
-        private System.Windows.Forms.Button btnListStatus;
-        private System.Windows.Forms.Button btnClearStatus;
+        private System.Windows.Forms.TextBox txtAnaToLims;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnOpen;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtStatus;
+        private System.Windows.Forms.TextBox txtLimsToAna;
         private System.Windows.Forms.Button btnClearMessages;
         private System.Windows.Forms.Button btnListMessages;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton optString;
         private System.Windows.Forms.RadioButton optBinary;
+        private System.Windows.Forms.TextBox txtStatus;
     }
 }

@@ -19,63 +19,66 @@ namespace Middleware
     {
 
         SerialPort com = new SerialPort();
-        static String receivedText = "";
-        static String previousMessage = "";
-        static String nextMessage = "";
-        private static readonly HttpClient client = new HttpClient();
-        static List<String> messageReceivedFromAnalyzerToBeProcessed = new List<string>();
-        static List<String> messageReceivedFromLimsToBeProcessed = new List<string>();
+         String receivedText = "";
+         String previousMessage = "";
+         String nextMessage = "";
+        private  readonly HttpClient client = new HttpClient();
+        List<String> msgsFromAnaToLims  = new List<string>();
+        List<String> msgsFailedFromAnaToLims = new List<string>();
+        List<String> msgsFromLimsToAna= new List<string>();
+        List<String> msgsFailedFromLimsToAna = new List<string>();
+        List<String> msgsAll = new List<string>();
 
-        static string url = "";
-        static string username = "";
-        static string password = "";
-        static string status = "";
+         string url = "";
+         string username = "";
+         string password = "";
+         string status = "";
         List<String> messagesToSentToLims;
         List<String> messageSentToLims;
 
-        static String messagesString;
-        static String messagesBinary;
+         String messagesString;
+         String messagesBinary;
 
-        static List<byte> messageInBytes = new List<byte>();
+         List<byte> messageInBytes = new List<byte>();
 
-
+        Analyzer analyzer = new Analyzer();
 
         private void com_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
-            
             Console.WriteLine("Data Received from Port " + Environment.NewLine );
             try
             {
                 String msg = "";
-
                 msg = com.ReadExisting();
-
                Console.WriteLine(msg);
-
-              
-
                 if (msg.Equals(Enq()))
                 {
                     com.WriteLine(Ack());
-                    status += "Received Enq at " + DateTime.Now.ToString("h:mm:ss tt") + ". Ack Sent";
+                    status += "Received Enq at " + DateTime.Now.ToString("h:mm:ss tt") + ". Ack Sent" + Environment.NewLine;
                    
                  }
                 else if (msg.Equals(Ack()))
                 {
-                   
-                    status += "Received Ack at " + DateTime.Now.ToString("h:mm:ss tt") + ". Ack Sent";
-
+                    status += "Received Ack at " + DateTime.Now.ToString("h:mm:ss tt") + "." + Environment.NewLine;
                 }
-                else
+                else if (ContainsEndCharactor(msg,EndOfChar()))
                 {
-                    status += "Message Received at " + DateTime.Now.ToString("h:mm:ss tt");
+                    status += "Received a Message " + DateTime.Now.ToString("h:mm:ss tt") + ". " + Environment.NewLine;
+                    messagesString+=msg;
+                    msgsFromAnaToLims.Add(messagesString);
+                    messagesString = "";
+                    SendDataToLimsAsync().Wait();
+                }
+                else 
+                {
+                    status += "Message Receiving at " + DateTime.Now.ToString("h:mm:ss tt") + Environment.NewLine;
                     messagesString += msg;
                     messageInBytes.AddRange(StringsToBytes(msg));
                     messagesBinary += StringToStringOfBytes(msg);
 
                 }
                 this.Invoke(new EventHandler(DisplayText));
-                //SendDataToLimsAsync().Wait();
+                
             }
             catch (Exception ex)
             {
@@ -83,55 +86,99 @@ namespace Middleware
             }
         }
 
+
+        private async Task SendDataToLimsAsync()
+        {
+            status += "Trying to send Data to LIMS";
+            foreach (String tm in msgsFromAnaToLims)
+            {
+                string longurl = url;
+                var uriBuilder = new UriBuilder(longurl);
+
+                var query = HttpUtility.ParseQueryString(uriBuilder.Query);
+                query["username"] = txtUsername.Text;
+                query["password"] = txtPassword.Text;
+
+                query["msg"] = StringToStringOfBytes(tm);
+
+                status += tm;
+
+                uriBuilder.Query = query.ToString();
+                longurl = uriBuilder.ToString();
+
+                // var values = new Dictionary<string, string> { { "username", username }, { "password", password }, { "msg", msg } };
+                // var content = new FormUrlEncodedContent(values);
+
+                var response = await client.GetAsync(longurl);
+                var responseString = await response.Content.ReadAsStringAsync();
+                responseString = ExtractMessageFromHtml(responseString);
+                status += "Received data from LIMS";
+                msgsFromLimsToAna.Add(responseString);
+                msgsFromAnaToLims.Remove(tm);
+                this.Invoke(new EventHandler(DisplayText));
+            }
+        }
+
+
         #region functions
 
-        private static String EndCharsOfSysMaxXsSeries()
+        private String EndOfChar()
+        {
+            switch (analyzer)
+            {
+                case Analyzer.SysMaxXsSeries: return EndCharsOfSysMaxXsSeries();
+                case Analyzer.Dimension: return Etx();
+            }
+            return Etx();
+        }
+
+        private  String EndCharsOfSysMaxXsSeries()
         {
             return (Cr() + Lf());
         }
 
-        private static String Cr()
+        private  String Cr()
         {
             return Character(13);
         }
 
 
-        private static String Etb()
+        private  String Etb()
         {
             return Character(23);
         }
 
-        private static String Lf()
+        private  String Lf()
         {
             return Character(10);
         }
 
-        private static String Ack()
+        private  String Ack()
         {
             return Character(6);
         }
 
-        private static String Nak()
+        private  String Nak()
         {
             return Character(21);
         }
 
-        private static String Stx()
+        private  String Stx()
         {
             return Character(2);
         }
 
-        private static String Etx()
+        private  String Etx()
         {
             return Character(3);
         }
 
-        private static String Enq()
+        private  String Enq()
         {
             return Character(5);
         }
 
-        private static String Character(int charNo)
+        private  String Character(int charNo)
         {
             char ack = (char)charNo;
             String m = ack.ToString();
@@ -139,33 +186,12 @@ namespace Middleware
         }
 
 
-        private static Boolean ContainsEndCharactor(String value, String endCharacter)
+        private  Boolean ContainsEndCharactor(String value, String endCharacter)
         {
             return value.Contains(endCharacter);
         }
 
-        private static String StringBeforeCharactor(String value, String c)
-        {
-            if (value == null)
-            {
-                return "";
-            }
-            int pos = value.IndexOf(c);
-            return value.Substring(0, pos + 1);
-        }
-
-        private static String StringAfterCharactor(String value, String c)
-        {
-            if (value == null)
-            {
-                return "";
-            }
-            int len = value.Length;
-            int pos = value.IndexOf(c);
-            return value.Substring(pos, (len-pos+1));
-        }
-
-        private static String ResultAcceptanceMessage()
+        private  String ResultAcceptanceMessage()
         {
             char stx = (char)2;
             char etx = (char)2;
@@ -176,7 +202,7 @@ namespace Middleware
             return m;
         }
 
-        private static String NoRequestMessage()
+        private  String NoRequestMessage()
         {
             char stx = (char)2;
             char etx = (char)3;
@@ -186,61 +212,41 @@ namespace Middleware
             return m;
         }
 
-        private static byte[] StringsToBytes(String value)
+        private  byte[] StringsToBytes(String value)
         {
             byte[] bytes = Encoding.ASCII.GetBytes(value);
             return bytes;
         }
 
-        private static String StringToStringOfBytes(String input)
+        private  String StringToStringOfBytes(String input)
         {
             String s = "";
             foreach (char c in input)
             {
-                s += (int)c ;
+                s += (int)c + "|" ;
             }
             return s;
         }
 
-        private static async Task SendDataToLimsAsync()
+       
+        private String ExtractMessageFromHtml(String html)
         {
-            status += "Trying to send Data to LIMS";
-            foreach (String msg in messageReceivedFromAnalyzerToBeProcessed)
-            {
-                string longurl = url;
-                var uriBuilder = new UriBuilder(longurl);
-
-                var query = HttpUtility.ParseQueryString(uriBuilder.Query);
-                query["username"] = username;
-                query["password"] = password;
-
-                query["msg"] = StringToStringOfBytes(msg);
-
-                status += msg;
-
-                uriBuilder.Query = query.ToString();
-                longurl = uriBuilder.ToString();
-
-                // var values = new Dictionary<string, string> { { "username", username }, { "password", password }, { "msg", msg } };
-                // var content = new FormUrlEncodedContent(values);
-
-                var response = await client.GetAsync(longurl);
-                var responseString = await response.Content.ReadAsStringAsync();
-                messageReceivedFromLimsToBeProcessed.Add(responseString);
-
-            }
+            String s = html;
+            int pFrom = s.IndexOf("#{") + "#{".Length;
+            int pTo = s.LastIndexOf("}");
+            String result = s.Substring(pFrom, pTo - pFrom);
+            return result;
         }
-
 
         private void FillMessages()
         {
             if (optBinary.Checked)
             {
-                txtMessages.Text = messagesBinary;
+                txtAnaToLims.Text = messagesBinary;
             }
             else
             {
-                txtMessages.Text = messagesString;
+                txtAnaToLims.Text = messagesString;
             }
            
         }
@@ -252,19 +258,24 @@ namespace Middleware
 
         private void DisplayText(object sender, EventArgs e)
         {
-            txtStatus.Text = status;
-            if (optBinary.Checked)
-            {
-                txtMessages.Text = messagesBinary;
-            }
-            else
-            {
-                txtMessages.Text = messagesString;
-            }
-            txtMessages.Refresh();
-            txtStatus.Refresh();
+            DisplayText();
         }
 
+        private void DisplayText()
+        {
+            txtLimsToAna.Text = "";
+            txtAnaToLims.Text = "";
+            foreach (String s in msgsFromAnaToLims)
+            {
+                txtAnaToLims.Text += s + Environment.NewLine;
+            }
+            foreach (String s in msgsFromLimsToAna)
+            {
+                txtLimsToAna.Text += s + Environment.NewLine;
+            }
+            txtStatus.Text = status;
+            
+        }
 
         public FormDimensionSettings()
         {
@@ -330,14 +341,15 @@ namespace Middleware
 
         private void btnListStatus_Click(object sender, EventArgs e)
         {
-            txtStatus.Text = status;
-
+            DisplayText();
         }
 
         private void btnClearStatus_Click(object sender, EventArgs e)
         {
-            txtStatus.Text = "";
+            msgsFromAnaToLims = new List<string>();
+            msgsFromLimsToAna = new List<string>();
             status = "";
+            DisplayText();
         }
 
         private void btnClose_Click_1(object sender, EventArgs e)
@@ -368,7 +380,7 @@ namespace Middleware
         private void btnClearMessages_Click(object sender, EventArgs e)
         {
 
-            txtMessages.Text = "";
+            txtAnaToLims.Text = "";
             messagesString = "";
             messagesBinary = "";
             messageInBytes = new List<byte>();
@@ -381,7 +393,7 @@ namespace Middleware
             url = txtUrl.Text;
             username = txtUsername.Text;
             password = txtPassword.Text;
-
+            analyzer = Analyzer.SysMaxXsSeries;
             try
             {
                 com.PortName = cmbPort.Text;

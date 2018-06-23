@@ -58,6 +58,7 @@
             this.optString = new System.Windows.Forms.RadioButton();
             this.optBinary = new System.Windows.Forms.RadioButton();
             this.txtStatus = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -310,11 +311,22 @@
             this.txtStatus.Size = new System.Drawing.Size(151, 185);
             this.txtStatus.TabIndex = 34;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(674, 106);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(97, 23);
+            this.button1.TabIndex = 35;
+            this.button1.Text = "Update";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormDimensionSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(911, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtStatus);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnClearMessages);
@@ -382,5 +394,6 @@
         private System.Windows.Forms.RadioButton optString;
         private System.Windows.Forms.RadioButton optBinary;
         private System.Windows.Forms.TextBox txtStatus;
+        private System.Windows.Forms.Button button1;
     }
 }

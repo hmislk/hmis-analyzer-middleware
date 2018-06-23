@@ -469,5 +469,10 @@ namespace Middleware
 
             com.DataReceived += new SerialDataReceivedEventHandler(com_DataReceived);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -19,17 +19,12 @@ namespace Middleware
     {
 
         SerialPort com = new SerialPort();
-         String receivedText = "";
-         String previousMessage = "";
-         String nextMessage = "";
+        
         private  readonly HttpClient client = new HttpClient();
-        List<String> msgsFromAnaToLims  = new List<string>();
-        List<String> msgsFailedFromAnaToLims = new List<string>();
-        List<String> msgsFromLimsToAna= new List<string>();
-        List<String> msgsFailedFromLimsToAna = new List<string>();
-        List<String> msgsAll = new List<string>();
+        List<byte> thisMessage = new List<byte>();
+        List<byte> allMessages = new List<byte>();
 
-         string url = "";
+        string url = "";
          string username = "";
          string password = "";
          string status = "";
@@ -45,78 +40,122 @@ namespace Middleware
 
         private void com_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
-            Console.WriteLine("Data Received from Port " + Environment.NewLine );
-            try
+            status += "Data Received from Port " + Environment.NewLine;
+            int bytes = com.BytesToRead;
+            byte[] buffer = new byte[bytes];
+            com.Read(buffer, 0, bytes);
+            if(bytes==1 )
             {
-                String msg = "";
-                msg = com.ReadExisting();
-               Console.WriteLine(msg);
-                if (msg.Equals(Enq()))
-                {
-                    com.WriteLine(Ack());
-                    status += "Received Enq at " + DateTime.Now.ToString("h:mm:ss tt") + ". Ack Sent" + Environment.NewLine;
-                   
-                 }
-                else if (msg.Equals(Ack()))
-                {
-                    status += "Received Ack at " + DateTime.Now.ToString("h:mm:ss tt") + "." + Environment.NewLine;
-                }
-                else if (ContainsEndCharactor(msg,EndOfChar()))
-                {
-                    status += "Received a Message " + DateTime.Now.ToString("h:mm:ss tt") + ". " + Environment.NewLine;
-                    messagesString+=msg;
-                    msgsFromAnaToLims.Add(messagesString);
-                    messagesString = "";
-                    SendDataToLimsAsync().Wait();
-                }
-                else 
-                {
-                    status += "Message Receiving at " + DateTime.Now.ToString("h:mm:ss tt") + Environment.NewLine;
-                    messagesString += msg;
-                    messageInBytes.AddRange(StringsToBytes(msg));
-                    messagesBinary += StringToStringOfBytes(msg);
-
-                }
-                this.Invoke(new EventHandler(DisplayText));
+                String temAscii = System.Text.Encoding.ASCII.GetString(new[] { buffer[0] });
                 
+                if(buffer[0] == (byte)ASCII.ENQ)
+                {
+                    status += " ENQ Received. ACK Sent";
+                    com.Write(ASCII.ACK.ToString());
+                }
+
             }
-            catch (Exception ex)
+            else
             {
-                Console.WriteLine(ex.Message);
+                if (ContainEnd(buffer))
+                {
+                    thisMessage.AddRange(buffer);
+                    allMessages.AddRange(thisMessage);
+                    //SendDataToLimsAsync();
+                    thisMessage = new List<byte>();
+                    status += "End of a Message " + Environment.NewLine;
+                }
+                else
+                {
+                    thisMessage.AddRange(buffer);
+                    status += "Part of a Message " + Environment.NewLine;
+                }
             }
+            this.Invoke(new EventHandler(DisplayText));
+
+            //try
+            //{
+            //    String msg = "";
+            //    msg = com.ReadExisting();
+            //   Console.WriteLine(msg);
+            //    if (msg.Equals(Enq()))
+            //    {
+            //        com.WriteLine(Ack());
+            //        status += "Received Enq at " + DateTime.Now.ToString("h:mm:ss tt") + ". Ack Sent" + Environment.NewLine;
+
+            //     }
+            //    else if (msg.Equals(Ack()))
+            //    {
+            //        status += "Received Ack at " + DateTime.Now.ToString("h:mm:ss tt") + "." + Environment.NewLine;
+            //    }
+            //    else if (ContainsEndCharactor(msg,EndOfChar()))
+            //    {
+            //        status += "Received a Message " + DateTime.Now.ToString("h:mm:ss tt") + ". " + Environment.NewLine;
+            //        messagesString+=msg;
+            //        msgsFromAnaToLims.Add(messagesString);
+            //        messagesString = "";
+            //        SendDataToLimsAsync().Wait();
+            //    }
+            //    else 
+            //    {
+            //        status += "Message Receiving at " + DateTime.Now.ToString("h:mm:ss tt") + Environment.NewLine;
+            //        messagesString += msg;
+            //        messageInBytes.AddRange(StringsToBytes(msg));
+            //        messagesBinary += StringToStringOfBytes(msg);
+
+            //    }
+            //    this.Invoke(new EventHandler(DisplayText));
+
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+        }
+
+
+        private Boolean ContainEnd(Byte[] bytesToCheck)
+        {
+            foreach (Byte b in bytesToCheck){
+                if(b== (byte)ASCII.ETX)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
 
         private async Task SendDataToLimsAsync()
         {
-            status += "Trying to send Data to LIMS";
-            foreach (String tm in msgsFromAnaToLims)
-            {
-                string longurl = url;
-                var uriBuilder = new UriBuilder(longurl);
+            //status += "Trying to send Data to LIMS";
+            //foreach (String tm in msgsFromAnaToLims)
+            //{
+            //    string longurl = url;
+            //    var uriBuilder = new UriBuilder(longurl);
 
-                var query = HttpUtility.ParseQueryString(uriBuilder.Query);
-                query["username"] = txtUsername.Text;
-                query["password"] = txtPassword.Text;
+            //    var query = HttpUtility.ParseQueryString(uriBuilder.Query);
+            //    query["username"] = txtUsername.Text;
+            //    query["password"] = txtPassword.Text;
 
-                query["msg"] = StringToStringOfBytes(tm);
+            //    query["msg"] = StringToStringOfBytes(tm);
 
-                status += tm;
+            //    status += tm;
 
-                uriBuilder.Query = query.ToString();
-                longurl = uriBuilder.ToString();
+            //    uriBuilder.Query = query.ToString();
+            //    longurl = uriBuilder.ToString();
 
-                // var values = new Dictionary<string, string> { { "username", username }, { "password", password }, { "msg", msg } };
-                // var content = new FormUrlEncodedContent(values);
+            //    // var values = new Dictionary<string, string> { { "username", username }, { "password", password }, { "msg", msg } };
+            //    // var content = new FormUrlEncodedContent(values);
 
-                var response = await client.GetAsync(longurl);
-                var responseString = await response.Content.ReadAsStringAsync();
-                responseString = ExtractMessageFromHtml(responseString);
-                status += "Received data from LIMS";
-                msgsFromLimsToAna.Add(responseString);
-                msgsFromAnaToLims.Remove(tm);
-                this.Invoke(new EventHandler(DisplayText));
-            }
+            //    var response = await client.GetAsync(longurl);
+            //    var responseString = await response.Content.ReadAsStringAsync();
+            //    responseString = ExtractMessageFromHtml(responseString);
+            //    status += "Received data from LIMS";
+            //    msgsFromLimsToAna.Add(responseString);
+            //    msgsFromAnaToLims.Remove(tm);
+            //    this.Invoke(new EventHandler(DisplayText));
+            //}
         }
 
 
@@ -263,16 +302,13 @@ namespace Middleware
 
         private void DisplayText()
         {
-            txtLimsToAna.Text = "";
-            txtAnaToLims.Text = "";
-            foreach (String s in msgsFromAnaToLims)
+            String tt = "";
+            foreach(Byte b in allMessages)
             {
-                txtAnaToLims.Text += s + Environment.NewLine;
+                tt += (char)b;
             }
-            foreach (String s in msgsFromLimsToAna)
-            {
-                txtLimsToAna.Text += s + Environment.NewLine;
-            }
+
+            txtAnaToLims.Text = tt;
             txtStatus.Text = status;
             
         }
@@ -346,8 +382,8 @@ namespace Middleware
 
         private void btnClearStatus_Click(object sender, EventArgs e)
         {
-            msgsFromAnaToLims = new List<string>();
-            msgsFromLimsToAna = new List<string>();
+            allMessages = new List<Byte>();
+            thisMessage = new List<Byte>();
             status = "";
             DisplayText();
         }

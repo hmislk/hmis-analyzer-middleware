@@ -1,0 +1,395 @@
+2|68|49|85|32|
+105|94|
+49|57|
+48|52|
+48|48|48|48|
+32|32|
+32|32|
+32|32|
+32|55|
+48|49|56|48|54|51|48|49|48|
+48|32|
+32|32|32|
+32|48|
+48|48|
+53|32|
+32|32|
+32|32|
+32|32|
+32|32|
+32|32|
+32|32|48|
+48|49|
+48|48|
+48|48|49|49|48|48|48|48|48|48|48|
+48|48|
+48|48|
+48|48|
+48|48|48|48|48|
+48|48|
+48|48|
+48|48|
+48|48|
+48|48|
+48|48|48|48|48|48|
+48|48|
+48|48|
+48|48|48|
+48|48|
+48|48|
+48|48|48|48|48|
+48|48|
+48|48|
+48|48|
+48|48|
+48|48|48|
+48|48|48|48|48|48|48|
+48|88|83|
+45|53|
+48|48|
+105|94|67|72|54|
+52|50|
+52|53|55|
+94|49|
+57|48|
+
+D1U i^19040000       70180630100     0005             001000011000000000000000000000000000000000000000000000000000000000000000000000XS-500i^CH642457^19045
+
+msg=2%7c68%7c49%7c85%7c32%7c105%7c94%7c49%7c57%7c48%7c52%7c48%7c48%7c48%7c48%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c55%7c48%7c49%7c56%7c48%7c54%7c51%7c48%7c49%7c48%7c48%7c32%7c32%7c32%7c32%7c32%7c48%7c48%7c48%7c53%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c48%7c48%7c49%7c48%7c48%7c48%7c48%7c49%7c49%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c88%7c83%7c45%7c53%7c48%7c48%7c105%7c94%7c67%7c72%7c54%7c52%7c50%7c52%7c53%7c55%7c94%7c49%7c57%7c48%7c52%7c53%7c3%7c
+
+
+
+
+
+
+85|2|2|194|77|181|53|48|48|
+105|94|
+49|57|
+48|52|53|
+48|48|48|
+48|48|48|
+48|48|49|48|48|48|48|
+32|32|
+32|32|32|
+32|32|32|
+32|32|32|
+32|32|32|55|
+48|48|55|
+53|53|52|
+48|52|52|
+52|48|48|
+49|51|57|48|48|52|49|
+53|48|
+48|57|51|53|
+48|48|51|
+49|51|48|48|51|
+51|53|48|
+48|49|53|52|
+48|48|52|
+56|49|52|48|
+49|51|49|52|
+48|51|50|
+54|52|48|
+48|52|54|52|
+48|48|49|54|52|
+48|48|51|
+54|51|52|
+48|48|48|
+57|57|52|48|
+48|50|52|54|
+52|48|48|48|
+51|53|52|
+48|48|48|49|
+50|52|48|49|
+51|48|48|
+48|52|50|53|
+48|48|49|
+49|57|48|48|
+49|48|48|48|48|
+50|53|54|
+48|48|48|
+48|48|48|48|48|
+48|48|48|
+48|48|48|
+48|48|48|48|
+48|48|48|48|
+48|48|48|
+48|48|48|48|
+48|48|48|48|
+49|53|50|
+48|48|48|48|48|
+48|48|48|48|
+48|48|48|
+32|32|32|32|
+32|32|32|32|
+32|32|32|48|48|
+48|48|
+48|88|83|45|
+53|48|48|105|94|67|
+72|54|52|50|
+52|53|55|
+94|49|57|48|
+
+U?M?500i^190450000000010000              7007554044400139004150093500313003350015400481401314032640046400164003634000994002464000354000124013000425001190010000256000000000000000000000000000000000152000000000000           00000XS-500i^CH642457^19045
+
+msg=85%7c2%7c2%7c194%7c77%7c181%7c53%7c48%7c48%7c105%7c94%7c49%7c57%7c48%7c52%7c53%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c49%7c48%7c48%7c48%7c48%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c55%7c48%7c48%7c55%7c53%7c53%7c52%7c48%7c52%7c52%7c52%7c48%7c48%7c49%7c51%7c57%7c48%7c48%7c52%7c49%7c53%7c48%7c48%7c57%7c51%7c53%7c48%7c48%7c51%7c49%7c51%7c48%7c48%7c51%7c51%7c53%7c48%7c48%7c49%7c53%7c52%7c48%7c48%7c52%7c56%7c49%7c52%7c48%7c49%7c51%7c49%7c52%7c48%7c51%7c50%7c54%7c52%7c48%7c48%7c52%7c54%7c52%7c48%7c48%7c49%7c54%7c52%7c48%7c48%7c51%7c54%7c51%7c52%7c48%7c48%7c48%7c57%7c57%7c52%7c48%7c48%7c50%7c52%7c54%7c52%7c48%7c48%7c48%7c51%7c53%7c52%7c48%7c48%7c48%7c49%7c50%7c52%7c48%7c49%7c51%7c48%7c48%7c48%7c52%7c50%7c53%7c48%7c48%7c49%7c49%7c57%7c48%7c48%7c49%7c48%7c48%7c48%7c48%7c50%7c53%7c54%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c49%7c53%7c50%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c48%7c48%7c48%7c48%7c48%7c88%7c83%7c45%7c53%7c48%7c48%7c105%7c94%7c67%7c72%7c54%7c52%7c50%7c52%7c53%7c55%7c94%7c49%7c57%7c48%7c52%7c53%7c3%7c
+
+68|49|85|32|32|32|88|83|
+45|53|48|48|105|
+94|49|57|48|
+52|53|48|48|
+48|48|48|48|
+48|48|49|48|48|48|
+48|32|32|32|32|
+32|32|32|32|
+32|32|32|32|32|
+32|55|50|48|
+49|56|48|54|
+51|48|49|
+48|48|55|48|48|
+32|32|32|32|32|32|48|48|48|49|49|53|32|32|32|32|32|32|32|32|32|32|32|32|32|
+32|48|49|
+48|49|48|48|48|48|
+49|49|48|48|48|
+48|48|48|
+48|48|48|48|
+48|48|48|48|48|48|
+48|48|48|48|48|
+48|48|48|48|
+48|48|48|48|48|48|
+48|48|48|48|48|
+48|48|48|48|
+48|48|48|48|48|48|
+48|48|48|48|48|
+48|48|48|48|
+48|48|48|48|48|48|48|48|
+48|48|48|48|48|
+48|48|88|83|
+45|53|48|48|105|94|67|
+72|54|52|50|52|
+53|55|94|49|57|48|
+
+D1U   XS-500i^190450000000010000              720180630100700      000115              01010000110000000000000000000000000000000000000000000000000000000000000000000000XS-500i^CH642457^19045
+
+msg=68%7c49%7c85%7c32%7c32%7c32%7c88%7c83%7c45%7c53%7c48%7c48%7c105%7c94%7c49%7c57%7c48%7c52%7c53%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c49%7c48%7c48%7c48%7c48%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c55%7c50%7c48%7c49%7c56%7c48%7c54%7c51%7c48%7c49%7c48%7c48%7c55%7c48%7c48%7c32%7c32%7c32%7c32%7c32%7c32%7c48%7c48%7c48%7c49%7c49%7c53%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c48%7c49%7c48%7c49%7c48%7c48%7c48%7c48%7c49%7c49%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c88%7c83%7c45%7c53%7c48%7c48%7c105%7c94%7c67%7c72%7c54%7c52%7c50%7c52%7c53%7c55%7c94%7c49%7c57%7c48%7c52%7c53%7c3%7c
+
+170|129|32|32|88|83|45|53|48|48|105|94|49|57|48|52|53|48|
+48|48|48|48|48|48|48|49|48|
+48|48|48|32|32|32|32|32|
+32|32|32|32|32|32|32|
+32|32|55|48|48|55|
+53|53|52|48|52|
+52|52|48|48|49|51|
+57|48|48|52|49|
+53|48|48|57|
+51|53|48|48|51|49|51|48|
+48|51|51|53|48|
+48|49|53|52|
+48|48|52|56|49|52|
+48|49|51|49|52|48|
+51|50|54|52|
+48|48|52|54|52|48|
+48|49|54|52|48|
+48|51|54|51|
+52|48|48|48|57|57|52|
+48|48|50|52|54|
+52|48|48|48|51|53|
+52|48|48|48|49|50|
+52|48|49|51|48|
+48|48|52|50|53|
+48|48|49|49|57|48|48|
+49|48|48|48|48|
+50|53|54|48|
+48|48|48|48|48|48|
+48|48|48|48|48|
+48|48|48|48|48|
+48|48|48|48|48|48|
+48|48|48|48|48|48|
+48|48|48|48|
+49|53|50|48|48|48|48|
+48|48|48|48|48|
+48|48|48|32|32|
+32|32|32|32|32|32|32|32|32|
+48|48|48|48|
+48|88|83|45|53|48|
+48|105|94|67|72|54|52|
+50|52|53|55|94|
+30 Jun 2018 03:15:46 AM Message Received From Analyzer.
+??  XS-500i^190450000000010000              7007554044400139004150093500313003350015400481401314032640046400164003634000994002464000354000124013000425001190010000256000000000000000000000000000000000152000000000000           00000XS-500i^CH642457^19045
+30 Jun 2018 03:15:46 AM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/?username=buddhika&password=b&machine=SysMex&msg=170%7c129%7c32%7c32%7c88%7c83%7c45%7c53%7c48%7c48%7c105%7c94%7c49%7c57%7c48%7c52%7c53%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c49%7c48%7c48%7c48%7c48%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c55%7c48%7c48%7c55%7c53%7c53%7c52%7c48%7c52%7c52%7c52%7c48%7c48%7c49%7c51%7c57%7c48%7c48%7c52%7c49%7c53%7c48%7c48%7c57%7c51%7c53%7c48%7c48%7c51%7c49%7c51%7c48%7c48%7c51%7c51%7c53%7c48%7c48%7c49%7c53%7c52%7c48%7c48%7c52%7c56%7c49%7c52%7c48%7c49%7c51%7c49%7c52%7c48%7c51%7c50%7c54%7c52%7c48%7c48%7c52%7c54%7c52%7c48%7c48%7c49%7c54%7c52%7c48%7c48%7c51%7c54%7c51%7c52%7c48%7c48%7c48%7c57%7c57%7c52%7c48%7c48%7c50%7c52%7c54%7c52%7c48%7c48%7c48%7c51%7c53%7c52%7c48%7c48%7c48%7c49%7c50%7c52%7c48%7c49%7c51%7c48%7c48%7c48%7c52%7c50%7c53%7c48%7c48%7c49%7c49%7c57%7c48%7c48%7c49%7c48%7c48%7c48%7c48%7c50%7c53%7c54%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c49%7c53%7c50%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c48%7c48%7c48%7c48%7c48%7c88%7c83%7c45%7c53%7c48%7c48%7c105%7c94%7c67%7c72%7c54%7c52%7c50%7c52%7c53%7c55%7c94%7c49%7c57%7c48%7c52%7c53%7c3%7c
+
+30 Jun 2018 03:15:52 AM Sending Data to Analyzer
+68|49|85|32|32|32|88|83|
+45|53|48|48|105|94|
+49|57|48|52|53|48|48|
+48|48|48|48|48|48|49|
+48|48|48|48|32|32|32|32|
+32|32|32|32|32|
+32|32|32|32|32|55|50|
+48|49|56|48|54|51|
+48|49|48|48|55|
+48|48|32|32|32|32|32|32|48|
+48|48|49|49|53|
+32|32|32|32|32|32|32|32|
+32|32|32|32|32|
+32|48|49|48|49|48|
+48|48|48|49|49|48|
+48|48|48|48|48|48|48|48|48|
+48|48|48|48|48|48|48|
+48|48|48|48|48|
+48|48|48|48|48|48|
+48|48|48|48|48|48|48|48|
+48|48|48|48|48|
+48|48|48|48|48|48|48|
+48|48|48|48|48|
+48|48|48|48|48|48|
+48|48|48|48|48|48|48|48|48|
+48|48|88|83|45|
+53|48|48|105|94|67|72|54|52|
+50|52|53|55|94|
+30 Jun 2018 03:15:54 AM Message Received From Analyzer.
+D1U   XS-500i^190450000000010000              720180630100700      000115              01010000110000000000000000000000000000000000000000000000000000000000000000000000XS-500i^CH642457^19045
+30 Jun 2018 03:15:54 AM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/?username=buddhika&password=b&machine=SysMex&msg=68%7c49%7c85%7c32%7c32%7c32%7c88%7c83%7c45%7c53%7c48%7c48%7c105%7c94%7c49%7c57%7c48%7c52%7c53%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c49%7c48%7c48%7c48%7c48%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c55%7c50%7c48%7c49%7c56%7c48%7c54%7c51%7c48%7c49%7c48%7c48%7c55%7c48%7c48%7c32%7c32%7c32%7c32%7c32%7c32%7c48%7c48%7c48%7c49%7c49%7c53%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c32%7c48%7c49%7c48%7c49%7c48%7c48%7c48%7c48%7c49%7c49%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c88%7c83%7c45%7c53%7c48%7c48%7c105%7c94%7c67%7c72%7c54%7c52%7c50%7c52%7c53%7c55%7c94%7c49%7c57%7c48%7c52%7c53%7c3%7c
+End of a Message 
+30 Jun 2018 03:15:54 AM Received Data From LIMS
+?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html><head id="j_idt2"><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/theme.css?ln=primefaces-hot-sneaks" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/maincss.css?ln=css" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/css1.css?ln=css" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/summery.css?ln=css" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/printing.css?ln=css" /><link type="text/css" rel="stylesheet" href="RES_NOT_FOUND" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/components.css?ln=primefaces&amp;v=6.2" /><script type="text/javascript" src="/arogya/faces/javax.faces.resource/jquery/jquery.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/jquery/jquery-plugins.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/core.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/components.js?ln=primefaces&amp;v=6.2"></script><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/editor/editor.css?ln=primefaces&amp;v=6.2" /><script type="text/javascript" src="/arogya/faces/javax.faces.resource/editor/editor.js?ln=primefaces&amp;v=6.2"></script><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/clock/clock.css?ln=primefaces&amp;v=6.2" /><script type="text/javascript" src="/arogya/faces/javax.faces.resource/raphael/raphael.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/clock/clock.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_US';}</script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <title>Hospital Information Management System
+            </title><script type="text/javascript" src="/arogya/faces/javax.faces.resource/jsfcrud.js?ln=js"></script></head><body>
+        <div id="panelFullSpread" class="fullSpread ui-widget-content "><span id="publicGrowl"></span><script id="publicGrowl_s" type="text/javascript">$(function(){PrimeFaces.cw("Growl","widget_publicGrowl",{id:"publicGrowl",sticky:false,life:6000,escape:true,keepAlive:false,msgs:[]});});</script>
+<form id="j_idt23" name="j_idt23" method="post" action="/arogya/faces/index.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt23" value="j_idt23" />
+<div id="j_idt23:j_idt25" style="width:64px;height:64px;position:fixed;right:5px;top:40px;"><div id="j_idt23:j_idt25_start" style="display:none"><img id="j_idt23:j_idt26" src="/arogya/faces/javax.faces.resource/ajax-loader.gif?ln=image" alt="" /></div><div id="j_idt23:j_idt25_complete" style="display:none"></div></div><script id="j_idt23:j_idt25_s" type="text/javascript">$(function(){PrimeFaces.cw("AjaxStatus","widget_j_idt23_j_idt25",{id:"j_idt23:j_idt25"});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-6063361954096327263:-3704118809033482089" autocomplete="off" />
+</form><table id="pgM" style="width: 100%; border: 0px;">
+<tbody>
+<tr>
+<td><div id="loginbox" class="ui-panel ui-widget ui-widget-content ui-corner-all nonPrintBlock verticalAndHorizontalCentering" style="text-align: center; " data-widget="widget_loginbox"><div id="loginbox_header" class="ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all"><span class="ui-panel-title">Please login</span></div><div id="loginbox_content" class="ui-panel-content ui-widget-content"><table>
+<tbody>
+<tr>
+<td><img src="/arogya/faces/javax.faces.resource/lock.png?ln=image" /></td>
+<td>
+<form id="formLogin" name="formLogin" method="post" action="/arogya/faces/index.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formLogin" value="formLogin" />
+<table>
+<tbody>
+<tr>
+<td><label style="text-align: left; margin: 5px; padding: 5px;">Username</label></td>
+<td><input id="formLogin:txtUserName" name="formLogin:txtUserName" type="text" autocomplete="off" style="text-align: left; margin: 5px; padding: 5px;" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" /><script id="formLogin:txtUserName_s" type="text/javascript">PrimeFaces.cw("InputText","widget_formLogin_txtUserName",{id:"formLogin:txtUserName"});</script></td>
+</tr>
+<tr>
+<td><label style="text-align: left; margin: 5px; padding: 5px;">Password</label></td>
+<td><input id="formLogin:txtPassword" name="formLogin:txtPassword" type="password" class="ui-inputfield ui-password ui-widget ui-state-default ui-corner-all" style="text-align: left; margin: 5px; padding: 5px;" /><script id="formLogin:txtPassword_s" type="text/javascript">$(function(){PrimeFaces.cw("Password","widget_formLogin_txtPassword",{id:"formLogin:txtPassword"});});</script></td>
+</tr>
+<tr>
+<td><label style="text-align: left; margin: 5px; padding: 5px;"></label></td>
+<td><button id="formLogin:btnLogin" name="formLogin:btnLogin" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PrimeFaces.onPost();" type="submit"><span class="ui-button-text ui-c">Login</span></button><script id="formLogin:btnLogin_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formLogin_btnLogin",{id:"formLogin:btnLogin"});</script></td>
+</tr>
+</tbody>
+</table>
+<input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="-6063361954096327263:-3704118809033482089" autocomplete="off" />
+</form></td>
+</tr>
+</tbody>
+</table>
+</div></div><script id="loginbox_s" type="text/javascript">PrimeFaces.cw("Panel","widget_loginbox",{id:"loginbox"});</script></td>
+</tr>
+</tbody>
+</table>
+
+            <div style="height: 50px" class="nonPrintBlock">
+            </div>
+            <div style="position: fixed; bottom: 10px; right: 10px; " class="nonPrintBlock"><span id="j_idt530" class="ui-clock ui-widget ui-widget-header ui-corner-all"></span><script id="j_idt530_s" type="text/javascript">PrimeFaces.cw("Clock","widget_j_idt530",{id:"j_idt530",mode:"server",pattern:"hh:mm:ss a - EEEE - dd MMMM yyyy",displayMode:"digital",locale:"en_US",value:"2018\/06\/30 15:45:56"
+30 Jun 2018 03:15:56 AM Part of a Message 85|32|32|32|88|83|45|53|48|
+30 Jun 2018 03:15:56 AM Part of a Message 48|105|94|49|57|48|52|
+30 Jun 2018 03:15:56 AM Part of a Message 53|48|48|48|48|48|48|
+30 Jun 2018 03:15:56 AM Part of a Message 48|48|49|48|48|48|2|2|2|2|2|
+30 Jun 2018 03:15:56 AM Part of a Message 2|2|2|2|2|2|2|2|2|186|
+30 Jun 2018 03:15:56 AM Part of a Message 130|130|186|170|170|162|130|
+30 Jun 2018 03:15:56 AM Part of a Message 162|162|162|130|130|138|154|202|
+30 Jun 2018 03:15:56 AM Part of a Message 130|130|162|138|170|130|130|
+30 Jun 2018 03:15:56 AM Part of a Message 202|154|170|130|130|154|
+30 Jun 2018 03:15:56 AM Part of a Message 138|154|130|130|154|154|170|130|
+30 Jun 2018 03:15:56 AM Part of a Message 130|138|170|162|130|130|162|
+30 Jun 2018 03:15:56 AM Part of a Message 194|138|162|130|138|154|138|
+30 Jun 2018 03:15:56 AM Part of a Message 162|130|154|146|178|162|
+30 Jun 2018 03:15:56 AM Part of a Message 130|130|162|178|162|130|130|
+30 Jun 2018 03:15:56 AM Part of a Message 138|178|162|130|130|154|178|
+30 Jun 2018 03:15:56 AM Part of a Message 154|162|130|130|130|202|202|162|130|
+30 Jun 2018 03:15:56 AM Part of a Message 130|146|162|178|162|130|
+30 Jun 2018 03:15:56 AM Part of a Message 130|130|154|170|162|
+30 Jun 2018 03:15:56 AM Part of a Message 130|130|130|138|146|162|130|
+30 Jun 2018 03:15:56 AM Part of a Message 138|154|130|130|130|162|
+30 Jun 2018 03:15:56 AM Part of a Message 146|170|130|130|138|138|202|130|130|
+30 Jun 2018 03:15:56 AM Part of a Message 138|130|130|130|130|146|170|
+30 Jun 2018 03:15:56 AM Part of a Message 178|130|130|130|130|130|
+30 Jun 2018 03:15:56 AM Part of a Message 130|130|130|130|130|130|130|130|
+30 Jun 2018 03:15:56 AM Part of a Message 130|130|130|130|130|130|130|
+30 Jun 2018 03:15:56 AM Part of a Message 130|130|130|130|130|130|130|130|130|
+30 Jun 2018 03:15:56 AM Part of a Message 130|130|130|130|138|170|
+30 Jun 2018 03:15:56 AM Part of a Message 146|130|130|130|130|130|130|130|
+30 Jun 2018 03:15:56 AM Part of a Message 130|130|130|130|130|2|
+30 Jun 2018 03:15:56 AM Part of a Message 2|2|2|2|2|2|2|2|
+30 Jun 2018 03:15:56 AM Part of a Message 2|2|130|130|130|130|
+30 Jun 2018 03:15:56 AM Part of a Message 130|194|77|181|53|48|48|
+30 Jun 2018 03:15:56 AM Part of a Message 105|94|67|72|54|52|50|52|
+30 Jun 2018 03:15:56 AM Part of a Message 53|55|94|49|57|48|
+30 Jun 2018 03:15:56 AM Message Received From Analyzer.
+U   XS-500i^19045000000001000???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????M?500i^CH642457^19045
+30 Jun 2018 03:15:56 AM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/?username=buddhika&password=b&machine=SysMex&msg=85%7c32%7c32%7c32%7c88%7c83%7c45%7c53%7c48%7c48%7c105%7c94%7c49%7c57%7c48%7c52%7c53%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c48%7c49%7c48%7c48%7c48%7c2%7c2%7c2%7c2%7c2%7c2%7c2%7c2%7c2%7c2%7c2%7c2%7c2%7c2%7c186%7c130%7c130%7c186%7c170%7c170%7c162%7c130%7c162%7c162%7c162%7c130%7c130%7c138%7c154%7c202%7c130%7c130%7c162%7c138%7c170%7c130%7c130%7c202%7c154%7c170%7c130%7c130%7c154%7c138%7c154%7c130%7c130%7c154%7c154%7c170%7c130%7c130%7c138%7c170%7c162%7c130%7c130%7c162%7c194%7c138%7c162%7c130%7c138%7c154%7c138%7c162%7c130%7c154%7c146%7c178%7c162%7c130%7c130%7c162%7c178%7c162%7c130%7c130%7c138%7c178%7c162%7c130%7c130%7c154%7c178%7c154%7c162%7c130%7c130%7c130%7c202%7c202%7c162%7c130%7c130%7c146%7c162%7c178%7c162%7c130%7c130%7c130%7c154%7c170%7c162%7c130%7c130%7c130%7c138%7c146%7c162%7c130%7c138%7c154%7c130%7c130%7c130%7c162%7c146%7c170%7c130%7c130%7c138%7c138%7c202%7c130%7c130%7c138%7c130%7c130%7c130%7c130%7c146%7c170%7c178%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c138%7c170%7c146%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c130%7c2%7c2%7c2%7c2%7c2%7c2%7c2%7c2%7c2%7c2%7c2%7c130%7c130%7c130%7c130%7c130%7c194%7c77%7c181%7c53%7c48%7c48%7c105%7c94%7c67%7c72%7c54%7c52%7c50%7c52%7c53%7c55%7c94%7c49%7c57%7c48%7c52%7c53%7c3%7c
+End of a Message 
+30 Jun 2018 03:15:56 AM Received Data From LIMS
+?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html><head id="j_idt2"><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/theme.css?ln=primefaces-hot-sneaks" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/maincss.css?ln=css" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/css1.css?ln=css" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/summery.css?ln=css" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/printing.css?ln=css" /><link type="text/css" rel="stylesheet" href="RES_NOT_FOUND" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/components.css?ln=primefaces&amp;v=6.2" /><script type="text/javascript" src="/arogya/faces/javax.faces.resource/jquery/jquery.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/jquery/jquery-plugins.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/core.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/components.js?ln=primefaces&amp;v=6.2"></script><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/editor/editor.css?ln=primefaces&amp;v=6.2" /><script type="text/javascript" src="/arogya/faces/javax.faces.resource/editor/editor.js?ln=primefaces&amp;v=6.2"></script><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/clock/clock.css?ln=primefaces&amp;v=6.2" /><script type="text/javascript" src="/arogya/faces/javax.faces.resource/raphael/raphael.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/clock/clock.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_US';}</script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <title>Hospital Information Management System
+            </title><script type="text/javascript" src="/arogya/faces/javax.faces.resource/jsfcrud.js?ln=js"></script></head><body>
+        <div id="panelFullSpread" class="fullSpread ui-widget-content "><span id="publicGrowl"></span><script id="publicGrowl_s" type="text/javascript">$(function(){PrimeFaces.cw("Growl","widget_publicGrowl",{id:"publicGrowl",sticky:false,life:6000,escape:true,keepAlive:false,msgs:[]});});</script>
+<form id="j_idt23" name="j_idt23" method="post" action="/arogya/faces/index.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt23" value="j_idt23" />
+<div id="j_idt23:j_idt25" style="width:64px;height:64px;position:fixed;right:5px;top:40px;"><div id="j_idt23:j_idt25_start" style="display:none"><img id="j_idt23:j_idt26" src="/arogya/faces/javax.faces.resource/ajax-loader.gif?ln=image" alt="" /></div><div id="j_idt23:j_idt25_complete" style="display:none"></div></div><script id="j_idt23:j_idt25_s" type="text/javascript">$(function(){PrimeFaces.cw("AjaxStatus","widget_j_idt23_j_idt25",{id:"j_idt23:j_idt25"});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-1440333153898821166:3902237239984807272" autocomplete="off" />
+</form><table id="pgM" style="width: 100%; border: 0px;">
+<tbody>
+<tr>
+<td><div id="loginbox" class="ui-panel ui-widget ui-widget-content ui-corner-all nonPrintBlock verticalAndHorizontalCentering" style="text-align: center; " data-widget="widget_loginbox"><div id="loginbox_header" class="ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all"><span class="ui-panel-title">Please login</span></div><div id="loginbox_content" class="ui-panel-content ui-widget-content"><table>
+<tbody>
+<tr>
+<td><img src="/arogya/faces/javax.faces.resource/lock.png?ln=image" /></td>
+<td>
+<form id="formLogin" name="formLogin" method="post" action="/arogya/faces/index.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formLogin" value="formLogin" />
+<table>
+<tbody>
+<tr>
+<td><label style="text-align: left; margin: 5px; padding: 5px;">Username</label></td>
+<td><input id="formLogin:txtUserName" name="formLogin:txtUserName" type="text" autocomplete="off" style="text-align: left; margin: 5px; padding: 5px;" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" /><script id="formLogin:txtUserName_s" type="text/javascript">PrimeFaces.cw("InputText","widget_formLogin_txtUserName",{id:"formLogin:txtUserName"});</script></td>
+</tr>
+<tr>
+<td><label style="text-align: left; margin: 5px; padding: 5px;">Password</label></td>
+<td><input id="formLogin:txtPassword" name="formLogin:txtPassword" type="password" class="ui-inputfield ui-password ui-widget ui-state-default ui-corner-all" style="text-align: left; margin: 5px; padding: 5px;" /><script id="formLogin:txtPassword_s" type="text/javascript">$(function(){PrimeFaces.cw("Password","widget_formLogin_txtPassword",{id:"formLogin:txtPassword"});});</script></td>
+</tr>
+<tr>
+<td><label style="text-align: left; margin: 5px; padding: 5px;"></label></td>
+<td><button id="formLogin:btnLogin" name="formLogin:btnLogin" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PrimeFaces.onPost();" type="submit"><span class="ui-button-text ui-c">Login</span></button><script id="formLogin:btnLogin_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formLogin_btnLogin",{id:"formLogin:btnLogin"});</script></td>
+</tr>
+</tbody>
+</table>
+<input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="-1440333153898821166:3902237239984807272" autocomplete="off" />
+</form></td>
+</tr>
+</tbody>
+</table>
+</div></div><script id="loginbox_s" type="text/javascript">PrimeFaces.cw("Panel","widget_loginbox",{id:"loginbox"});</script></td>
+</tr>
+</tbody>
+</table>
+
+            <div style="height: 50px" class="nonPrintBlock">
+            </div>
+            <div style="position: fixed; bottom: 10px; right: 10px; " class="nonPrintBlock"><span id="j_idt530" class="ui-clock ui-widget ui-widget-header ui-corner-all"></span><script id="j_idt530_s" type="text/javascript">PrimeFaces.cw("Clock","widget_j_idt530",{id:"j_idt530",mode:"server",pattern:"hh:mm:ss a - EEEE - dd MMMM yyyy",displayMode:"digital",locale:"en_US",value:"2018\/06\/30 15:45:58"
+30 Jun 2018 03:16:01 AM Sending Data to Analyzer

@@ -1,0 +1,302 @@
+30 Jun 2018 02:05:28 AM Sending Enq to Analyzer
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:06 AM Message Received From Analyzer.
+D1U   0i02000   49180601490      00149             01010000101000000000000000000000000000000000000000000000000000000000000000000XS-500i^CH642457^19045
+30 Jun 2018 02:20:06 AM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/?username=buddhika&password=b&machine=SysMex&msg=50%7c124%7c54%7c56%7c124%7c52%7c57%7c124%7c56%7c53%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c52%7c56%7c124%7c49%7c48%7c53%7c124%7c52%7c56%7c124%7c53%7c48%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c53%7c50%7c124%7c53%7c55%7c124%7c52%7c57%7c124%7c53%7c54%7c124%7c52%7c56%7c124%7c53%7c52%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c53%7c50%7c124%7c53%7c55%7c124%7c52%7c56%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c53%7c50%7c124%7c53%7c55%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c56%7c56%7c124%7c56%7c51%7c124%7c52%7c53%7c124%7c53%7c51%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c49%7c48%7c53%7c124%7c57%7c52%7c124%7c54%7c55%7c124%7c55%7c50%7c124%7c53%7c52%7c124%7c53%7c50%7c124%7c53%7c48%7c124%7c53%7c50%7c124%7c53%7c51%7c124%7c53%7c53%7c124%7c57%7c52%7c124%7c52%7c57%7c124%7c53%7c55%7c124%7c52%7c56%7c124%7c53%7c50%7c124%7c53%7c51%7c124%7c51%7c124%7c
+End of a Message 
+30 Jun 2018 02:20:07 AM Received Data From LIMS
+?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html><head id="j_idt2"><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/theme.css?ln=primefaces-hot-sneaks" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/maincss.css;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=css" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/css1.css;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=css" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/summery.css;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=css" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/printing.css;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=css" /><link type="text/css" rel="stylesheet" href="RES_NOT_FOUND" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/components.css;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=primefaces&amp;v=6.2" /><script type="text/javascript" src="/arogya/faces/javax.faces.resource/jquery/jquery.js;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/jquery/jquery-plugins.js;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/core.js;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/components.js;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=primefaces&amp;v=6.2"></script><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/editor/editor.css;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=primefaces&amp;v=6.2" /><script type="text/javascript" src="/arogya/faces/javax.faces.resource/editor/editor.js;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=primefaces&amp;v=6.2"></script><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/clock/clock.css;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=primefaces&amp;v=6.2" /><script type="text/javascript" src="/arogya/faces/javax.faces.resource/raphael/raphael.js;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/clock/clock.js;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=primefaces&amp;v=6.2"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_US';}</script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <title>Hospital Information Management System
+            </title><script type="text/javascript" src="/arogya/faces/javax.faces.resource/jsfcrud.js;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=js"></script></head><body>
+        <div id="panelFullSpread" class="fullSpread ui-widget-content "><span id="publicGrowl"></span><script id="publicGrowl_s" type="text/javascript">$(function(){PrimeFaces.cw("Growl","widget_publicGrowl",{id:"publicGrowl",sticky:false,life:6000,escape:true,keepAlive:false,msgs:[]});});</script>
+<form id="j_idt23" name="j_idt23" method="post" action="/arogya/faces/index.xhtml;jsessionid=ffe13f320f8fe505ae967ac3caa0" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt23" value="j_idt23" />
+<div id="j_idt23:j_idt25" style="width:64px;height:64px;position:fixed;right:5px;top:40px;"><div id="j_idt23:j_idt25_start" style="display:none"><img id="j_idt23:j_idt26" src="/arogya/faces/javax.faces.resource/ajax-loader.gif;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=image" alt="" /></div><div id="j_idt23:j_idt25_complete" style="display:none"></div></div><script id="j_idt23:j_idt25_s" type="text/javascript">$(function(){PrimeFaces.cw("AjaxStatus","widget_j_idt23_j_idt25",{id:"j_idt23:j_idt25"});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="2910591534607370520:-3573997732046647130" autocomplete="off" />
+</form><table id="pgM" style="width: 100%; border: 0px;">
+<tbody>
+<tr>
+<td><div id="loginbox" class="ui-panel ui-widget ui-widget-content ui-corner-all nonPrintBlock verticalAndHorizontalCentering" style="text-align: center; " data-widget="widget_loginbox"><div id="loginbox_header" class="ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all"><span class="ui-panel-title">Please login</span></div><div id="loginbox_content" class="ui-panel-content ui-widget-content"><table>
+<tbody>
+<tr>
+<td><img src="/arogya/faces/javax.faces.resource/lock.png;jsessionid=ffe13f320f8fe505ae967ac3caa0?ln=image" /></td>
+<td>
+<form id="formLogin" name="formLogin" method="post" action="/arogya/faces/index.xhtml;jsessionid=ffe13f320f8fe505ae967ac3caa0" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formLogin" value="formLogin" />
+<table>
+<tbody>
+<tr>
+<td><label style="text-align: left; margin: 5px; padding: 5px;">Username</label></td>
+<td><input id="formLogin:txtUserName" name="formLogin:txtUserName" type="text" autocomplete="off" style="text-align: left; margin: 5px; padding: 5px;" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" /><script id="formLogin:txtUserName_s" type="text/javascript">PrimeFaces.cw("InputText","widget_formLogin_txtUserName",{id:"formLogin:txtUserName"});</script></td>
+</tr>
+<tr>
+<td><label style="text-align: left; margin: 5px; padding: 5px;">Password</label></td>
+<td><input id="formLogin:txtPassword" name="formLogin:txtPassword" type="password" class="ui-inputfield ui-password ui-widget ui-state-default ui-corner-all" style="text-align: left; margin: 5px; padding: 5px;" /><script id="formLogin:txtPassword_s" type="text/javascript">$(function(){PrimeFaces.cw("Password","widget_formLogin_txtPassword",{id:"formLogin:txtPassword"});});</script></td>
+</tr>
+<tr>
+<td><label style="text-align: left; margin: 5px; padding: 5px;"></label></td>
+<td><button id="formLogin:btnLogin" name="formLogin:btnLogin" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PrimeFaces.onPost();" type="submit"><span class="ui-button-text ui-c">Login</span></button><script id="formLogin:btnLogin_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formLogin_btnLogin",{id:"formLogin:btnLogin"});</script></td>
+</tr>
+</tbody>
+</table>
+<input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="2910591534607370520:-3573997732046647130" autocomplete="off" />
+</form></td>
+</tr>
+</tbody>
+</table>
+</div></div><script id="loginbox_s" type="text/javascript">PrimeFaces.cw("Panel","widget_loginbox",{id:"loginbox"});</script></td>
+</tr>
+</tbody>
+</table>
+
+            <div style="height: 50px" class="nonPrintBlock">
+            </div>
+            <div style="position: fixed; bottom: 10px; right: 10px; " class="nonPrintBlock"><span id="j_idt530" class="ui-clock ui-widget ui-widget-header ui-corner-all"></span><script id="j_idt530_s" type="text/javascript">PrimeFaces.cw("Clock","widget_j_idt530",{id:"j_idt530",mode:"server",pattern:"hh:mm:ss a - EEEE - dd MMMM yyyy",displayMode:"digital",locale:"en_US",value:"2018\/06\/30 14:50:08"
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:08 AM Part of a Message System.Byte[]
+30 Jun 2018 02:20:14 AM Sending Data to Analyzer
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:52 AM Message Received From Analyzer.
+D
+?M?500i^190450000000020000             49008700036800123403240088000334403804021700189201010066840041400014001640000881005814000364000014012200378000980009000178000000000000000000000000000000000200000000000000           00000XS-500i^CH642457^19045D1U   XS-500i^190450000000021000             5020180630145500      000150              01100000100000000000000000000000000000000000000000000000000000000000000000000000XS-500i^CH642457^19045
+30 Jun 2018 02:25:52 AM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/?username=buddhika&password=b&machine=SysMex&msg=50%7c124%7c54%7c56%7c124%7c49%7c49%7c124%7c50%7c124%7c49%7c57%7c52%7c124%7c55%7c55%7c124%7c49%7c56%7c49%7c124%7c53%7c51%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c49%7c48%7c53%7c124%7c57%7c52%7c124%7c52%7c57%7c124%7c53%7c55%7c124%7c52%7c56%7c124%7c53%7c50%7c124%7c53%7c51%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c48%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c53%7c50%7c124%7c53%7c55%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c54%7c124%7c53%7c53%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c49%7c124%7c53%7c52%7c124%7c53%7c54%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c53%7c48%7c124%7c53%7c49%7c124%7c53%7c50%7c124%7c52%7c56%7c124%7c53%7c49%7c124%7c53%7c48%7c124%7c53%7c50%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c54%7c124%7c53%7c54%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c49%7c124%7c53%7c49%7c124%7c53%7c50%7c124%7c53%7c50%7c124%7c52%7c56%7c124%7c53%7c49%7c124%7c53%7c54%7c124%7c52%7c56%7c124%7c53%7c50%7c124%7c52%7c56%7c124%7c53%7c48%7c124%7c52%7c57%7c124%7c53%7c53%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c53%7c54%7c124%7c53%7c55%7c124%7c53%7c48%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c52%7c124%7c53%7c52%7c124%7c53%7c54%7c124%7c53%7c50%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c50%7c124%7c52%7c57%7c124%7c53%7c50%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c53%7c50%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c53%7c52%7c124%7c53%7c50%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c54%7c124%7c53%7c54%7c124%7c52%7c57%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c51%7c124%7c53%7c54%7c124%7c52%7c57%7c124%7c53%7c50%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c49%7c124%7c53%7c52%7c124%7c53%7c50%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c53%7c50%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c53%7c48%7c124%7c53%7c48%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c49%7c124%7c53%7c53%7c124%7c53%7c54%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c55%7c124%7c53%7c54%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c55%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c53%7c53%7c124%7c53%7c54%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c48%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c56%7c56%7c124%7c56%7c51%7c124%7c52%7c53%7c124%7c53%7c51%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c49%7c48%7c53%7c124%7c57%7c52%7c124%7c54%7c55%7c124%7c55%7c50%7c124%7c53%7c52%7c124%7c53%7c50%7c124%7c53%7c48%7c124%7c53%7c50%7c124%7c53%7c51%7c124%7c53%7c53%7c124%7c57%7c52%7c124%7c52%7c57%7c124%7c53%7c55%7c124%7c52%7c56%7c124%7c53%7c50%7c124%7c53%7c51%7c124%7c54%7c56%7c124%7c52%7c57%7c124%7c56%7c53%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c56%7c56%7c124%7c56%7c51%7c124%7c52%7c53%7c124%7c53%7c51%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c49%7c48%7c53%7c124%7c57%7c52%7c124%7c52%7c57%7c124%7c53%7c55%7c124%7c52%7c56%7c124%7c53%7c50%7c124%7c53%7c51%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c53%7c48%7c124%7c52%7c57%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c53%7c51%7c124%7c52%7c56%7c124%7c53%7c48%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c53%7c54%7c124%7c52%7c56%7c124%7c53%7c52%7c124%7c53%7c49%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c53%7c50%7c124%7c53%7c51%7c124%7c53%7c51%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c53%7c51%7c124%7c52%7c56%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c51%7c50%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c52%7c57%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c57%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c56%7c56%7c124%7c56%7c51%7c124%7c52%7c53%7c124%7c53%7c51%7c124%7c52%7c56%7c124%7c52%7c56%7c124%7c49%7c48%7c53%7c124%7c57%7c52%7c124%7c54%7c55%7c124%7c55%7c50%7c124%7c53%7c52%7c124%7c53%7c50%7c124%7c53%7c48%7c124%7c53%7c50%7c124%7c53%7c51%7c124%7c53%7c53%7c124%7c57%7c52%7c124%7c52%7c57%7c124%7c53%7c55%7c124%7c52%7c56%7c124%7c53%7c50%7c124%7c53%7c51%7c124%7c51%7c124%7c
+End of a Message 
+30 Jun 2018 02:25:52 AM Received Data From LIMS
+?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html><head id="j_idt2"><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/theme.css?ln=primefaces-hot-sneaks" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/maincss.css?ln=css" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/css1.css?ln=css" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/summery.css?ln=css" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/printing.css?ln=css" /><link type="text/css" rel="stylesheet" href="RES_NOT_FOUND" /><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/components.css?ln=primefaces&amp;v=6.2" /><script type="text/javascript" src="/arogya/faces/javax.faces.resource/jquery/jquery.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/jquery/jquery-plugins.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/core.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/components.js?ln=primefaces&amp;v=6.2"></script><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/editor/editor.css?ln=primefaces&amp;v=6.2" /><script type="text/javascript" src="/arogya/faces/javax.faces.resource/editor/editor.js?ln=primefaces&amp;v=6.2"></script><link type="text/css" rel="stylesheet" href="/arogya/faces/javax.faces.resource/clock/clock.css?ln=primefaces&amp;v=6.2" /><script type="text/javascript" src="/arogya/faces/javax.faces.resource/raphael/raphael.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript" src="/arogya/faces/javax.faces.resource/clock/clock.js?ln=primefaces&amp;v=6.2"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_US';}</script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <title>Hospital Information Management System
+            </title><script type="text/javascript" src="/arogya/faces/javax.faces.resource/jsfcrud.js?ln=js"></script></head><body>
+        <div id="panelFullSpread" class="fullSpread ui-widget-content "><span id="publicGrowl"></span><script id="publicGrowl_s" type="text/javascript">$(function(){PrimeFaces.cw("Growl","widget_publicGrowl",{id:"publicGrowl",sticky:false,life:6000,escape:true,keepAlive:false,msgs:[]});});</script>
+<form id="j_idt23" name="j_idt23" method="post" action="/arogya/faces/index.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt23" value="j_idt23" />
+<div id="j_idt23:j_idt25" style="width:64px;height:64px;position:fixed;right:5px;top:40px;"><div id="j_idt23:j_idt25_start" style="display:none"><img id="j_idt23:j_idt26" src="/arogya/faces/javax.faces.resource/ajax-loader.gif?ln=image" alt="" /></div><div id="j_idt23:j_idt25_complete" style="display:none"></div></div><script id="j_idt23:j_idt25_s" type="text/javascript">$(function(){PrimeFaces.cw("AjaxStatus","widget_j_idt23_j_idt25",{id:"j_idt23:j_idt25"});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-4084757768661777393:106667653755206709" autocomplete="off" />
+</form><table id="pgM" style="width: 100%; border: 0px;">
+<tbody>
+<tr>
+<td><div id="loginbox" class="ui-panel ui-widget ui-widget-content ui-corner-all nonPrintBlock verticalAndHorizontalCentering" style="text-align: center; " data-widget="widget_loginbox"><div id="loginbox_header" class="ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all"><span class="ui-panel-title">Please login</span></div><div id="loginbox_content" class="ui-panel-content ui-widget-content"><table>
+<tbody>
+<tr>
+<td><img src="/arogya/faces/javax.faces.resource/lock.png?ln=image" /></td>
+<td>
+<form id="formLogin" name="formLogin" method="post" action="/arogya/faces/index.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formLogin" value="formLogin" />
+<table>
+<tbody>
+<tr>
+<td><label style="text-align: left; margin: 5px; padding: 5px;">Username</label></td>
+<td><input id="formLogin:txtUserName" name="formLogin:txtUserName" type="text" autocomplete="off" style="text-align: left; margin: 5px; padding: 5px;" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" /><script id="formLogin:txtUserName_s" type="text/javascript">PrimeFaces.cw("InputText","widget_formLogin_txtUserName",{id:"formLogin:txtUserName"});</script></td>
+</tr>
+<tr>
+<td><label style="text-align: left; margin: 5px; padding: 5px;">Password</label></td>
+<td><input id="formLogin:txtPassword" name="formLogin:txtPassword" type="password" class="ui-inputfield ui-password ui-widget ui-state-default ui-corner-all" style="text-align: left; margin: 5px; padding: 5px;" /><script id="formLogin:txtPassword_s" type="text/javascript">$(function(){PrimeFaces.cw("Password","widget_formLogin_txtPassword",{id:"formLogin:txtPassword"});});</script></td>
+</tr>
+<tr>
+<td><label style="text-align: left; margin: 5px; padding: 5px;"></label></td>
+<td><button id="formLogin:btnLogin" name="formLogin:btnLogin" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PrimeFaces.onPost();" type="submit"><span class="ui-button-text ui-c">Login</span></button><script id="formLogin:btnLogin_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formLogin_btnLogin",{id:"formLogin:btnLogin"});</script></td>
+</tr>
+</tbody>
+</table>
+<input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="-4084757768661777393:106667653755206709" autocomplete="off" />
+</form></td>
+</tr>
+</tbody>
+</table>
+</div></div><script id="loginbox_s" type="text/javascript">PrimeFaces.cw("Panel","widget_loginbox",{id:"loginbox"});</script></td>
+</tr>
+</tbody>
+</table>
+
+            <div style="height: 50px" class="nonPrintBlock">
+            </div>
+            <div style="position: fixed; bottom: 10px; right: 10px; " class="nonPrintBlock"><span id="j_idt530" class="ui-clock ui-widget ui-widget-header ui-corner-all"></span><script id="j_idt530_s" type="text/javascript">PrimeFaces.cw("Clock","widget_j_idt530",{id:"j_idt530",mode:"server",pattern:"hh:mm:ss a - EEEE - dd MMMM yyyy",displayMode:"digital",locale:"en_US",value:"2018\/06\/30 14:55:54"
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:54 AM Part of a Message System.Byte[]
+30 Jun 2018 02:25:59 AM Sending Data to Analyzer

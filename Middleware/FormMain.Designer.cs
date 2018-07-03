@@ -42,6 +42,7 @@
             this.txtStatus = new System.Windows.Forms.RichTextBox();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.btnEnq = new System.Windows.Forms.Button();
+            this.txtMessage = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // cmbPort
@@ -164,11 +165,20 @@
             this.btnEnq.UseVisualStyleBackColor = true;
             this.btnEnq.Click += new System.EventHandler(this.btnEnq_Click);
             // 
+            // txtMessage
+            // 
+            this.txtMessage.Location = new System.Drawing.Point(261, 68);
+            this.txtMessage.Name = "txtMessage";
+            this.txtMessage.Size = new System.Drawing.Size(792, 50);
+            this.txtMessage.TabIndex = 39;
+            this.txtMessage.Text = "";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1065, 525);
+            this.Controls.Add(this.txtMessage);
             this.Controls.Add(this.btnEnq);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.txtStatus);
@@ -207,5 +217,6 @@
         private System.Windows.Forms.RichTextBox txtStatus;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Button btnEnq;
+        private System.Windows.Forms.RichTextBox txtMessage;
     }
 }

@@ -7,3 +7,4 @@ E:\Company\Development\Middleware\SysMax\Middleware\obj\Debug\SysMex.csproj.Gene
 E:\Company\Development\Middleware\SysMax\Middleware\obj\Debug\SysMex.csproj.CoreCompileInputs.cache
 E:\Company\Development\Middleware\SysMax\Middleware\obj\Debug\SysMex.exe
 E:\Company\Development\Middleware\SysMax\Middleware\obj\Debug\SysMex.pdb
+E:\Company\Development\Middleware\SysMax\Middleware\obj\Debug\SysMex.csprojAssemblyReference.cache

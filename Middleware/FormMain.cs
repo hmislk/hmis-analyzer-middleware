@@ -12,11 +12,14 @@ using System.Windows.Forms;
 using System.Net.Http;
 using System.Net;
 using System.Web;
+using System;
+using System.Timers;
 
 namespace Middleware
 {
     public partial class FormMain : Form
     {
+        private System.Timers.Timer aTimer;
 
         SerialPort com = new SerialPort();
 
@@ -35,46 +38,77 @@ namespace Middleware
 
         DateTime msgStartat;
         Boolean arrayListBlocked;
-       
+        static String msg = "";
+
+        private async void OnTimedEventAsync(Object source, ElapsedEventArgs e)
+        {
+            msg += "New Event Fired";
+            Boolean arrayListIsEmpty = !message.Any();
+            if (message == null || arrayListIsEmpty)
+            {
+                return;
+            }
+            if (!arrayListBlocked)
+            {
+                arrayListBlocked = true;
+                await SendDataToLimsAsync(message);
+                message = new List<byte>();
+                this.Invoke(new EventHandler(DisplayMsg));
+                arrayListBlocked = false;
+            }
+
+        }
+
         private void com_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             int bytes = com.BytesToRead;
             byte[] buffer = new byte[bytes];
             com.Read(buffer, 0, bytes);
 
+            foreach (Byte b in buffer)
+            {
+                msg += (char)b;
+            }
+
+            this.Invoke(new EventHandler(DisplayMsg));
+
             if (arrayListBlocked)
             {
+                Console.WriteLine("Array List Blocked.");
                 temMessage.AddRange(buffer);
             }
             else
             {
+                Console.WriteLine("Array List Not Blocked.");
                 arrayListBlocked = true;
                 temMessage.AddRange(buffer);
                 message.AddRange(temMessage);
                 temMessage = new List<byte>();
                 arrayListBlocked = false;
             }
-           
+
         }
 
 
         private async Task sendDataToLimsAsync()
         {
+            msg += "Sending data to LIMS";
             if (!arrayListBlocked)
             {
                 arrayListBlocked = true;
                 Boolean arrayEmpty = !message.Any();
-                if(message!=null && !arrayEmpty)
+                if (message != null && !arrayEmpty)
                 {
                     status += "Sending data LIMS" + Environment.NewLine;
                     await SendDataToLimsAsync(message);
                     this.Invoke(new EventHandler(DisplayText));
+                    message = new List<byte>();
                 }
                 arrayListBlocked = false;
             }
-            
-           
-            
+
+
+
         }
 
 
@@ -216,10 +250,14 @@ namespace Middleware
             String sendingStr = "";
             foreach (byte b in bytes)
             {
+                if(b==byteEnq() || b==byteEtx() || b == byteEot())
+                {
+                    com.Write(Ack());
+                }
                 sendingStr += b + " ";
             }
 
-            string longurl = url;
+            string longurl = url +"faces/requests/mwapi.xhtml";
             var uriBuilder = new UriBuilder(longurl);
 
             var query = HttpUtility.ParseQueryString(uriBuilder.Query);
@@ -243,7 +281,7 @@ namespace Middleware
             responseString = ExtractMessageFromHtml(responseString);
             status += DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + " Received Data From LIMS" + Environment.NewLine;
             status += responseString + Environment.NewLine;
-            com.Write(Stx() + responseString + Etx());
+            
             status += DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + " Sending Data to Analyzer" + Environment.NewLine;
             this.Invoke(new EventHandler(DisplayText));
 
@@ -334,6 +372,11 @@ namespace Middleware
 
         #region FormEvents
 
+        private void DisplayMsg(object sender, EventArgs e)
+        {
+            txtMessage.Text = msg;
+        }
+
         private void DisplayText(object sender, EventArgs e)
         {
             DisplayText();
@@ -341,6 +384,7 @@ namespace Middleware
 
         private void DisplayText()
         {
+            txtMessage.Text = msg;
             txtStatus.Text = status;
             if (progressBarValue < 100)
             {
@@ -416,6 +460,8 @@ namespace Middleware
 
         private void btnClearStatus_Click(object sender, EventArgs e)
         {
+            msg = "";
+            txtMessage.Text = "";
             message = new List<Byte>();
             temMessage = new List<Byte>();
             status = "";
@@ -477,15 +523,21 @@ namespace Middleware
                 MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             com.DataReceived += new SerialDataReceivedEventHandler(com_DataReceived);
+            SetTimer();
 
-            var startTimeSpan = TimeSpan.Zero;
-            var periodTimeSpan = TimeSpan.FromMinutes(1);
 
-            var timer = new System.Threading.Timer((ex) =>
-            {
-                sendDataToLimsAsync();
-            }, null, startTimeSpan, periodTimeSpan);
         }
+
+        private void SetTimer()
+        {
+            // Create a timer with a two second interval.
+            aTimer = new System.Timers.Timer(2000);
+            // Hook up the Elapsed event for the timer. 
+            aTimer.Elapsed += OnTimedEventAsync;
+            aTimer.AutoReset = true;
+            aTimer.Enabled = true;
+        }
+
 
 
         private void btnEnq_Click(object sender, EventArgs e)

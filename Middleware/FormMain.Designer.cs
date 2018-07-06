@@ -40,8 +40,6 @@
             this.btnOpen = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtStatus = new System.Windows.Forms.RichTextBox();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.btnEnq = new System.Windows.Forms.Button();
             this.txtMessage = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
@@ -71,7 +69,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(101, 98);
+            this.txtPassword.Location = new System.Drawing.Point(393, 71);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(154, 20);
             this.txtPassword.TabIndex = 17;
@@ -79,7 +77,7 @@
             // lblPw
             // 
             this.lblPw.AutoSize = true;
-            this.lblPw.Location = new System.Drawing.Point(14, 101);
+            this.lblPw.Location = new System.Drawing.Point(334, 71);
             this.lblPw.Name = "lblPw";
             this.lblPw.Size = new System.Drawing.Size(53, 13);
             this.lblPw.TabIndex = 16;
@@ -103,7 +101,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(553, 122);
+            this.btnClear.Location = new System.Drawing.Point(450, 15);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(97, 23);
             this.btnClear.TabIndex = 26;
@@ -142,34 +140,17 @@
             // 
             // txtStatus
             // 
-            this.txtStatus.Location = new System.Drawing.Point(15, 151);
+            this.txtStatus.Location = new System.Drawing.Point(15, 97);
             this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(1038, 362);
+            this.txtStatus.Size = new System.Drawing.Size(675, 416);
             this.txtStatus.TabIndex = 36;
             this.txtStatus.Text = "";
             // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(17, 122);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(530, 23);
-            this.progressBar1.TabIndex = 37;
-            // 
-            // btnEnq
-            // 
-            this.btnEnq.Location = new System.Drawing.Point(423, 15);
-            this.btnEnq.Name = "btnEnq";
-            this.btnEnq.Size = new System.Drawing.Size(75, 23);
-            this.btnEnq.TabIndex = 38;
-            this.btnEnq.Text = "ENQ";
-            this.btnEnq.UseVisualStyleBackColor = true;
-            this.btnEnq.Click += new System.EventHandler(this.btnEnq_Click);
-            // 
             // txtMessage
             // 
-            this.txtMessage.Location = new System.Drawing.Point(261, 68);
+            this.txtMessage.Location = new System.Drawing.Point(696, 97);
             this.txtMessage.Name = "txtMessage";
-            this.txtMessage.Size = new System.Drawing.Size(792, 50);
+            this.txtMessage.Size = new System.Drawing.Size(357, 416);
             this.txtMessage.TabIndex = 39;
             this.txtMessage.Text = "";
             // 
@@ -179,8 +160,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1065, 525);
             this.Controls.Add(this.txtMessage);
-            this.Controls.Add(this.btnEnq);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.txtStatus);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnClose);
@@ -215,8 +194,6 @@
         private System.Windows.Forms.Button btnOpen;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox txtStatus;
-        private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Button btnEnq;
         private System.Windows.Forms.RichTextBox txtMessage;
     }
 }

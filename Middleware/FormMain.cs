@@ -165,7 +165,7 @@ namespace Middleware
             if(responseString== "Error in LIMS Response. Please check.")
             {
                 int from = txtStatus.Text.Length;
-                txtStatus.AppendText("Error at " + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + ". Please send results again.");
+                txtStatus.AppendText(Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") +  Environment.NewLine +  "Error. Please send results again." + Environment.NewLine);
                 int to = txtStatus.Text.Length;
                 txtStatus.Select(from, (to - from));
                 txtStatus.SelectionColor = Color.Red;
@@ -174,7 +174,7 @@ namespace Middleware
             }else if (responseString.Contains("success=false"))
             {
                 int from = txtStatus.Text.Length;
-                txtStatus.AppendText("Error at " + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + ". Please send results again." + responseString);
+                txtStatus.AppendText(Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + Environment.NewLine + ". Error. Please send results again." + responseString + Environment.NewLine);
                 int to = txtStatus.Text.Length;
                 txtStatus.Select(from, (to - from));
                 txtStatus.SelectionColor = Color.Red;
@@ -183,7 +183,7 @@ namespace Middleware
             else
             {
                 int from = txtStatus.Text.Length;
-                txtStatus.AppendText("Success at " + DateTime.Now.ToString("dd MMM yyyy hh: mm:ss tt") + ". Results added. " + responseString);
+                txtStatus.AppendText(Environment.NewLine +  DateTime.Now.ToString("dd MMM yyyy hh: mm:ss tt") + Environment.NewLine + "Results added. " + responseString + Environment.NewLine);
                 int to = txtStatus.Text.Length;
                 txtStatus.Select(from, (to - from));
                 txtStatus.SelectionColor = Color.Green;

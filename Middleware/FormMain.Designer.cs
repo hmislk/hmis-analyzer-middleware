@@ -142,15 +142,15 @@
             // 
             this.txtStatus.Location = new System.Drawing.Point(15, 97);
             this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(675, 416);
+            this.txtStatus.Size = new System.Drawing.Size(532, 416);
             this.txtStatus.TabIndex = 36;
             this.txtStatus.Text = "";
             // 
             // txtMessage
             // 
-            this.txtMessage.Location = new System.Drawing.Point(696, 97);
+            this.txtMessage.Location = new System.Drawing.Point(553, 17);
             this.txtMessage.Name = "txtMessage";
-            this.txtMessage.Size = new System.Drawing.Size(357, 416);
+            this.txtMessage.Size = new System.Drawing.Size(512, 508);
             this.txtMessage.TabIndex = 39;
             this.txtMessage.Text = "";
             // 

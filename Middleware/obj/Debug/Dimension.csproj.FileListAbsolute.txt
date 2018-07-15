@@ -1,0 +1,10 @@
+E:\Company\Development\Middleware\Dimension\Middleware\bin\Debug\SysMex.exe.config
+E:\Company\Development\Middleware\Dimension\Middleware\bin\Debug\SysMex.exe
+E:\Company\Development\Middleware\Dimension\Middleware\bin\Debug\SysMex.pdb
+E:\Company\Development\Middleware\Dimension\Middleware\obj\Debug\Dimension.csprojAssemblyReference.cache
+E:\Company\Development\Middleware\Dimension\Middleware\obj\Debug\Middleware.FormMain.resources
+E:\Company\Development\Middleware\Dimension\Middleware\obj\Debug\SysMex.Properties.Resources.resources
+E:\Company\Development\Middleware\Dimension\Middleware\obj\Debug\Dimension.csproj.GenerateResource.cache
+E:\Company\Development\Middleware\Dimension\Middleware\obj\Debug\Dimension.csproj.CoreCompileInputs.cache
+E:\Company\Development\Middleware\Dimension\Middleware\obj\Debug\SysMex.exe
+E:\Company\Development\Middleware\Dimension\Middleware\obj\Debug\SysMex.pdb

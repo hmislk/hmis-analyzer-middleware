@@ -35,12 +35,12 @@
             this.lblPw = new System.Windows.Forms.Label();
             this.txtUrl = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.btnOpen = new System.Windows.Forms.Button();
+            this.BtnClear = new System.Windows.Forms.Button();
+            this.BtnClose = new System.Windows.Forms.Button();
+            this.BtnOpen = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtOutput = new System.Windows.Forms.RichTextBox();
             this.txtStatus = new System.Windows.Forms.RichTextBox();
-            this.txtMessage = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // cmbPort
@@ -99,35 +99,35 @@
             this.label9.TabIndex = 18;
             this.label9.Text = "LIMS Address";
             // 
-            // btnClear
+            // BtnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(450, 15);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(97, 23);
-            this.btnClear.TabIndex = 26;
-            this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClearStatus_Click);
+            this.BtnClear.Location = new System.Drawing.Point(450, 15);
+            this.BtnClear.Name = "BtnClear";
+            this.BtnClear.Size = new System.Drawing.Size(97, 23);
+            this.BtnClear.TabIndex = 26;
+            this.BtnClear.Text = "Clear";
+            this.BtnClear.UseVisualStyleBackColor = true;
+            this.BtnClear.Click += new System.EventHandler(this.BtnClearStatus_Click);
             // 
-            // btnClose
+            // BtnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(342, 15);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
-            this.btnClose.TabIndex = 28;
-            this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click_1);
+            this.BtnClose.Location = new System.Drawing.Point(342, 15);
+            this.BtnClose.Name = "BtnClose";
+            this.BtnClose.Size = new System.Drawing.Size(75, 23);
+            this.BtnClose.TabIndex = 28;
+            this.BtnClose.Text = "Close";
+            this.BtnClose.UseVisualStyleBackColor = true;
+            this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
-            // btnOpen
+            // BtnOpen
             // 
-            this.btnOpen.Location = new System.Drawing.Point(261, 15);
-            this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(75, 23);
-            this.btnOpen.TabIndex = 27;
-            this.btnOpen.Text = "Open";
-            this.btnOpen.UseVisualStyleBackColor = true;
-            this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click_1);
+            this.BtnOpen.Location = new System.Drawing.Point(261, 15);
+            this.BtnOpen.Name = "BtnOpen";
+            this.BtnOpen.Size = new System.Drawing.Size(75, 23);
+            this.BtnOpen.TabIndex = 27;
+            this.BtnOpen.Text = "Open";
+            this.BtnOpen.UseVisualStyleBackColor = true;
+            this.BtnOpen.Click += new System.EventHandler(this.BtnOpen_Click);
             // 
             // label1
             // 
@@ -138,33 +138,33 @@
             this.label1.TabIndex = 29;
             this.label1.Text = "Port";
             // 
+            // txtOutput
+            // 
+            this.txtOutput.Location = new System.Drawing.Point(15, 97);
+            this.txtOutput.Name = "txtOutput";
+            this.txtOutput.Size = new System.Drawing.Size(532, 416);
+            this.txtOutput.TabIndex = 36;
+            this.txtOutput.Text = "";
+            // 
             // txtStatus
             // 
-            this.txtStatus.Location = new System.Drawing.Point(15, 97);
+            this.txtStatus.Location = new System.Drawing.Point(553, 17);
             this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(532, 416);
-            this.txtStatus.TabIndex = 36;
+            this.txtStatus.Size = new System.Drawing.Size(512, 508);
+            this.txtStatus.TabIndex = 39;
             this.txtStatus.Text = "";
-            // 
-            // txtMessage
-            // 
-            this.txtMessage.Location = new System.Drawing.Point(553, 17);
-            this.txtMessage.Name = "txtMessage";
-            this.txtMessage.Size = new System.Drawing.Size(512, 508);
-            this.txtMessage.TabIndex = 39;
-            this.txtMessage.Text = "";
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1065, 525);
-            this.Controls.Add(this.txtMessage);
             this.Controls.Add(this.txtStatus);
+            this.Controls.Add(this.txtOutput);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.btnOpen);
-            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.BtnClose);
+            this.Controls.Add(this.BtnOpen);
+            this.Controls.Add(this.BtnClear);
             this.Controls.Add(this.txtUrl);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtPassword);
@@ -189,11 +189,11 @@
         private System.Windows.Forms.Label lblPw;
         private System.Windows.Forms.TextBox txtUrl;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Button btnOpen;
+        private System.Windows.Forms.Button BtnClear;
+        private System.Windows.Forms.Button BtnClose;
+        private System.Windows.Forms.Button BtnOpen;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RichTextBox txtOutput;
         private System.Windows.Forms.RichTextBox txtStatus;
-        private System.Windows.Forms.RichTextBox txtMessage;
     }
 }

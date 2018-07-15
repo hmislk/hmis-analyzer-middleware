@@ -65,6 +65,11 @@ namespace Middleware
             foreach (Byte b in buffer)
             {
                 status += (char)b;
+                if (b == 3)
+                {
+                    com.Write(Ack());
+
+                }
             }
           
 
@@ -422,7 +427,7 @@ namespace Middleware
         private void SetTimer()
         {
             // Create a timer with a two second interval.
-            aTimer = new System.Timers.Timer(120000);
+            aTimer = new System.Timers.Timer(30000);
             // Hook up the Elapsed event for the timer. 
             aTimer.Elapsed += OnTimedEventAsync;
             aTimer.AutoReset = true;

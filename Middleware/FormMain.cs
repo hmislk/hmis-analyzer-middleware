@@ -59,51 +59,36 @@ namespace Middleware
             int bytes = com.BytesToRead;
             byte[] buffer = new byte[bytes];
             com.Read(buffer, 0, bytes);
-
-         
-
+            message.AddRange(buffer);
             foreach (Byte b in buffer)
             {
                 status += (char)b;
                 if (b == 3)
                 {
+                    com.Write(Nak());
+                    status += "Received <ETX>. <ACK> ent.";
+                    sendDataToLimsAsync();
+                    this.Invoke(new EventHandler(DisplayText));
+                    message = new List<byte>();
                     com.Write(Ack());
-
+                    // SendDataToLimsAsync();
+                }else if (b == 5)
+                {
+                    status += "Received <ETX>. <ACK> ent.";
+                    message = new List<byte>();
                 }
             }
           
-
-            if (arrayListBlocked)
-            {
-                Console.WriteLine("Array List Blocked.");
-                temMessage.AddRange(buffer);
-            }
-            else
-            {
-                Console.WriteLine("Array List Not Blocked.");
-                arrayListBlocked = true;
-                temMessage.AddRange(buffer);
-                message.AddRange(temMessage);
-                temMessage = new List<byte>();
-                arrayListBlocked = false;
-            }
-
         }
 
 
         private async Task sendDataToLimsAsync()
         {
-            if (!arrayListBlocked)
-            {
-                arrayListBlocked = true;
-                Boolean arrayEmpty = !message.Any();
-                if (message != null && !arrayEmpty && message.Count>199)
-                {
+            
                     await SendDataToLimsAsync(message);
                     message = new List<byte>();
-                }
-                arrayListBlocked = false;
-            }
+               
+             
         }
 
         public byte byteEnq()
@@ -420,18 +405,19 @@ namespace Middleware
             }
             com.DataReceived += new SerialDataReceivedEventHandler(com_DataReceived);
             SetTimer();
-
+            com.Write(Enq());
+            
 
         }
 
         private void SetTimer()
         {
             // Create a timer with a two second interval.
-            aTimer = new System.Timers.Timer(30000);
+           // aTimer = new System.Timers.Timer(120000);
             // Hook up the Elapsed event for the timer. 
-            aTimer.Elapsed += OnTimedEventAsync;
-            aTimer.AutoReset = true;
-            aTimer.Enabled = true;
+          //  aTimer.Elapsed += OnTimedEventAsync;
+          //  aTimer.AutoReset = true;
+          //  aTimer.Enabled = true;
         }
 
 

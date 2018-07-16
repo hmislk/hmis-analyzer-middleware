@@ -18,17 +18,17 @@ namespace Middleware
 
         #region classVariables
 
-        SerialPort com = new SerialPort();
+        SerialPort comDim = new SerialPort();
+        SerialPort comSm = new SerialPort();
         private readonly HttpClient client = new HttpClient();
-        List<byte> message = new List<byte>();
+        List<byte> msgDim = new List<byte>();
+        List<byte> msgSm = new List<byte>();
 
         string url = "";
-        string username = "";
-        string password = "";
         string status = "";
 
-        List<byte> messageInBytes = new List<byte>();
-
+        List<byte> msgBytesDim = new List<byte>();
+        List<byte> msgBytesSm = new List<byte>();
 
         #endregion
 
@@ -145,7 +145,7 @@ namespace Middleware
 
         #region mainFunctions
 
-        private async Task SendDataToLimsAsync(List<byte> bytes)
+        private async Task SendDataToLimsAsync(List<byte> bytes, Analyzer machine)
         {
             String sendingStr = "";
             foreach (byte b in bytes)
@@ -157,13 +157,12 @@ namespace Middleware
             var uriBuilder = new UriBuilder(longurl);
 
             var query = HttpUtility.ParseQueryString(uriBuilder.Query);
-            query["username"] = txtUsername.Text;
-            query["password"] = txtPassword.Text;
-            query["machine"] = "Dimension";
+            query["machine"] = machine.ToString();
             query["msg"] = sendingStr;
 
             uriBuilder.Query = query.ToString();
             longurl = uriBuilder.ToString();
+
             status += DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + " Sending Data to LIMS" + Environment.NewLine + longurl + Environment.NewLine;
 
             var response = await client.GetAsync(longurl);
@@ -173,74 +172,107 @@ namespace Middleware
             if (responseString == "Error in LIMS Response. Please check.")
             {
                 int from = txtOutput.Text.Length;
-                txtOutput.AppendText(Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + Environment.NewLine + "Error. Please send results again." + Environment.NewLine);
+                txtOutput.AppendText(Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + Environment.NewLine + " " + machine + " Error. Please send results again." + Environment.NewLine);
                 int to = txtOutput.Text.Length;
                 txtOutput.Select(from, (to - from));
                 txtOutput.SelectionColor = Color.Red;
-                com.Write(Nak());
+                comDim.Write(Nak());
 
             }
             else if (responseString.Contains("success=false"))
             {
                 int from = txtOutput.Text.Length;
-                txtOutput.AppendText(Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + Environment.NewLine + ". Error. Please send results again." + responseString + Environment.NewLine);
+                txtOutput.AppendText(Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + Environment.NewLine + " " + machine + " Error. Please send results again." + responseString + Environment.NewLine);
                 int to = txtOutput.Text.Length;
                 txtOutput.Select(from, (to - from));
                 txtOutput.SelectionColor = Color.Red;
-                com.Write(Nak());
+                comDim.Write(Nak());
             }
             else
             {
                 int from = txtOutput.Text.Length;
-                txtOutput.AppendText(Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh: mm:ss tt") + Environment.NewLine + "Results added. " + responseString + Environment.NewLine);
+                txtOutput.AppendText(Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh: mm:ss tt") + Environment.NewLine + " " + machine + " Results added. " + responseString + Environment.NewLine);
                 int to = txtOutput.Text.Length;
                 txtOutput.Select(from, (to - from));
                 txtOutput.SelectionColor = Color.Green;
-                com.Write(Ack());
+                comDim.Write(Ack());
             }
-            this.Invoke(new EventHandler(DisplayText));
         }
 
-        private void Com_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        private void Com_DataReceived_Dim(object sender, SerialDataReceivedEventArgs e)
         {
-            int bytes = com.BytesToRead;
+            int bytes = comDim.BytesToRead;
             byte[] buffer = new byte[bytes];
-            com.Read(buffer, 0, bytes);
-            message.AddRange(buffer);
+            comDim.Read(buffer, 0, bytes);
+            msgDim.AddRange(buffer);
 
             foreach (Byte b in buffer)
             {
                 //status += (char)b;
                 if (b == ByteEnq())
                 {
-                    com.Write(Ack());
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ>. <ACK> sent." + Environment.NewLine;
-                    message = new List<byte>();
+                    comDim.Write(Ack());
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ> from Dimension. <ACK> sent." + Environment.NewLine;
+                    msgDim = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteAck())
                 {
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK>." + Environment.NewLine;
-                    message = new List<byte>();
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from Dimension. " + Environment.NewLine;
+                    msgDim = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteEot() || b == ByteEtx())
                 {
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from Analyzer." + Environment.NewLine;
-                    status += BytesToString(message) + Environment.NewLine;
+                    comDim.Write(Ack());
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from Dimension. <ACK> sent." + Environment.NewLine;
+                    status += BytesToString(msgDim) + Environment.NewLine;
                     this.Invoke(new EventHandler(DisplayText));
-                    SentToAnalyzer();
-                    message = new List<byte>();
-                    com.Write(Ack());
+                    SendDataToLimsAsync(msgDim, Analyzer.Dimension).Wait();
+                    msgDim = new List<byte>();
+
                 }
             }
 
         }
 
-        private async Task SentToAnalyzer()
+
+
+        private void Com_DataReceived_Sm(object sender, SerialDataReceivedEventArgs e)
         {
-            await SendDataToLimsAsync(message);
-            message = new List<byte>();
+            int bytes = comSm.BytesToRead;
+            byte[] buffer = new byte[bytes];
+            comSm.Read(buffer, 0, bytes);
+            msgSm.AddRange(buffer);
+
+            foreach (Byte b in buffer)
+            {
+                //status += (char)b;
+                if (b == ByteEnq())
+                {
+                    comSm.Write(Ack());
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ> from SysMex. <ACK> sent." + Environment.NewLine;
+                    msgSm = new List<byte>();
+                    this.Invoke(new EventHandler(DisplayText));
+                }
+                else if (b == ByteAck())
+                {
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from SysMex. " + Environment.NewLine;
+                    msgSm = new List<byte>();
+                    this.Invoke(new EventHandler(DisplayText));
+                }
+                else if (b == ByteEot() || b == ByteEtx())
+                {
+                    comSm.Write(Ack());
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from SysMex. <ACK> sent." + Environment.NewLine;
+                    status += BytesToString(msgSm) + Environment.NewLine;
+                    this.Invoke(new EventHandler(DisplayText));
+                    SendDataToLimsAsync(msgSm, Analyzer.SysMaxXsSeries).Wait();
+                    msgSm = new List<byte>();
+
+                }
+            }
+
         }
 
         #endregion
@@ -298,56 +330,96 @@ namespace Middleware
         private void FormDimensionSettings_Load(object sender, EventArgs e)
         {
             String[] ports = SerialPort.GetPortNames();
-            cmbPort.Items.AddRange(ports);
-            cmbPort.SelectedIndex = 0;
-            BtnClose.Enabled = false;
+            cmbDimPort.Items.AddRange(ports);
+            cmbDimPort.SelectedIndex = 0;
+            btnDimClose.Enabled = false;
 
-            RegistryKey key = Registry.CurrentUser.OpenSubKey("Software", true);
+            cmbSysMexPort.Items.AddRange(ports);
+            cmbSysMexPort.SelectedIndex = 0;
+            BtnSysMexClose.Enabled = false;
 
-            key.CreateSubKey("Middleware");
-            key = key.OpenSubKey("Middleware", true);
+
+            Registry.CurrentUser.CreateSubKey("SOFTWARE\\SSS\\Middleware\\Middleware", true);
+            Registry.CurrentUser.CreateSubKey("SOFTWARE\\SSS\\Middleware\\Dimension", true);
+            Registry.CurrentUser.CreateSubKey("SOFTWARE\\SSS\\Middleware\\Sysmex", true);
+
+            RegistryKey KeyMiddleware = Registry.CurrentUser.OpenSubKey
+                        ("SOFTWARE\\SSS\\Middleware\\Middleware", true);
+            RegistryKey KeyDimension = Registry.CurrentUser.OpenSubKey
+                        ("SOFTWARE\\SSS\\Middleware\\Dimension", true);
+            RegistryKey KeySysmex = Registry.CurrentUser.OpenSubKey
+                        ("SOFTWARE\\SSS\\Middleware\\Sysmex", true);
 
 
-            key.CreateSubKey("Dimension");
-            key = key.OpenSubKey("Dimension", true);
-
-            if (key == null)
+            if (KeyMiddleware != null)
             {
-                cmbPort.Text = "";
+                txtUrl.Text = (String) KeyMiddleware.GetValue("url","");
             }
-            else
+            if (KeyDimension != null)
             {
-                cmbPort.Text = (String)key.GetValue("Port");
-                txtUrl.Text = (String)key.GetValue("Url", "");
+                cmbDimPort.Text = (String) KeyDimension.GetValue("port", "");
+            }
+            if (KeySysmex != null)
+            {
+                cmbSysMexPort.Text =(String) KeySysmex.GetValue("port", "");
             }
         }
 
         private void FormDimensionSettings_FormClosing(object sender, FormClosingEventArgs e)
         {
-            RegistryKey key = Registry.CurrentUser.OpenSubKey("Software", true);
-            key.CreateSubKey("Middleware");
-            key = key.OpenSubKey("Middleware", true);
-            key.CreateSubKey("Dimension");
-            key = key.OpenSubKey("Dimension", true);
-            key.SetValue("Port", cmbPort.Text);
-            key.SetValue("Url", txtUrl.Text);
+            RegistryKey KeyMiddleware = Registry.CurrentUser.OpenSubKey
+                        ("SOFTWARE\\SSS\\Middleware\\Middleware", true);
+            RegistryKey KeyDimension = Registry.CurrentUser.OpenSubKey
+                        ("SOFTWARE\\SSS\\Middleware\\Dimension", true);
+            RegistryKey KeySysmex = Registry.CurrentUser.OpenSubKey
+                        ("SOFTWARE\\SSS\\Middleware\\Sysmex", true);
+
+            KeyMiddleware.SetValue("url", txtUrl.Text);
+            KeyDimension.SetValue("port", cmbDimPort.Text);
+            KeySysmex.SetValue("port", cmbSysMexPort.Text);
         }
 
         private void BtnClearStatus_Click(object sender, EventArgs e)
         {
             txtOutput.Text = "";
             txtStatus.Text = "";
-            message = new List<Byte>();
+            msgDim = new List<Byte>();
+            msgSm = new List<byte>();
             status = "";
         }
 
-        private void BtnClose_Click(object sender, EventArgs e)
+        private void BtnDimOpen_Click(object sender, EventArgs e)
         {
-            BtnOpen.Enabled = true;
-            BtnClose.Enabled = false;
+            btnDimOpen.Enabled = false;
+            btnDimClose.Enabled = true;
+            url = txtUrl.Text;
             try
             {
-                com.Close();
+                comDim.PortName = cmbDimPort.Text;
+                comDim.BaudRate = 9600;
+                comDim.DataBits = 8;
+                comDim.ReadBufferSize = 10000000;
+                comDim.StopBits = StopBits.One;
+                comDim.Parity = Parity.None;
+                comDim.DtrEnable = true;
+                comDim.RtsEnable = true;
+                comDim.Open();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            comDim.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_Dim);
+            comDim.Write(Enq());
+        }
+
+        private void BtnDimClose_Click(object sender, EventArgs e)
+        {
+            btnDimOpen.Enabled = true;
+            btnDimClose.Enabled = false;
+            try
+            {
+                comDim.Close();
             }
             catch (Exception ex)
             {
@@ -355,34 +427,45 @@ namespace Middleware
             }
         }
 
-        private void BtnOpen_Click(object sender, EventArgs e)
+        private void BtnOpenSysMex_Click(object sender, EventArgs e)
         {
-            BtnOpen.Enabled = false;
-            BtnClose.Enabled = true;
+            BtnOpenSysMex.Enabled = false;
+            BtnSysMexClose.Enabled = true;
             url = txtUrl.Text;
-            username = txtUsername.Text;
-            password = txtPassword.Text;
             try
             {
-                com.PortName = cmbPort.Text;
-                com.BaudRate = 9600;
-                com.DataBits = 8;
-                com.ReadBufferSize = 10000000;
-                com.StopBits = StopBits.One;
-                com.Parity = Parity.None;
-                com.DtrEnable = true;
-                com.RtsEnable = true;
-                com.Open();
+                comSm.PortName = cmbSysMexPort.Text;
+                comSm.BaudRate = 9600;
+                comSm.DataBits = 8;
+                comSm.ReadBufferSize = 10000000;
+                comSm.StopBits = StopBits.One;
+                comSm.Parity = Parity.None;
+                comSm.DtrEnable = true;
+                comSm.RtsEnable = true;
+                comSm.Open();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            com.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived);
-            com.Write(Enq());
+            comSm.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_Sm);
+            comSm.Write(Enq());
+        }
+
+        private void BtnSysMexClose_Click(object sender, EventArgs e)
+        {
+            BtnOpenSysMex.Enabled = true;
+            BtnOpenSysMex.Enabled = false;
+            try
+            {
+                comSm.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         #endregion
-
     }
 }

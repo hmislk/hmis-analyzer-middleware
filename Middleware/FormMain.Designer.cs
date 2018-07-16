@@ -227,7 +227,7 @@
             this.Controls.Add(this.txtOutput);
             this.Controls.Add(this.BtnClear);
             this.Name = "FormMain";
-            this.Text = "Sysmex Middleware";
+            this.Text = "SSS Middleware";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormDimensionSettings_FormClosing);
             this.Load += new System.EventHandler(this.FormDimensionSettings_Load);
             this.tab.ResumeLayout(false);

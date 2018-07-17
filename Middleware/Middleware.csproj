@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{24A8CD60-45D8-4DB9-9E86-0C13D3CFCDEB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SysMex</RootNamespace>
-    <AssemblyName>SysMex</AssemblyName>
+    <RootNamespace>Middleware</RootNamespace>
+    <AssemblyName>Middleware</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -160,6 +160,8 @@ namespace Middleware
 
             var query = HttpUtility.ParseQueryString(uriBuilder.Query);
             query["machine"] = machine.ToString();
+            query["username"] = txtUsername.Text;
+            query["password"] = txtPassword.Text;
             query["msg"] = sendingStr;
 
             uriBuilder.Query = query.ToString();
@@ -181,7 +183,7 @@ namespace Middleware
                 this.Invoke(new EventHandler(DisplayOutput));
                 if (machine == Analyzer.Dimension) {
                     comDim.Write(Nak());
-                } else if (machine == Analyzer.SysMaxXsSeries)
+                } else if (machine == Analyzer.SysMex)
                 {
                     comSm.Write(Nak());
                 }
@@ -198,7 +200,7 @@ namespace Middleware
                 if(machine == Analyzer.Dimension)
                 {
                     comDim.Write(Nak());
-                }else if (machine == Analyzer.SysMaxXsSeries)
+                }else if (machine == Analyzer.SysMex)
                 {
                     comSm.Write(Nak());
                 }
@@ -216,7 +218,7 @@ namespace Middleware
                 {
                     comDim.Write(Ack());
                 }
-                else if (machine == Analyzer.SysMaxXsSeries)
+                else if (machine == Analyzer.SysMex)
                 {
                     comSm.Write(Ack());
                 }
@@ -232,7 +234,7 @@ namespace Middleware
                 {
                     comDim.Write(Nak());
                 }
-                else if (machine == Analyzer.SysMaxXsSeries)
+                else if (machine == Analyzer.SysMex)
                 {
                     comSm.Write(Nak());
                 }
@@ -305,7 +307,7 @@ namespace Middleware
                     status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from SysMex. <ACK> sent." + Environment.NewLine;
                     status += BytesToString(msgSm) + Environment.NewLine;
                     this.Invoke(new EventHandler(DisplayText));
-                    SendDataToLimsAsync(msgSm, Analyzer.SysMaxXsSeries).Wait();
+                    SendDataToLimsAsync(msgSm, Analyzer.SysMex).Wait();
                     msgSm = new List<byte>();
 
                 }

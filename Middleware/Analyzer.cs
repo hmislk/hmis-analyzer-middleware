@@ -8,7 +8,7 @@ namespace Middleware
 {
     enum Analyzer
     {
-        SysMaxXsSeries,
+        SysMex,
         Dimension,
         MiniVidaz,
     }

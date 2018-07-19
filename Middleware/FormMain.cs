@@ -181,9 +181,11 @@ namespace Middleware
                 output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + Environment.NewLine + " " + machine + " Error. Please send results again." + Environment.NewLine;
                 color = Color.Red;
                 this.Invoke(new EventHandler(DisplayOutput));
-                if (machine == Analyzer.Dimension) {
+                if (machine == Analyzer.Dimension)
+                {
                     comDim.Write(Nak());
-                } else if (machine == Analyzer.SysMex)
+                }
+                else if (machine == Analyzer.SysMex)
                 {
                     comSm.Write(Nak());
                 }
@@ -197,26 +199,37 @@ namespace Middleware
                 output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + Environment.NewLine + " " + machine + " Error. Please send results again." + Environment.NewLine;
                 color = Color.Red;
                 this.Invoke(new EventHandler(DisplayOutput));
-                if(machine == Analyzer.Dimension)
+                if (machine == Analyzer.Dimension)
                 {
                     comDim.Write(Nak());
-                }else if (machine == Analyzer.SysMex)
+                }
+                else if (machine == Analyzer.SysMex)
                 {
                     comSm.Write(Nak());
                 }
-                
+
             }
             else if (responseString.Contains("success=true"))
             {
+                Console.WriteLine("Success = true");
                 status += responseString + Environment.NewLine;
                 this.Invoke(new EventHandler(DisplayText));
 
                 output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh: mm:ss tt") + Environment.NewLine + " " + machine + " Results added. " + Environment.NewLine;
                 color = Color.Green;
                 this.Invoke(new EventHandler(DisplayOutput));
+                Console.WriteLine("machine = " + machine);
                 if (machine == Analyzer.Dimension)
                 {
-                    comDim.Write(Ack());
+                    List<byte> lstBytes = GetBytesFromMessage(responseString);
+                    Console.WriteLine("lstBytes = " + lstBytes);
+                    if (lstBytes != null)
+                    {
+                        byte[] temBytesToWrite = lstBytes.ToArray();
+                        comDim.Write(temBytesToWrite, 0, temBytesToWrite.Length);
+                        status += "Bytes written to Port = " + temBytesToWrite + Environment.NewLine;
+                    }
+                    
                 }
                 else if (machine == Analyzer.SysMex)
                 {
@@ -239,6 +252,47 @@ namespace Middleware
                     comSm.Write(Nak());
                 }
             }
+        }
+
+
+        public List<byte> GetBytesFromMessage(String msg)
+        {
+            String[] temSs = msg.Split(Convert.ToChar(124));
+            String temMsg = "";
+            foreach (String temS in temSs)
+            {
+                Console.WriteLine("temS=" + temS);
+                if (temS.Contains("toAnalyzer="))
+                {
+                    if (temS.Length > 11)
+                    {
+                        temMsg = temS.Substring(11, temS.Length - 11);
+                        Console.WriteLine(temMsg);
+                    }
+
+                }
+            }
+            if (temMsg == "")
+            {
+                return null;
+            }
+            List<byte> bytesList = new List<byte>();
+            String[] temBytesAsString = temMsg.Split(Convert.ToChar(43));
+            foreach (String temS in temBytesAsString)
+            {
+                byte temByte;
+                Console.WriteLine("temS=" + temS);
+                try
+                {
+                    temByte = Byte.Parse(temS);
+                }
+                catch (Exception e)
+                {
+                    temByte = 0;
+                }
+                bytesList.Add(temByte);
+            }
+            return bytesList;
         }
 
         private void Com_DataReceived_Dim(object sender, SerialDataReceivedEventArgs e)

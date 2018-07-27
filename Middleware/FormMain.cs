@@ -155,105 +155,140 @@ namespace Middleware
                 sendingStr += b + " ";
             }
 
-            string longurl = url + "faces/requests/mwapi.xhtml";
-            var uriBuilder = new UriBuilder(longurl);
+            String initialPoll        = "2 80 28 68 73 77 49 28 49 28 49 28 48 28 55 57 3 ";
+            String conversationalPoll = "2 80 28 68 73 77 49 28 48 28 49 28 48 28 55 56 3 ";
+            String noRequestPoll = "2+78+28+54+65+3+";
 
-            var query = HttpUtility.ParseQueryString(uriBuilder.Query);
-            query["machine"] = machine.ToString();
-            query["username"] = txtUsername.Text;
-            query["password"] = txtPassword.Text;
-            query["msg"] = sendingStr;
+            //MessageBox.Show("|" + sendingStr + "|");
 
-            uriBuilder.Query = query.ToString();
-            longurl = uriBuilder.ToString();
-
-            status += DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + " Sending Data to LIMS" + Environment.NewLine + longurl + Environment.NewLine;
-
-            var response = await client.GetAsync(longurl);
-            var responseString = await response.Content.ReadAsStringAsync();
-            responseString = ExtractMessageFromHtml(responseString);
-
-            if (responseString == "Error in LIMS Response. Please check.")
+            if (sendingStr.Equals(initialPoll) || sendingStr.Equals(conversationalPoll))
             {
-                status += responseString + Environment.NewLine;
-                this.Invoke(new EventHandler(DisplayText));
-
-                output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + Environment.NewLine + " " + machine + " Error. Please send results again." + Environment.NewLine;
-                color = Color.Red;
+                
+                List<byte> lstBytes = GetBytesFromMessage(noRequestPoll,true);
+                Console.Write("lstBytes = " + lstBytes);
+                if (lstBytes != null && lstBytes.Count > 0)
+                {
+                    byte[] temBytesToWrite = lstBytes.ToArray();
+                    comDim.Write(temBytesToWrite, 0, temBytesToWrite.Length);
+                }
+                String temStatus = "";
+                if (sendingStr == initialPoll)
+                {
+                    temStatus += DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + " Received Initial Poll Message. No Request Message Sent." + Environment.NewLine;
+                }
+                else if (sendingStr == conversationalPoll)
+                {
+                    temStatus += DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + " Received Conversational Poll Message. No Request Message Sent." + Environment.NewLine;
+                }
+                //MessageBox.Show(temStatus);
+                status += temStatus;
                 this.Invoke(new EventHandler(DisplayOutput));
-                if (machine == Analyzer.Dimension)
-                {
-                    comDim.Write(Nak());
-                }
-                else if (machine == Analyzer.SysMex)
-                {
-                    comSm.Write(Nak());
-                }
-
-            }
-            else if (responseString.Contains("success=false"))
-            {
-                status += responseString + Environment.NewLine;
-                this.Invoke(new EventHandler(DisplayText));
-
-                output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + Environment.NewLine + " " + machine + " Error. Please send results again." + Environment.NewLine;
-                color = Color.Red;
-                this.Invoke(new EventHandler(DisplayOutput));
-                if (machine == Analyzer.Dimension)
-                {
-                    comDim.Write(Nak());
-                }
-                else if (machine == Analyzer.SysMex)
-                {
-                    comSm.Write(Nak());
-                }
-
-            }
-            else if (responseString.Contains("success=true"))
-            {
-                Console.WriteLine("Success = true");
-                status += responseString + Environment.NewLine;
-                this.Invoke(new EventHandler(DisplayText));
-
-                output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh: mm:ss tt") + Environment.NewLine + " " + machine + " Results added. " + Environment.NewLine;
-                color = Color.Green;
-                this.Invoke(new EventHandler(DisplayOutput));
-                Console.WriteLine("machine = " + machine);
-                if (machine == Analyzer.Dimension)
-                {
-                    List<byte> lstBytes = GetBytesFromMessage(responseString);
-                    Console.WriteLine("lstBytes = " + lstBytes);
-                    if (lstBytes != null)
-                    {
-                        byte[] temBytesToWrite = lstBytes.ToArray();
-                        comDim.Write(temBytesToWrite, 0, temBytesToWrite.Length);
-                        status += "Bytes written to Port = " + temBytesToWrite + Environment.NewLine;
-                    }
-                    
-                }
-                else if (machine == Analyzer.SysMex)
-                {
-                    comSm.Write(Ack());
-                }
             }
             else
             {
-                status += responseString + Environment.NewLine;
-                this.Invoke(new EventHandler(DisplayText));
-                output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh: mm:ss tt") + Environment.NewLine + " Can't send data from " + machine + " to LIMS. Please check LIMS." + Environment.NewLine;
-                color = Color.Red;
-                this.Invoke(new EventHandler(DisplayOutput));
-                if (machine == Analyzer.Dimension)
-                {
-                    comDim.Write(Nak());
-                }
-                else if (machine == Analyzer.SysMex)
-                {
-                    comSm.Write(Nak());
-                }
-            }
-        }
+                #region sendingDataToLims
 
+                string longurl = url + "faces/requests/mwapi.xhtml";
+                var uriBuilder = new UriBuilder(longurl);
+
+                var query = HttpUtility.ParseQueryString(uriBuilder.Query);
+                query["machine"] = machine.ToString();
+                query["username"] = txtUsername.Text;
+                query["password"] = txtPassword.Text;
+                query["msg"] = sendingStr;
+
+                uriBuilder.Query = query.ToString();
+                longurl = uriBuilder.ToString();
+
+                status += DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + " Sending Data to LIMS" + Environment.NewLine + longurl + Environment.NewLine;
+
+                var response = await client.GetAsync(longurl);
+                var responseString = await response.Content.ReadAsStringAsync();
+                responseString = ExtractMessageFromHtml(responseString);
+
+                if (responseString == "Error in LIMS Response. Please check.")
+                {
+                    status += responseString + Environment.NewLine;
+                    this.Invoke(new EventHandler(DisplayText));
+
+                    output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + Environment.NewLine + " " + machine + " Error. Please send results again." + Environment.NewLine;
+                    color = Color.Red;
+                    this.Invoke(new EventHandler(DisplayOutput));
+                    if (machine == Analyzer.Dimension)
+                    {
+                        comDim.Write(Nak());
+                    }
+                    else if (machine == Analyzer.SysMex)
+                    {
+                        comSm.Write(Nak());
+                    }
+
+                }
+                else if (responseString.Contains("success=false"))
+                {
+                    status += responseString + Environment.NewLine;
+                    this.Invoke(new EventHandler(DisplayText));
+
+                    output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + Environment.NewLine + " " + machine + " Error. Please send results again." + Environment.NewLine;
+                    color = Color.Red;
+                    this.Invoke(new EventHandler(DisplayOutput));
+                    if (machine == Analyzer.Dimension)
+                    {
+                        comDim.Write(Nak());
+                    }
+                    else if (machine == Analyzer.SysMex)
+                    {
+                        comSm.Write(Nak());
+                    }
+
+                }
+                else if (responseString.Contains("success=true"))
+                {
+                    Console.WriteLine("Success = true");
+                    status += responseString + Environment.NewLine;
+                    this.Invoke(new EventHandler(DisplayText));
+
+                    output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh: mm:ss tt") + Environment.NewLine + " " + machine + " Results added. " + Environment.NewLine;
+                    color = Color.Green;
+                    this.Invoke(new EventHandler(DisplayOutput));
+                    Console.WriteLine("machine = " + machine);
+                    if (machine == Analyzer.Dimension)
+                    {
+                        List<byte> lstBytes = GetBytesFromMessage(responseString);
+                        Console.Write("lstBytes = " + lstBytes);
+                        if (lstBytes != null && lstBytes.Count > 0)
+                        {
+                            byte[] temBytesToWrite = lstBytes.ToArray();
+                            comDim.Write(temBytesToWrite, 0, temBytesToWrite.Length);
+                        }
+                    }
+                    else if (machine == Analyzer.SysMex)
+                    {
+                        comSm.Write(Ack());
+                    }
+                }
+                else
+                {
+                    status += responseString + Environment.NewLine;
+                    this.Invoke(new EventHandler(DisplayText));
+                    output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh: mm:ss tt") + Environment.NewLine + " Can't send data from " + machine + " to LIMS. Please check LIMS." + Environment.NewLine;
+                    color = Color.Red;
+                    this.Invoke(new EventHandler(DisplayOutput));
+                    if (machine == Analyzer.Dimension)
+                    {
+                        comDim.Write(Nak());
+                    }
+                    else if (machine == Analyzer.SysMex)
+                    {
+                        comSm.Write(Nak());
+                    }
+                }
+
+                #endregion
+
+            }
+
+        }
 
         public List<byte> GetBytesFromMessage(String msg)
         {
@@ -295,6 +330,28 @@ namespace Middleware
             return bytesList;
         }
 
+        public List<byte> GetBytesFromMessage(String msg, Boolean bytesOnly)
+        {
+            List<byte> bytesList = new List<byte>();
+            String[] temBytesAsString = msg.Split(Convert.ToChar(43));
+            foreach (String temS in temBytesAsString)
+            {
+                byte temByte;
+                Console.WriteLine("temS=" + temS);
+                try
+                {
+                    temByte = Byte.Parse(temS);
+                    bytesList.Add(temByte);
+                }
+                catch (Exception e)
+                {
+                    temByte = 0;
+                }
+
+            }
+            return bytesList;
+        }
+
         private void Com_DataReceived_Dim(object sender, SerialDataReceivedEventArgs e)
         {
             int bytes = comDim.BytesToRead;
@@ -315,6 +372,12 @@ namespace Middleware
                 else if (b == ByteAck())
                 {
                     status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from Dimension. " + Environment.NewLine;
+                    msgDim = new List<byte>();
+                    this.Invoke(new EventHandler(DisplayText));
+                }
+                else if (b == ByteNak())
+                {
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <NAK> from Dimension. " + Environment.NewLine;
                     msgDim = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
@@ -436,11 +499,11 @@ namespace Middleware
             String[] ports = SerialPort.GetPortNames();
             cmbDimPort.Items.AddRange(ports);
             cmbDimPort.SelectedIndex = 0;
-            btnDimClose.Enabled = false;
+
 
             cmbSysMexPort.Items.AddRange(ports);
             cmbSysMexPort.SelectedIndex = 0;
-            BtnSysMexClose.Enabled = false;
+            BtnClose.Enabled = false;
 
 
             Registry.CurrentUser.CreateSubKey("SOFTWARE\\SSS\\Middleware\\Middleware", true);
@@ -492,50 +555,13 @@ namespace Middleware
             status = "";
         }
 
-        private void BtnDimOpen_Click(object sender, EventArgs e)
+        private void BtnOpen_Click(object sender, EventArgs e)
         {
-            btnDimOpen.Enabled = false;
-            btnDimClose.Enabled = true;
-            url = txtUrl.Text;
-            try
-            {
-                comDim.PortName = cmbDimPort.Text;
-                comDim.BaudRate = 9600;
-                comDim.DataBits = 8;
-                comDim.ReadBufferSize = 10000000;
-                comDim.StopBits = StopBits.One;
-                comDim.Parity = Parity.None;
-                comDim.DtrEnable = true;
-                comDim.RtsEnable = true;
-                comDim.Open();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            comDim.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_Dim);
-            comDim.Write(Enq());
-        }
+            BtnOpen.Enabled = true;
+            BtnClose.Enabled = false;
 
-        private void BtnDimClose_Click(object sender, EventArgs e)
-        {
-            btnDimOpen.Enabled = true;
-            btnDimClose.Enabled = false;
-            try
-            {
-                comDim.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void BtnOpenSysMex_Click(object sender, EventArgs e)
-        {
-            BtnOpenSysMex.Enabled = false;
-            BtnSysMexClose.Enabled = true;
             url = txtUrl.Text;
+
             try
             {
                 comSm.PortName = cmbSysMexPort.Text;
@@ -551,15 +577,41 @@ namespace Middleware
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
             comSm.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_Sm);
             comSm.Write(Enq());
+
+            try
+            {
+                comDim.PortName = cmbDimPort.Text;
+                comDim.BaudRate = 9600;
+                comDim.DataBits = 8;
+                comDim.ReadBufferSize = 10000000;
+                comDim.StopBits = StopBits.One;
+                comDim.Parity = Parity.None;
+                comDim.DtrEnable = true;
+                comDim.RtsEnable = true;
+                comDim.Open();
+            }
+            catch (Exception ex)
+            {
+                comSm.Close();
+                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            comDim.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_Dim);
+            comDim.Write(Enq());
+
+            BtnOpen.Enabled = false;
+            BtnClose.Enabled = true;
+
         }
 
-        private void BtnSysMexClose_Click(object sender, EventArgs e)
+        private void BtnClose_Click(object sender, EventArgs e)
         {
-            BtnOpenSysMex.Enabled = true;
-            BtnSysMexClose.Enabled = false;
+            BtnOpen.Enabled = true;
+            BtnClose.Enabled = false;
             try
             {
                 comSm.Close();
@@ -568,6 +620,15 @@ namespace Middleware
             {
                 MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            try
+            {
+                comDim.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
 
         #endregion

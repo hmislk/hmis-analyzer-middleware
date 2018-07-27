@@ -1,0 +1,55 @@
+27/Jul/18 6:33 Received <ENQ> from Dimension. <ACK> sent.
+27/Jul/18 6:33 Received a message from Dimension. <ACK> sent.
+P93001106C
+27 Jul 2018 06:33:34 AM Sending Data to LIMS
+http://35.240.232.83:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=buddhika&password=b&msg=2+80+28+57+51+48+48+28+49+28+49+28+48+28+54+67+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+
+
+27/Jul/18 7:11 Received <ENQ> from Dimension. <ACK> sent.
+27/Jul/18 7:11 Received a message from Dimension. <ACK> sent.
+P93001106C
+27 Jul 2018 07:11:21 AM Sending Data to LIMS
+http://35.240.232.83:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=buddhika&password=b&msg=2+80+28+57+51+48+48+28+49+28+49+28+48+28+54+67+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+27/Jul/18 7:11 Received <ACK> from Dimension. 
+27/Jul/18 7:11 Received a message from Dimension. <ACK> sent.
+P923000106B
+27 Jul 2018 07:11:30 AM Sending Data to LIMS
+http://35.240.232.83:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=buddhika&password=b&msg=2+80+28+57+50+51+48+48+28+48+28+49+28+48+28+54+66+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+27/Jul/18 7:11 Received <ACK> from Dimension. 
+
+
+27/Jul/18 7:17 Received a message from Dimension. <ACK> sent.
+P93001106C
+27 Jul 2018 07:17:21 AM Sending Data to LIMS
+http://35.240.232.83:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=buddhika&password=b&msg=2+80+28+57+51+48+48+28+49+28+49+28+48+28+54+67+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+27/Jul/18 7:17 Received <ACK> from Dimension. 
+27/Jul/18 7:17 Received a message from Dimension. <ACK> sent.
+P923000106B
+27 Jul 2018 07:17:36 AM Sending Data to LIMS
+http://35.240.232.83:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=buddhika&password=b&msg=2+80+28+57+50+51+48+48+28+48+28+49+28+48+28+54+66+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+27/Jul/18 7:17 Received <ACK> from Dimension. 
+
+27/Jul/18 7:29 Received a message from Dimension. <ACK> sent.
+PDIM101078
+27 Jul 2018 07:29:22 AM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=buddhika&password=b&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+5+
+success=true|toAnalyzer=2+78+28+54+65+3+
+27/Jul/18 7:29 Received <ENQ> from Dimension. <ACK> sent.
+27/Jul/18 7:29 Received <ACK> from Dimension. 
+27/Jul/18 7:29 Received a message from Dimension. <ACK> sent.
+PDIM111079
+27 Jul 2018 07:29:37 AM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=buddhika&password=b&msg=2+80+28+68+73+77+49+28+49+28+49+28+48+28+55+57+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+27/Jul/18 7:29 Received <ACK> from Dimension. 
+27/Jul/18 7:29 Received a message from Dimension. <ACK> sent.
+PDIM101078
+27 Jul 2018 07:29:52 AM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=buddhika&password=b&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+27/Jul/18 7:29 Received <ACK> from Dimension. 

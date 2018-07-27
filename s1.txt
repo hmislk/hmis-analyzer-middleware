@@ -1,0 +1,166 @@
+25/Jul/18 16:51 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:51:53 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:51 Received <ACK> from Dimension. 
+25/Jul/18 16:52 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:52:09 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:52 Received <ACK> from Dimension. 
+25/Jul/18 16:52 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:52:24 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:52 Received <ACK> from Dimension. 
+25/Jul/18 16:52 Received a message from Dimension. <ACK> sent.
+PDIM111079
+25 Jul 2018 04:52:39 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+49+28+49+28+48+28+55+57+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:52 Received <ACK> from Dimension. 
+25/Jul/18 16:52 Received a message from Dimension. <ACK> sent.
+I0010728114
+25 Jul 2018 04:52:39 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+73+28+48+48+49+48+55+50+56+49+28+49+52+3+
+success=true|toAnalyzer=2+68+28+48+28+48+28+65+28+83+65+68+73+83+72+75+65+32+32+32+32+32+32+32+32+32+32+32+32+32+32+32+32+32+28+48+48+49+48+55+50+56+49+28+87+28+28+48+28+49+28+42+42+28+49+28+49+28+67+97+28+55+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:52 Received <ACK> from Dimension. 
+25/Jul/18 16:52 Received a message from Dimension. <ACK> sent.
+MR50100D
+25 Jul 2018 04:52:39 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+77+28+82+28+53+28+48+28+49+28+48+28+48+68+3+
+success=true|toAnalyzer=
+25/Jul/18 16:52 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:52:54 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:52 Received <ACK> from Dimension. 
+25/Jul/18 16:53 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:53:10 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:53 Received <ACK> from Dimension. 
+25/Jul/18 16:53 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:53:25 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:53 Received <ACK> from Dimension. 
+25/Jul/18 16:53 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:53:40 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:53 Received <ACK> from Dimension. 
+25/Jul/18 16:53 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:53:55 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:53 Received <ACK> from Dimension. 
+25/Jul/18 16:54 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:54:10 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:54 Received <ACK> from Dimension. 
+25/Jul/18 16:54 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:54:26 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:54 Received <ACK> from Dimension. 
+25/Jul/18 16:54 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:54:41 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:54 Received <ACK> from Dimension. 
+25/Jul/18 16:54 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:54:56 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:54 Received <ACK> from Dimension. 
+25/Jul/18 16:55 Received a message from Dimension. <ACK> sent.
+PDIM111079
+25 Jul 2018 04:55:11 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+49+28+49+28+48+28+55+57+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:55 Received <ACK> from Dimension. 
+25/Jul/18 16:55 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:55:26 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:55 Received <ACK> from Dimension. 
+25/Jul/18 16:55 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:55:42 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:55 Received <ACK> from Dimension. 
+25/Jul/18 16:55 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:55:57 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:55 Received <ACK> from Dimension. 
+25/Jul/18 16:56 Received a message from Dimension. <ACK> sent.
+PDIM111079
+25 Jul 2018 04:56:12 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+49+28+49+28+48+28+55+57+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:56 Received <ACK> from Dimension. 
+25/Jul/18 16:56 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:56:27 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:56 Received <ACK> from Dimension. 
+25/Jul/18 16:56 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:56:43 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:56 Received <ACK> from Dimension. 
+25/Jul/18 16:56 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:56:58 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:56 Received <ACK> from Dimension. 
+25/Jul/18 16:57 Received a message from Dimension. <ACK> sent.
+PDIM101078
+25 Jul 2018 04:57:13 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+80+28+68+73+77+49+28+48+28+49+28+48+28+55+56+3+
+success=true|toAnalyzer=2+78+28+54+65+3+
+Bytes written to Port = System.Byte[]
+25/Jul/18 16:57 Received <ACK> from Dimension. 

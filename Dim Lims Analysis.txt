@@ -1,0 +1,1302 @@
+20/Jul/18 21:29 Received a message from Dimension. <ACK> sent.
+R*KANCHANA7300910064509150718111GLUC1046
+20 Jul 2018 09:29:13 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+65+78+67+72+65+78+65+28+55+51+48+48+57+28+49+28+28+48+28+48+54+52+53+48+57+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+52+54+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+R*KANCHANA7300910064509150718111GLUC1046R*MALANI7339310334509150718111GLUC10C9R*MALANI7339310334509150718111GLUC10C9R*MALANI7339310334509150718111GLUC10C9R*MALANI7339310334509150718111GLUC10C9
+20 Jul 2018 09:30:18 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+65+78+67+72+65+78+65+28+55+51+48+48+57+28+49+28+28+48+28+48+54+52+53+48+57+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+52+54+3+2+82+28+42+28+77+65+76+65+78+73+28+55+51+51+57+51+28+49+28+28+48+28+51+51+52+53+48+57+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+67+57+3+2+82+28+42+28+77+65+76+65+78+73+28+55+51+51+57+51+28+49+28+28+48+28+51+51+52+53+48+57+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+67+57+3+2+82+28+42+28+77+65+76+65+78+73+28+55+51+51+57+51+28+49+28+28+48+28+51+51+52+53+48+57+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+67+57+3+2+82+28+42+28+77+65+76+65+78+73+28+55+51+51+57+51+28+49+28+28+48+28+51+51+52+53+48+57+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+67+57+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+
+20 Jul 2018 09:30:18 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=
+success=false|msg=No Request From Analyzer
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+
+20 Jul 2018 09:30:18 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=
+success=false|msg=No Request From Analyzer
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+
+20 Jul 2018 09:30:18 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=
+success=false|msg=No Request From Analyzer
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+
+20 Jul 2018 09:30:18 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=
+success=false|msg=No Request From Analyzer
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+R*MALANI7339310334509150718111GLUC10C9
+20 Jul 2018 09:30:21 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+65+76+65+78+73+28+55+51+51+57+51+28+49+28+28+48+28+51+51+52+53+48+57+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+67+57+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:30 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+R*MALANI7339510024609150718115AHDL51mg/dLRISK2.5______TGL84mg/dLCHOL127mg/dLLDL59.2mg/dL10
+20 Jul 2018 09:30:25 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+65+76+65+78+73+28+55+51+51+57+53+28+49+28+28+48+28+48+50+52+54+48+57+49+53+48+55+49+56+28+49+28+49+28+53+28+65+72+68+76+28+53+49+28+109+103+47+100+76+28+28+82+73+83+75+28+50+46+53+28+95+95+95+95+95+95+28+28+84+71+76+28+56+52+28+109+103+47+100+76+28+28+67+72+79+76+28+49+50+55+28+109+103+47+100+76+28+28+76+68+76+28+53+57+46+50+28+109+103+47+100+76+28+28+49+48+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:30 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+R*SURANGA7341710294609150718113AHDL10TGL10CHOL10CA
+20 Jul 2018 09:30:29 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+85+82+65+78+71+65+28+55+51+52+49+55+28+49+28+28+48+28+50+57+52+54+48+57+49+53+48+55+49+56+28+49+28+49+28+51+28+65+72+68+76+28+28+28+49+48+28+84+71+76+28+28+28+49+48+28+67+72+79+76+28+28+28+49+48+28+67+65+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:30 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+R*CHANDRA-177345710104709150718115TSHL10AHDL10TGL10CHOL10RCRP1050
+20 Jul 2018 09:30:33 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+65+78+68+82+65+45+49+55+28+55+51+52+53+55+28+49+28+28+48+28+49+48+52+55+48+57+49+53+48+55+49+56+28+49+28+49+28+53+28+84+83+72+76+28+28+28+49+48+28+65+72+68+76+28+28+28+49+48+28+84+71+76+28+28+28+49+48+28+67+72+79+76+28+28+28+49+48+28+82+67+82+80+28+28+28+49+48+28+53+48+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:30 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+R*SHYAMA7351010584709150718111GLUC10DA
+20 Jul 2018 09:30:37 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+72+89+65+77+65+28+55+51+53+49+48+28+49+28+28+48+28+53+56+52+55+48+57+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+68+65+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:30 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+R*-19-SHYAMA7351410364809150718116TSHL2.531uIU/mL2AHDL47mg/dLRISK3.6______TGL89mg/dLCHOL170mg/dLLDL105.2mg/dLEB
+20 Jul 2018 09:30:41 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+45+49+57+45+83+72+89+65+77+65+28+55+51+53+49+52+28+49+28+28+48+28+51+54+52+56+48+57+49+53+48+55+49+56+28+49+28+49+28+54+28+84+83+72+76+28+50+46+53+51+49+28+117+73+85+47+109+76+28+50+28+65+72+68+76+28+52+55+28+109+103+47+100+76+28+28+82+73+83+75+28+51+46+54+28+95+95+95+95+95+95+28+28+84+71+76+28+56+57+28+109+103+47+100+76+28+28+67+72+79+76+28+49+55+48+28+109+103+47+100+76+28+28+76+68+76+28+49+48+53+46+50+28+109+103+47+100+76+28+28+69+66+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:30 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+R*CHULANI-217357810084909150718111GLUC10B6
+20 Jul 2018 09:30:45 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+85+76+65+78+73+45+50+49+28+55+51+53+55+56+28+49+28+28+48+28+48+56+52+57+48+57+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+66+54+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:30 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+R*CHULANI-217358010564909150718111CHOL19B6
+20 Jul 2018 09:30:50 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+85+76+65+78+73+45+50+49+28+55+51+53+56+48+28+49+28+28+48+28+53+54+52+57+48+57+49+53+48+55+49+56+28+49+28+49+28+49+28+67+72+79+76+28+28+28+49+57+28+66+54+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:30 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+R*KANCHANA210131610150718111GLUC1069
+20 Jul 2018 09:30:54 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+65+78+67+72+65+78+65+28+50+28+49+28+28+48+28+49+51+49+54+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+54+57+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:30 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:30 Received a message from Dimension. <ACK> sent.
+R*MALANI1410291610150718111GLUC1020
+20 Jul 2018 09:30:58 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+65+76+65+78+73+28+49+52+28+49+28+28+48+28+50+57+49+54+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+50+48+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:30 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*SURANGA1610491610150718113AHDL10TGL10CHOL1022
+20 Jul 2018 09:31:02 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+85+82+65+78+71+65+28+49+54+28+49+28+28+48+28+52+57+49+54+49+48+49+53+48+55+49+56+28+49+28+49+28+51+28+65+72+68+76+28+28+28+49+48+28+84+71+76+28+28+28+49+48+28+67+72+79+76+28+28+28+49+48+28+50+50+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*CHANDRA1710141710150718117TSHL11AHDL40mg/dLRISK3.2______TGL61mg/dLCHOL126mg/dLLDL73.8mg/dLRCRP5.4mg/L39
+20 Jul 2018 09:31:06 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+65+78+68+82+65+28+49+55+28+49+28+28+48+28+49+52+49+55+49+48+49+53+48+55+49+56+28+49+28+49+28+55+28+84+83+72+76+28+28+28+49+49+28+65+72+68+76+28+52+48+28+109+103+47+100+76+28+28+82+73+83+75+28+51+46+50+28+95+95+95+95+95+95+28+28+84+71+76+28+54+49+28+109+103+47+100+76+28+28+67+72+79+76+28+49+50+54+28+109+103+47+100+76+28+28+76+68+76+28+55+51+46+56+28+109+103+47+100+76+28+28+82+67+82+80+28+53+46+52+28+109+103+47+76+28+28+51+57+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*SHYAMA1910341710150718111GLUC1033
+20 Jul 2018 09:31:10 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+72+89+65+77+65+28+49+57+28+49+28+28+48+28+51+52+49+55+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+51+51+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*CHULANI2110561710150718111GLUC1071
+20 Jul 2018 09:31:14 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+85+76+65+78+73+28+50+49+28+49+28+28+48+28+53+54+49+55+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+55+49+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*CHULANICHULANI10071910150718111CHOL238mg/dLFA
+20 Jul 2018 09:31:18 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+85+76+65+78+73+28+67+72+85+76+65+78+73+28+49+28+28+48+28+48+55+49+57+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+67+72+79+76+28+50+51+56+28+109+103+47+100+76+28+28+70+65+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*ANULA2310133110150718111GLUC10D5
+20 Jul 2018 09:31:22 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+78+85+76+65+28+50+51+28+49+28+28+48+28+49+51+51+49+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+68+53+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*ANULA2310573110150718115AHDL10TGL10CHOL10ALTI10CRE21056
+20 Jul 2018 09:31:26 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+78+85+76+65+28+50+51+28+49+28+28+48+28+53+55+51+49+49+48+49+53+48+55+49+56+28+49+28+49+28+53+28+65+72+68+76+28+28+28+49+48+28+84+71+76+28+28+28+49+48+28+67+72+79+76+28+28+28+49+48+28+65+76+84+73+28+28+28+49+48+28+67+82+69+50+28+28+28+49+48+28+53+54+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*ANULA2310343210150718111GLUC98mg/dL9C
+20 Jul 2018 09:31:30 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+78+85+76+65+28+50+51+28+49+28+28+48+28+51+52+51+50+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+57+56+28+109+103+47+100+76+28+28+57+67+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*ANULA2310513210150718117AHDL43mg/dLRISK5.9______TGL145mg/dLCHOL252mg/dLLDL180.0mg/dLALTI52U/LCRE20.85mg/dL4B
+20 Jul 2018 09:31:35 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+78+85+76+65+28+50+51+28+49+28+28+48+28+53+49+51+50+49+48+49+53+48+55+49+56+28+49+28+49+28+55+28+65+72+68+76+28+52+51+28+109+103+47+100+76+28+28+82+73+83+75+28+53+46+57+28+95+95+95+95+95+95+28+28+84+71+76+28+49+52+53+28+109+103+47+100+76+28+28+67+72+79+76+28+50+53+50+28+109+103+47+100+76+28+28+76+68+76+28+49+56+48+46+48+28+109+103+47+100+76+28+28+65+76+84+73+28+53+50+28+85+47+76+28+28+67+82+69+50+28+48+46+56+53+28+109+103+47+100+76+28+28+52+66+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*JANAKI2310103310150718111FERR3ng/mL1409
+20 Jul 2018 09:31:39 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+74+65+78+65+75+73+28+50+51+28+49+28+28+48+28+49+48+51+51+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+70+69+82+82+28+51+28+110+103+47+109+76+28+49+52+28+48+57+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*KODITUWAKKU2410233310150718115AHDL39mg/dLRISK4.9______TGL108mg/dLCHOL190mg/dLLDL129.4mg/dL6C
+20 Jul 2018 09:31:43 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+79+68+73+84+85+87+65+75+75+85+28+50+52+28+49+28+28+48+28+50+51+51+51+49+48+49+53+48+55+49+56+28+49+28+49+28+53+28+65+72+68+76+28+51+57+28+109+103+47+100+76+28+28+82+73+83+75+28+52+46+57+28+95+95+95+95+95+95+28+28+84+71+76+28+49+48+56+28+109+103+47+100+76+28+28+67+72+79+76+28+49+57+48+28+109+103+47+100+76+28+28+76+68+76+28+49+50+57+46+52+28+109+103+47+100+76+28+28+54+67+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*KRISANTHI2510373310150718113AHDL9TGL137mg/dLCHOL207mg/dL6A
+20 Jul 2018 09:31:47 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+82+73+83+65+78+84+72+73+28+50+53+28+49+28+28+48+28+51+55+51+51+49+48+49+53+48+55+49+56+28+49+28+49+28+51+28+65+72+68+76+28+28+28+57+28+84+71+76+28+49+51+55+28+109+103+47+100+76+28+28+67+72+79+76+28+50+48+55+28+109+103+47+100+76+28+28+54+65+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*KANCHANA-PP210523310150718111GLUC165mg/dL26
+20 Jul 2018 09:31:51 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+65+78+67+72+65+78+65+45+80+80+28+50+28+49+28+28+48+28+53+50+51+51+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+54+53+28+109+103+47+100+76+28+28+50+54+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*-FBS-KANCHANA210463610150718111GLUC10A6
+20 Jul 2018 09:31:55 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+45+70+66+83+45+75+65+78+67+72+65+78+65+28+50+28+49+28+28+48+28+52+54+51+54+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+65+54+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:31 Received a message from Dimension. <ACK> sent.
+R*MALANI1410013710150718111GLUC1019
+20 Jul 2018 09:31:59 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+65+76+65+78+73+28+49+52+28+49+28+28+48+28+48+49+51+55+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+49+57+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:31 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*SURANGA1610223710150718113AHDL10TGL10CHOL101C
+20 Jul 2018 09:32:03 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+85+82+65+78+71+65+28+49+54+28+49+28+28+48+28+50+50+51+55+49+48+49+53+48+55+49+56+28+49+28+49+28+51+28+65+72+68+76+28+28+28+49+48+28+84+71+76+28+28+28+49+48+28+67+72+79+76+28+28+28+49+48+28+49+67+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*CHANDRA1710423710150718115TSHL4.119uIU/mL2AHDL9TGL75mg/dLCHOL127mg/dLRCRP5.5mg/LE6
+20 Jul 2018 09:32:07 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+65+78+68+82+65+28+49+55+28+49+28+28+48+28+52+50+51+55+49+48+49+53+48+55+49+56+28+49+28+49+28+53+28+84+83+72+76+28+52+46+49+49+57+28+117+73+85+47+109+76+28+50+28+65+72+68+76+28+28+28+57+28+84+71+76+28+55+53+28+109+103+47+100+76+28+28+67+72+79+76+28+49+50+55+28+109+103+47+100+76+28+28+82+67+82+80+28+53+46+53+28+109+103+47+76+28+28+69+54+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*SHYAMA1910593710150718111GLUC103C
+20 Jul 2018 09:32:11 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+72+89+65+77+65+28+49+57+28+49+28+28+48+28+53+57+51+55+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+51+67+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*CHULANI2110283810150718111GLUC1073
+20 Jul 2018 09:32:15 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+85+76+65+78+73+28+50+49+28+49+28+28+48+28+50+56+51+56+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+55+51+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*CHULANI2110403810150718111CHOL241mg/dL51
+20 Jul 2018 09:32:19 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+85+76+65+78+73+28+50+49+28+49+28+28+48+28+52+48+51+56+49+48+49+53+48+55+49+56+28+49+28+49+28+49+28+67+72+79+76+28+50+52+49+28+109+103+47+100+76+28+28+53+49+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*JANAKI2310060511150718111FERR2ng/mL140D
+20 Jul 2018 09:32:24 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+74+65+78+65+75+73+28+50+51+28+49+28+28+48+28+48+54+48+53+49+49+49+53+48+55+49+56+28+49+28+49+28+49+28+70+69+82+82+28+50+28+110+103+47+109+76+28+49+52+28+48+68+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*-FBS-KANCHANA210300911150718111GLUC10A0
+20 Jul 2018 09:32:28 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+45+70+66+83+45+75+65+78+67+72+65+78+65+28+50+28+49+28+28+48+28+51+48+48+57+49+49+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+65+48+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*KANCHANA2-FBS10491211150718111GLUC94mg/dL36
+20 Jul 2018 09:32:32 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+65+78+67+72+65+78+65+28+50+45+70+66+83+28+49+28+28+48+28+52+57+49+50+49+49+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+57+52+28+109+103+47+100+76+28+28+51+54+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*SURANGA1610171311150718113AHDL9TGL94mg/dLCHOL205mg/dL9B
+20 Jul 2018 09:32:36 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+85+82+65+78+71+65+28+49+54+28+49+28+28+48+28+49+55+49+51+49+49+49+53+48+55+49+56+28+49+28+49+28+51+28+65+72+68+76+28+28+28+57+28+84+71+76+28+57+52+28+109+103+47+100+76+28+28+67+72+79+76+28+50+48+53+28+109+103+47+100+76+28+28+57+66+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*MALANI1410391311150718111GLUC100mg/dL02
+20 Jul 2018 09:32:40 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+65+76+65+78+73+28+49+52+28+49+28+28+48+28+51+57+49+51+49+49+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+48+48+28+109+103+47+100+76+28+28+48+50+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*SHYAMA1910021411150718111GLUC111mg/dL11
+20 Jul 2018 09:32:44 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+72+89+65+77+65+28+49+57+28+49+28+28+48+28+48+50+49+52+49+49+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+49+49+28+109+103+47+100+76+28+28+49+49+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*CHULANI2110251411150718111GLUC127mg/dL57
+20 Jul 2018 09:32:48 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+85+76+65+78+73+28+50+49+28+49+28+28+48+28+50+53+49+52+49+49+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+50+55+28+109+103+47+100+76+28+28+53+55+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*NANDIKA-4-PP7319310493911150718111GLUC168mg/dL2D
+20 Jul 2018 09:32:52 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+78+65+78+68+73+75+65+45+52+45+80+80+28+55+51+49+57+51+28+49+28+28+48+28+52+57+51+57+49+49+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+54+56+28+109+103+47+100+76+28+28+50+68+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:32 Received a message from Dimension. <ACK> sent.
+R*DAYANANDA2610024011150718111RCRP6.2mg/L77
+20 Jul 2018 09:32:56 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+68+65+89+65+78+65+78+68+65+28+50+54+28+49+28+28+48+28+48+50+52+48+49+49+49+53+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+54+46+50+28+109+103+47+76+28+28+55+55+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:32 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*DAHANAYAKA2710144011150718111RCRP9.0mg/LBE
+20 Jul 2018 09:33:00 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+68+65+72+65+78+65+89+65+75+65+28+50+55+28+49+28+28+48+28+49+52+52+48+49+49+49+53+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+57+46+48+28+109+103+47+76+28+28+66+69+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*CHATHURANGIOUT10284011150718111GLUC160mg/dL15
+20 Jul 2018 09:33:04 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+65+84+72+85+82+65+78+71+73+28+79+85+84+28+49+28+28+48+28+50+56+52+48+49+49+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+54+48+28+109+103+47+100+76+28+28+49+53+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*CHATHURANGIOUT10404011150718113AHDL9TGL122mg/dLCHOL185mg/dL74
+20 Jul 2018 09:33:08 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+65+84+72+85+82+65+78+71+73+28+79+85+84+28+49+28+28+48+28+52+48+52+48+49+49+49+53+48+55+49+56+28+49+28+49+28+51+28+65+72+68+76+28+28+28+57+28+84+71+76+28+49+50+50+28+109+103+47+100+76+28+28+67+72+79+76+28+49+56+53+28+109+103+47+100+76+28+28+55+52+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*MESANDU2810574011150718111RCRP50.5mg/L41
+20 Jul 2018 09:33:13 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+69+83+65+78+68+85+28+50+56+28+49+28+28+48+28+53+55+52+48+49+49+49+53+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+53+48+46+53+28+109+103+47+76+28+28+52+49+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*ANULA2310144111150718113NA8K5.0mmol/LCL104mmol/L57
+20 Jul 2018 09:33:17 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+78+85+76+65+28+50+51+28+49+28+28+48+28+49+52+52+49+49+49+49+53+48+55+49+56+28+49+28+49+28+51+28+78+65+28+28+28+56+28+75+28+53+46+48+28+109+109+111+108+47+76+28+28+67+76+28+49+48+52+28+109+109+111+108+47+76+28+28+53+55+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*SUSUL3010110012150718111CRE21.26mg/dLF4
+20 Jul 2018 09:33:21 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+85+83+85+76+28+51+48+28+49+28+28+48+28+49+49+48+48+49+50+49+53+48+55+49+56+28+49+28+49+28+49+28+67+82+69+50+28+49+46+50+54+28+109+103+47+100+76+28+28+70+52+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*MISIHAMI3110032812150718111RCRP0.8mg/L4B
+20 Jul 2018 09:33:25 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+73+83+73+72+65+77+73+28+51+49+28+49+28+28+48+28+48+51+50+56+49+50+49+53+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+48+46+56+28+109+103+47+76+28+28+52+66+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*QCQC53320613150718113NA150mmol/LK4.2mmol/LCL115mmol/L44
+20 Jul 2018 09:33:29 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+81+67+28+81+67+28+53+28+28+51+28+51+50+48+54+49+51+49+53+48+55+49+56+28+49+28+49+28+51+28+78+65+28+49+53+48+28+109+109+111+108+47+76+28+28+75+28+52+46+50+28+109+109+111+108+47+76+28+28+67+76+28+49+49+53+28+109+109+111+108+47+76+28+28+52+52+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*ANULA2310561014150718113NA141mmol/LK5.1mmol/LCL106mmol/LED
+20 Jul 2018 09:33:33 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+78+85+76+65+28+50+51+28+49+28+28+48+28+53+54+49+48+49+52+49+53+48+55+49+56+28+49+28+49+28+51+28+78+65+28+49+52+49+28+109+109+111+108+47+76+28+28+75+28+53+46+49+28+109+109+111+108+47+76+28+28+67+76+28+49+48+54+28+109+109+111+108+47+76+28+28+69+68+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*NIKOLI4210075214150718111RCRP7.6mg/LCA
+20 Jul 2018 09:33:37 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+78+73+75+79+76+73+28+52+50+28+49+28+28+48+28+48+55+53+50+49+52+49+53+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+55+46+54+28+109+103+47+76+28+28+67+65+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*SUMITH4710580516150718111GLUC521mg/dL15A4
+20 Jul 2018 09:33:41 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+85+77+73+84+72+28+52+55+28+49+28+28+48+28+53+56+48+53+49+54+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+53+50+49+28+109+103+47+100+76+28+49+53+28+65+52+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*SUMITH4710551916150718111GLUC518mg/dL15AC
+20 Jul 2018 09:33:45 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+85+77+73+84+72+28+52+55+28+49+28+28+48+28+53+53+49+57+49+54+49+53+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+53+49+56+28+109+103+47+100+76+28+49+53+28+65+67+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*SIRIWARDHANA5210495016150718111RCRP53.8mg/LBB
+20 Jul 2018 09:33:49 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+73+82+73+87+65+82+68+72+65+78+65+28+53+50+28+49+28+28+48+28+52+57+53+48+49+54+49+53+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+53+51+46+56+28+109+103+47+76+28+28+66+66+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*KASUNI5610562517150718111TSHL0.951uIU/mL21F
+20 Jul 2018 09:33:53 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+65+83+85+78+73+28+53+54+28+49+28+28+48+28+53+54+50+53+49+55+49+53+48+55+49+56+28+49+28+49+28+49+28+84+83+72+76+28+48+46+57+53+49+28+117+73+85+47+109+76+28+50+28+49+70+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:33 Received a message from Dimension. <ACK> sent.
+R*INDUKA5510142617150718111TSHL1.339uIU/mL20B
+20 Jul 2018 09:33:57 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+73+78+68+85+75+65+28+53+53+28+49+28+28+48+28+49+52+50+54+49+55+49+53+48+55+49+56+28+49+28+49+28+49+28+84+83+72+76+28+49+46+51+51+57+28+117+73+85+47+109+76+28+50+28+48+66+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:33 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*QC18.7.16CHE1.18.7.16533600081607181121NA147mmol/LK4.0mmol/LCL123mmol/LTP6.7g/dLAHDL9TBI9ALPI128U/LTGL208mg/dLCHOL233mg/dLPHOS3.9mg/dLAST45U/LALTI51U/LURCA9DBI0.2mg/dLAMY80U/LALB3.8g/dLBUN36mg/dL2GLUC85mg/dLGGT9CA9.2mg/dLCRE22.72mg/dL1C
+20 Jul 2018 09:34:02 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+81+67+49+56+46+55+46+49+54+28+67+72+69+49+46+49+56+46+55+46+49+54+28+53+28+28+51+28+51+54+48+48+48+56+49+54+48+55+49+56+28+49+28+49+28+50+49+28+78+65+28+49+52+55+28+109+109+111+108+47+76+28+28+75+28+52+46+48+28+109+109+111+108+47+76+28+28+67+76+28+49+50+51+28+109+109+111+108+47+76+28+28+84+80+28+54+46+55+28+103+47+100+76+28+28+65+72+68+76+28+28+28+57+28+84+66+73+28+28+28+57+28+65+76+80+73+28+49+50+56+28+85+47+76+28+28+84+71+76+28+50+48+56+28+109+103+47+100+76+28+28+67+72+79+76+28+50+51+51+28+109+103+47+100+76+28+28+80+72+79+83+28+51+46+57+28+109+103+47+100+76+28+28+65+83+84+28+52+53+28+85+47+76+28+28+65+76+84+73+28+53+49+28+85+47+76+28+28+85+82+67+65+28+28+28+57+28+68+66+73+28+48+46+50+28+109+103+47+100+76+28+28+65+77+89+28+56+48+28+85+47+76+28+28+65+76+66+28+51+46+56+28+103+47+100+76+28+28+66+85+78+28+51+54+28+109+103+47+100+76+28+50+28+71+76+85+67+28+56+53+28+109+103+47+100+76+28+28+71+71+84+28+28+28+57+28+67+65+28+57+46+50+28+109+103+47+100+76+28+28+67+82+69+50+28+50+46+55+50+28+109+103+47+100+76+28+28+49+67+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*THY1THY1.18.7.1663080108160718114HCG2mIU/mL14FT4L2.42ng/dL2TSHL5.612uIU/mL2FERR2ng/mL14BD
+20 Jul 2018 09:34:06 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+84+72+89+49+28+84+72+89+49+46+49+56+46+55+46+49+54+28+54+28+28+51+28+48+56+48+49+48+56+49+54+48+55+49+56+28+49+28+49+28+52+28+72+67+71+28+50+28+109+73+85+47+109+76+28+49+52+28+70+84+52+76+28+50+46+52+50+28+110+103+47+100+76+28+50+28+84+83+72+76+28+53+46+54+49+50+28+117+73+85+47+109+76+28+50+28+70+69+82+82+28+50+28+110+103+47+109+76+28+49+52+28+66+68+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*QC18.7.16CRP73300108160718111RCRP15.0mg/LA6
+20 Jul 2018 09:34:10 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+81+67+49+56+46+55+46+49+54+28+67+82+80+28+55+28+28+51+28+51+48+48+49+48+56+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+49+53+46+48+28+109+103+47+76+28+28+65+54+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*MINUJA610250408160718111RCRP6.6mg/L98
+20 Jul 2018 09:34:14 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+73+78+85+74+65+28+54+28+49+28+28+48+28+50+53+48+52+48+56+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+54+46+54+28+109+103+47+76+28+28+57+56+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*QC18.7.16CHE1.18.7.1653432808160718115AHDL49mg/dLTBI9URCA9BUN37mg/dL2GGT9DC
+20 Jul 2018 09:34:18 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+81+67+49+56+46+55+46+49+54+28+67+72+69+49+46+49+56+46+55+46+49+54+28+53+28+28+51+28+52+51+50+56+48+56+49+54+48+55+49+56+28+49+28+49+28+53+28+65+72+68+76+28+52+57+28+109+103+47+100+76+28+28+84+66+73+28+28+28+57+28+85+82+67+65+28+28+28+57+28+66+85+78+28+51+55+28+109+103+47+100+76+28+50+28+71+71+84+28+28+28+57+28+68+67+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*VIDANAPATHIRANA10513308160718111RCRP65.1mg/L1A
+20 Jul 2018 09:34:22 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+86+73+68+65+78+65+80+65+84+72+73+82+65+78+65+28+28+49+28+28+48+28+53+49+51+51+48+56+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+54+53+46+49+28+109+103+47+76+28+28+49+65+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*LALITHA10053408160718111GLUC100A
+20 Jul 2018 09:34:26 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+76+65+76+73+84+72+65+28+28+49+28+28+48+28+48+53+51+52+48+56+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+48+65+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*LALITHA10213408160718117FT4L0.96ng/dL2TSHL1.662uIU/mL2AHDL58mg/dLRISK3.2______TGL131mg/dLCHOL188mg/dLLDL103.8mg/dLC5
+20 Jul 2018 09:34:30 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+76+65+76+73+84+72+65+28+28+49+28+28+48+28+50+49+51+52+48+56+49+54+48+55+49+56+28+49+28+49+28+55+28+70+84+52+76+28+48+46+57+54+28+110+103+47+100+76+28+50+28+84+83+72+76+28+49+46+54+54+50+28+117+73+85+47+109+76+28+50+28+65+72+68+76+28+53+56+28+109+103+47+100+76+28+28+82+73+83+75+28+51+46+50+28+95+95+95+95+95+95+28+28+84+71+76+28+49+51+49+28+109+103+47+100+76+28+28+67+72+79+76+28+49+56+56+28+109+103+47+100+76+28+28+76+68+76+28+49+48+51+46+56+28+109+103+47+100+76+28+28+67+53+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*DESINDU10433408160718111GLUC99mg/dLDD
+20 Jul 2018 09:34:35 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+68+69+83+73+78+68+85+28+28+49+28+28+48+28+52+51+51+52+48+56+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+57+57+28+109+103+47+100+76+28+28+68+68+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*DESINDU10113508160718118TSHL0.997uIU/mL2AHDL44mg/dLRISK4.5______TGL179mg/dLCHOL196mg/dLLDL116.2mg/dLAST34U/LALTI88U/L11
+20 Jul 2018 09:34:39 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+68+69+83+73+78+68+85+28+28+49+28+28+48+28+49+49+51+53+48+56+49+54+48+55+49+56+28+49+28+49+28+56+28+84+83+72+76+28+48+46+57+57+55+28+117+73+85+47+109+76+28+50+28+65+72+68+76+28+52+52+28+109+103+47+100+76+28+28+82+73+83+75+28+52+46+53+28+95+95+95+95+95+95+28+28+84+71+76+28+49+55+57+28+109+103+47+100+76+28+28+67+72+79+76+28+49+57+54+28+109+103+47+100+76+28+28+76+68+76+28+49+49+54+46+50+28+109+103+47+100+76+28+28+65+83+84+28+51+52+28+85+47+76+28+28+65+76+84+73+28+56+56+28+85+47+76+28+28+49+49+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*DESHIKA10303508160718114AHDL39mg/dLRISK6.9______TGL409mg/dLCHOL269mg/dLC3
+20 Jul 2018 09:34:43 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+68+69+83+72+73+75+65+28+28+49+28+28+48+28+51+48+51+53+48+56+49+54+48+55+49+56+28+49+28+49+28+52+28+65+72+68+76+28+51+57+28+109+103+47+100+76+28+28+82+73+83+75+28+54+46+57+28+95+95+95+95+95+95+28+28+84+71+76+28+52+48+57+28+109+103+47+100+76+28+28+67+72+79+76+28+50+54+57+28+109+103+47+100+76+28+28+67+51+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*KEERTHI10443508160718111GLUC9F3
+20 Jul 2018 09:34:47 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+69+69+82+84+72+73+28+28+49+28+28+48+28+52+52+51+53+48+56+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+57+28+70+51+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*KEERTHI10063608160718116AHDL48mg/dLRISK3.7______TGL94mg/dLCHOL178mg/dLLDL111.2mg/dLCRE20.94mg/dL92
+20 Jul 2018 09:34:51 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+69+69+82+84+72+73+28+28+49+28+28+48+28+48+54+51+54+48+56+49+54+48+55+49+56+28+49+28+49+28+54+28+65+72+68+76+28+52+56+28+109+103+47+100+76+28+28+82+73+83+75+28+51+46+55+28+95+95+95+95+95+95+28+28+84+71+76+28+57+52+28+109+103+47+100+76+28+28+67+72+79+76+28+49+55+56+28+109+103+47+100+76+28+28+76+68+76+28+49+49+49+46+50+28+109+103+47+100+76+28+28+67+82+69+50+28+48+46+57+52+28+109+103+47+100+76+28+28+57+50+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*CHANDRIKA10253608160718111GLUC96C
+20 Jul 2018 09:34:55 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+65+78+68+82+73+75+65+28+28+49+28+28+48+28+50+53+51+54+48+56+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+57+28+54+67+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:34 Received a message from Dimension. <ACK> sent.
+R*CHANDRASIRI10463608160718111GLUC912
+20 Jul 2018 09:34:59 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+65+78+68+82+65+83+73+82+73+28+28+49+28+28+48+28+52+54+51+54+48+56+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+57+28+49+50+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:34 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*CHANDRASIRI10023708160718116AHDL44mg/dLRISK5.4______TGL134mg/dLCHOL238mg/dLLDL167.2mg/dLCRE21.17mg/dLD5
+20 Jul 2018 09:35:03 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+65+78+68+82+65+83+73+82+73+28+28+49+28+28+48+28+48+50+51+55+48+56+49+54+48+55+49+56+28+49+28+49+28+54+28+65+72+68+76+28+52+52+28+109+103+47+100+76+28+28+82+73+83+75+28+53+46+52+28+95+95+95+95+95+95+28+28+84+71+76+28+49+51+52+28+109+103+47+100+76+28+28+67+72+79+76+28+50+51+56+28+109+103+47+100+76+28+28+76+68+76+28+49+54+55+46+50+28+109+103+47+100+76+28+28+67+82+69+50+28+49+46+49+55+28+109+103+47+100+76+28+28+68+53+3+5+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:35 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*MUTHUKUMARANA10173708160718111GLUC9CC
+20 Jul 2018 09:35:07 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+85+84+72+85+75+85+77+65+82+65+78+65+28+28+49+28+28+48+28+49+55+51+55+48+56+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+57+28+67+67+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:35 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*SASEN10503708160718111RCRP17.8mg/L50
+20 Jul 2018 09:35:11 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+65+83+69+78+28+28+49+28+28+48+28+53+48+51+55+48+56+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+49+55+46+56+28+109+103+47+76+28+28+53+48+3+5+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:35 Received <ENQ> from Dimension. <ACK> sent.
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*GAYAN10143808160718111GLUC957
+20 Jul 2018 09:35:16 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+71+65+89+65+78+28+28+49+28+28+48+28+49+52+51+56+48+56+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+57+28+53+55+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*GAYAN10143808160718111GLUC957
+20 Jul 2018 09:35:16 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+71+65+89+65+78+28+28+49+28+28+48+28+49+52+51+56+48+56+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+57+28+53+55+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*SIRIYAWATHI10303808160718111GLUC933
+20 Jul 2018 09:35:20 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+73+82+73+89+65+87+65+84+72+73+28+28+49+28+28+48+28+51+48+51+56+48+56+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+57+28+51+51+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*KEERTHI10160109160718111GLUC159mg/dL05
+20 Jul 2018 09:35:24 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+69+69+82+84+72+73+28+28+49+28+28+48+28+49+54+48+49+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+53+57+28+109+103+47+100+76+28+28+48+53+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*CHANDRIKA10000209160718111GLUC118mg/dL73
+20 Jul 2018 09:35:28 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+65+78+68+82+73+75+65+28+28+49+28+28+48+28+48+48+48+50+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+49+56+28+109+103+47+100+76+28+28+55+51+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*CHANDRASIRI10510209160718111GLUC219mg/dL1E
+20 Jul 2018 09:35:32 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+65+78+68+82+65+83+73+82+73+28+28+49+28+28+48+28+53+49+48+50+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+50+49+57+28+109+103+47+100+76+28+28+49+69+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*MUTHUKUMARANA10100309160718111GLUC112mg/dLCD
+20 Jul 2018 09:35:36 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+85+84+72+85+75+85+77+65+82+65+78+65+28+28+49+28+28+48+28+49+48+48+51+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+49+50+28+109+103+47+100+76+28+28+67+68+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*GAYAN10260309160718111GLUC152mg/dL65
+20 Jul 2018 09:35:40 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+71+65+89+65+78+28+28+49+28+28+48+28+50+54+48+51+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+53+50+28+109+103+47+100+76+28+28+54+53+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*SIRIYAWATHI10460309160718111GLUC149mg/dL4B
+20 Jul 2018 09:35:44 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+73+82+73+89+65+87+65+84+72+73+28+28+49+28+28+48+28+52+54+48+51+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+52+57+28+109+103+47+100+76+28+28+52+66+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*AYOMI1610024809160718111GLUC94mg/dLB3
+20 Jul 2018 09:35:48 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+89+79+77+73+28+49+54+28+49+28+28+48+28+48+50+52+56+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+57+52+28+109+103+47+100+76+28+28+66+51+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*AYOMI16/BF10274809160718111GLUC141mg/dL9A
+20 Jul 2018 09:35:52 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+89+79+77+73+28+49+54+47+66+70+28+49+28+28+48+28+50+55+52+56+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+52+49+28+109+103+47+100+76+28+28+57+65+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:35 Received a message from Dimension. <ACK> sent.
+R*LALITHA310524809160718111GLUC93mg/dL03
+20 Jul 2018 09:35:56 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+76+65+76+73+84+72+65+28+51+28+49+28+28+48+28+53+50+52+56+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+57+51+28+109+103+47+100+76+28+28+48+51+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*LOKUGAMAGE1510424909160718111GLUC194mg/dL46
+20 Jul 2018 09:36:00 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+76+79+75+85+71+65+77+65+71+69+28+49+53+28+49+28+28+48+28+52+50+52+57+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+57+52+28+109+103+47+100+76+28+28+52+54+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*LOKUGAMAGE15W0375009160718111HB1C8.6%2DD
+20 Jul 2018 09:36:04 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+76+79+75+85+71+65+77+65+71+69+28+49+53+28+87+28+28+48+28+51+55+53+48+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+72+66+49+67+28+56+46+54+28+37+28+50+28+68+68+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*INOKA1710475109160718111GLUC107mg/dLD5
+20 Jul 2018 09:36:08 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+73+78+79+75+65+28+49+55+28+49+28+28+48+28+52+55+53+49+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+48+55+28+109+103+47+100+76+28+28+68+53+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*INOKA1710025209160718115AHDL35mg/dLRISK4.7______TGL315mg/dLCHOL163mg/dLLDL65.0mg/dL59
+20 Jul 2018 09:36:12 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+73+78+79+75+65+28+49+55+28+49+28+28+48+28+48+50+53+50+48+57+49+54+48+55+49+56+28+49+28+49+28+53+28+65+72+68+76+28+51+53+28+109+103+47+100+76+28+28+82+73+83+75+28+52+46+55+28+95+95+95+95+95+95+28+28+84+71+76+28+51+49+53+28+109+103+47+100+76+28+28+67+72+79+76+28+49+54+51+28+109+103+47+100+76+28+28+76+68+76+28+54+53+46+48+28+109+103+47+100+76+28+28+53+57+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*KRISHNA1810295209160718111GLUC87mg/dL4C
+20 Jul 2018 09:36:16 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+82+73+83+72+78+65+28+49+56+28+49+28+28+48+28+50+57+53+50+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+56+55+28+109+103+47+100+76+28+28+52+67+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*KRISHNA1810095309160718111ALTI30U/L5B
+20 Jul 2018 09:36:20 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+82+73+83+72+78+65+28+49+56+28+49+28+28+48+28+48+57+53+51+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+65+76+84+73+28+51+48+28+85+47+76+28+28+53+66+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*SAMANTHA1910105409160718111GLUC146mg/dLAE
+20 Jul 2018 09:36:24 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+65+77+65+78+84+72+65+28+49+57+28+49+28+28+48+28+49+48+53+52+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+52+54+28+109+103+47+100+76+28+28+65+69+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*SAMANTHA1910595409160718115AHDL35mg/dLRISK5.9______TGL199mg/dLCHOL208mg/dLLDL133.2mg/dL7F
+20 Jul 2018 09:36:28 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+65+77+65+78+84+72+65+28+49+57+28+49+28+28+48+28+53+57+53+52+48+57+49+54+48+55+49+56+28+49+28+49+28+53+28+65+72+68+76+28+51+53+28+109+103+47+100+76+28+28+82+73+83+75+28+53+46+57+28+95+95+95+95+95+95+28+28+84+71+76+28+49+57+57+28+109+103+47+100+76+28+28+67+72+79+76+28+50+48+56+28+109+103+47+100+76+28+28+76+68+76+28+49+51+51+46+50+28+109+103+47+100+76+28+28+55+70+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*DEEPIKA2010175509160718111GLUC110mg/dL4B
+20 Jul 2018 09:36:32 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+68+69+69+80+73+75+65+28+50+48+28+49+28+28+48+28+49+55+53+53+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+49+48+28+109+103+47+100+76+28+28+52+66+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*QCTHY/3QC/373565609160718112HCG-8mIU/mL14FERR2ng/mL14F7
+20 Jul 2018 09:36:36 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+81+67+84+72+89+47+51+28+81+67+47+51+28+55+28+28+51+28+53+54+53+54+48+57+49+54+48+55+49+56+28+49+28+49+28+50+28+72+67+71+28+45+56+28+109+73+85+47+109+76+28+49+52+28+70+69+82+82+28+50+28+110+103+47+109+76+28+49+52+28+70+55+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*QC HBA1CQC HBA1C53395709160718111HB1C5.0%261
+20 Jul 2018 09:36:40 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+81+67+32+72+66+65+49+67+28+81+67+32+72+66+65+49+67+28+53+28+28+51+28+51+57+53+55+48+57+49+54+48+55+49+56+28+49+28+49+28+49+28+72+66+49+67+28+53+46+48+28+37+28+50+28+54+49+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*POORNIMA2210162110160718111GLUC72mg/dL86
+20 Jul 2018 09:36:44 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+80+79+79+82+78+73+77+65+28+50+50+28+49+28+28+48+28+49+54+50+49+49+48+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+55+50+28+109+103+47+100+76+28+28+56+54+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*CHATHURA2110412110160718111GLUC100mg/dL96
+20 Jul 2018 09:36:48 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+65+84+72+85+82+65+28+50+49+28+49+28+28+48+28+52+49+50+49+49+48+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+48+48+28+109+103+47+100+76+28+28+57+54+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*CHATHURA21103022101607181111TSHL2.110uIU/mL2TP7.3g/dLGLOB3.5g/dLAHDL49mg/dLRISK3.8______TGL82mg/dLCHOL186mg/dLLDL120.6mg/dLALB3.8g/dLA/G1.1______CRE21.00mg/dL87
+20 Jul 2018 09:36:52 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+65+84+72+85+82+65+28+50+49+28+49+28+28+48+28+51+48+50+50+49+48+49+54+48+55+49+56+28+49+28+49+28+49+49+28+84+83+72+76+28+50+46+49+49+48+28+117+73+85+47+109+76+28+50+28+84+80+28+55+46+51+28+103+47+100+76+28+28+71+76+79+66+28+51+46+53+28+103+47+100+76+28+28+65+72+68+76+28+52+57+28+109+103+47+100+76+28+28+82+73+83+75+28+51+46+56+28+95+95+95+95+95+95+28+28+84+71+76+28+56+50+28+109+103+47+100+76+28+28+67+72+79+76+28+49+56+54+28+109+103+47+100+76+28+28+76+68+76+28+49+50+48+46+54+28+109+103+47+100+76+28+28+65+76+66+28+51+46+56+28+103+47+100+76+28+28+65+47+71+28+49+46+49+28+95+95+95+95+95+95+28+28+67+82+69+50+28+49+46+48+48+28+109+103+47+100+76+28+28+56+55+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:36 Received a message from Dimension. <ACK> sent.
+R*INOKA1710034210160718116TSHL1.658uIU/mL2AHDL36mg/dLRISK4.6______TGL322mg/dLCHOL167mg/dLLDL66.6mg/dL35
+20 Jul 2018 09:36:56 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+73+78+79+75+65+28+49+55+28+49+28+28+48+28+48+51+52+50+49+48+49+54+48+55+49+56+28+49+28+49+28+54+28+84+83+72+76+28+49+46+54+53+56+28+117+73+85+47+109+76+28+50+28+65+72+68+76+28+51+54+28+109+103+47+100+76+28+28+82+73+83+75+28+52+46+54+28+95+95+95+95+95+95+28+28+84+71+76+28+51+50+50+28+109+103+47+100+76+28+28+67+72+79+76+28+49+54+55+28+109+103+47+100+76+28+28+76+68+76+28+54+54+46+54+28+109+103+47+100+76+28+28+51+53+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*KEERTHI0710165110160718111GLUC256mg/dL67
+20 Jul 2018 09:37:00 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+69+69+82+84+72+73+28+48+55+28+49+28+28+48+28+49+54+53+49+49+48+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+50+53+54+28+109+103+47+100+76+28+28+54+55+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*GAMINI2610445110160718111GLUC95mg/dLE3
+20 Jul 2018 09:37:04 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+71+65+77+73+78+73+28+50+54+28+49+28+28+48+28+52+52+53+49+49+48+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+57+53+28+109+103+47+100+76+28+28+69+51+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*GAMINI2610005210160718115AHDL37mg/dLRISK5.3______TGL142mg/dLCHOL196mg/dLLDL130.6mg/dLC4
+20 Jul 2018 09:37:08 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+71+65+77+73+78+73+28+50+54+28+49+28+28+48+28+48+48+53+50+49+48+49+54+48+55+49+56+28+49+28+49+28+53+28+65+72+68+76+28+51+55+28+109+103+47+100+76+28+28+82+73+83+75+28+53+46+51+28+95+95+95+95+95+95+28+28+84+71+76+28+49+52+50+28+109+103+47+100+76+28+28+67+72+79+76+28+49+57+54+28+109+103+47+100+76+28+28+76+68+76+28+49+51+48+46+54+28+109+103+47+100+76+28+28+67+52+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*PREMAWATHIOUT10584111160718111TSHL0.555uIU/mL2CE
+20 Jul 2018 09:37:12 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+80+82+69+77+65+87+65+84+72+73+28+79+85+84+28+49+28+28+48+28+53+56+52+49+49+49+49+54+48+55+49+56+28+49+28+49+28+49+28+84+83+72+76+28+48+46+53+53+53+28+117+73+85+47+109+76+28+50+28+67+69+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*INOKA1710360212160718112TGL315mg/dLCHOL161mg/dL68
+20 Jul 2018 09:37:16 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+73+78+79+75+65+28+49+55+28+49+28+28+48+28+51+54+48+50+49+50+49+54+48+55+49+56+28+49+28+49+28+50+28+84+71+76+28+51+49+53+28+109+103+47+100+76+28+28+67+72+79+76+28+49+54+49+28+109+103+47+100+76+28+28+54+56+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*AYOMI1610532312160718111GLUC113mg/dLD4
+20 Jul 2018 09:37:20 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+89+79+77+73+28+49+54+28+49+28+28+48+28+53+51+50+51+49+50+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+49+51+28+109+103+47+100+76+28+28+68+52+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*B/O.CHATHURIKA3110121114160718111TSHL0.860uIU/mL20F
+20 Jul 2018 09:37:24 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+66+47+79+46+67+72+65+84+72+85+82+73+75+65+28+51+49+28+49+28+28+48+28+49+50+49+49+49+52+49+54+48+55+49+56+28+49+28+49+28+49+28+84+83+72+76+28+48+46+56+54+48+28+117+73+85+47+109+76+28+50+28+48+70+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*QCQC73094314160718112HCG-8mIU/mL14FERR2ng/mL1434
+20 Jul 2018 09:37:28 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+81+67+28+81+67+28+55+28+28+51+28+48+57+52+51+49+52+49+54+48+55+49+56+28+49+28+49+28+50+28+72+67+71+28+45+56+28+109+73+85+47+109+76+28+49+52+28+70+69+82+82+28+50+28+110+103+47+109+76+28+49+52+28+51+52+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*SANALI5810244314160718111HCG-7mIU/mL1430
+20 Jul 2018 09:37:32 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+65+78+65+76+73+28+53+56+28+49+28+28+48+28+50+52+52+51+49+52+49+54+48+55+49+56+28+49+28+49+28+49+28+72+67+71+28+45+55+28+109+73+85+47+109+76+28+49+52+28+51+48+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*AYOMI16/LUNCH10082215160718111GLUC139mg/dL87
+20 Jul 2018 09:37:36 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+89+79+77+73+28+49+54+47+76+85+78+67+72+28+49+28+28+48+28+48+56+50+50+49+53+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+51+57+28+109+103+47+100+76+28+28+56+55+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*DEEPIKA3210302215160718111GLUC102mg/dL41
+20 Jul 2018 09:37:40 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+68+69+69+80+73+75+65+28+51+50+28+49+28+28+48+28+51+48+50+50+49+53+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+48+50+28+109+103+47+100+76+28+28+52+49+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*JANAKAHOS10262416160718111CA8.6mg/dLE3
+20 Jul 2018 09:37:44 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+74+65+78+65+75+65+28+72+79+83+28+49+28+28+48+28+50+54+50+52+49+54+49+54+48+55+49+56+28+49+28+49+28+49+28+67+65+28+56+46+54+28+109+103+47+100+76+28+28+69+51+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*NUWANTHIKA3710285316160718111RCRP14.1mg/L32
+20 Jul 2018 09:37:48 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+78+85+87+65+78+84+72+73+75+65+28+51+55+28+49+28+28+48+28+50+56+53+51+49+54+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+49+52+46+49+28+109+103+47+76+28+28+51+50+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*SANULYA3510065416160718111RCRP30.6mg/L53
+20 Jul 2018 09:37:52 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+65+78+85+76+89+65+28+51+53+28+49+28+28+48+28+48+54+53+52+49+54+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+51+48+46+54+28+109+103+47+76+28+28+53+51+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:37 Received a message from Dimension. <ACK> sent.
+R*MALANI3910375416160718111RCRP0.5mg/L3EF
+20 Jul 2018 09:37:56 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+65+76+65+78+73+28+51+57+28+49+28+28+48+28+51+55+53+52+49+54+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+48+46+53+28+109+103+47+76+28+51+28+69+70+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*HESARA3610555416160718111RCRP48.0mg/LF2
+20 Jul 2018 09:38:00 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+72+69+83+65+82+65+28+51+54+28+49+28+28+48+28+53+53+53+52+49+54+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+52+56+46+48+28+109+103+47+76+28+28+70+50+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*EKANAYAKA3810165816160718114NA8K5.0mmol/LCL107mmol/LCRE20.88mg/dL83
+20 Jul 2018 09:38:04 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+69+75+65+78+65+89+65+75+65+28+51+56+28+49+28+28+48+28+49+54+53+56+49+54+49+54+48+55+49+56+28+49+28+49+28+52+28+78+65+28+28+28+56+28+75+28+53+46+48+28+109+109+111+108+47+76+28+28+67+76+28+49+48+55+28+109+109+111+108+47+76+28+28+67+82+69+50+28+48+46+56+56+28+109+103+47+100+76+28+28+56+51+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*SOMALATHA4210220517160718111RCRP0.3mg/L3C6
+20 Jul 2018 09:38:08 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+79+77+65+76+65+84+72+65+28+52+50+28+49+28+28+48+28+50+50+48+53+49+55+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+48+46+51+28+109+103+47+76+28+51+28+67+54+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*EKANAYAKA3810281117160718113NA142mmol/LK5.0mmol/LCL106mmol/L0C
+20 Jul 2018 09:38:12 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+69+75+65+78+65+89+65+75+65+28+51+56+28+49+28+28+48+28+50+56+49+49+49+55+49+54+48+55+49+56+28+49+28+49+28+51+28+78+65+28+49+52+50+28+109+109+111+108+47+76+28+28+75+28+53+46+48+28+109+109+111+108+47+76+28+28+67+76+28+49+48+54+28+109+109+111+108+47+76+28+28+48+67+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*BUWIN4510233918160718111RCRP3.6mg/L90
+20 Jul 2018 09:38:16 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+66+85+87+73+78+28+52+53+28+49+28+28+48+28+50+51+51+57+49+56+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+51+46+54+28+109+103+47+76+28+28+57+48+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*SETHUJAAYOMI4410014018160718111RCRP32.1mg/LBE
+20 Jul 2018 09:38:20 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+69+84+72+85+74+65+65+89+79+77+73+28+52+52+28+49+28+28+48+28+48+49+52+48+49+56+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+51+50+46+49+28+109+103+47+76+28+28+66+69+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*AYOMI1610134018160718111GLUC10EE
+20 Jul 2018 09:38:24 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+89+79+77+73+28+49+54+28+49+28+28+48+28+49+51+52+48+49+56+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+69+69+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*PAHAN5010424419160718111RCRP37.7mg/LA5
+20 Jul 2018 09:38:28 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+80+65+72+65+78+28+53+48+28+49+28+28+48+28+52+50+52+52+49+57+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+51+55+46+55+28+109+103+47+76+28+28+65+53+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*MIYAS5110554419160718111RCRP0.7mg/L8B
+20 Jul 2018 09:38:32 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+73+89+65+83+28+53+49+28+49+28+28+48+28+53+53+52+52+49+57+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+48+46+55+28+109+103+47+76+28+28+56+66+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*AYOMI16 PRE DINN10224519160718111GLUC90mg/dLFF
+20 Jul 2018 09:38:36 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+89+79+77+73+28+49+54+32+80+82+69+32+68+73+78+78+28+49+28+28+48+28+50+50+52+53+49+57+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+57+48+28+109+103+47+100+76+28+28+70+70+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*SAMEERA5710303920160718113AST22U/LALTI42U/LCRE20.94mg/dLCE
+20 Jul 2018 09:38:40 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+65+77+69+69+82+65+28+53+55+28+49+28+28+48+28+51+48+51+57+50+48+49+54+48+55+49+56+28+49+28+49+28+51+28+65+83+84+28+50+50+28+85+47+76+28+28+65+76+84+73+28+52+50+28+85+47+76+28+28+67+82+69+50+28+48+46+57+52+28+109+103+47+100+76+28+28+67+69+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*PRIYADARSHANI5610483920160718111GLUC79mg/dL0D
+20 Jul 2018 09:38:44 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+80+82+73+89+65+68+65+82+83+72+65+78+73+28+53+54+28+49+28+28+48+28+52+56+51+57+50+48+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+55+57+28+109+103+47+100+76+28+28+48+68+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*AYOMIPOST B FAS1610154020160718111GLUC129mg/dL79
+20 Jul 2018 09:38:48 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+89+79+77+73+28+80+79+83+84+32+66+32+70+65+83+49+54+28+49+28+28+48+28+49+53+52+48+50+48+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+50+57+28+109+103+47+100+76+28+28+55+57+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*DEEPIKA2010334020160718111GLUC98mg/dL1B
+20 Jul 2018 09:38:52 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+68+69+69+80+73+75+65+28+50+48+28+49+28+28+48+28+51+51+52+48+50+48+49+54+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+57+56+28+109+103+47+100+76+28+28+49+66+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:38 Received a message from Dimension. <ACK> sent.
+R*ABHIRU616110451421160718111TSHL3.185uIU/mL26C
+20 Jul 2018 09:38:56 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+66+72+73+82+85+54+49+28+54+49+28+49+28+28+48+28+52+53+49+52+50+49+49+54+48+55+49+56+28+49+28+49+28+49+28+84+83+72+76+28+51+46+49+56+53+28+117+73+85+47+109+76+28+50+28+54+67+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*RANJANI6210222821160718111RCRP7.9mg/L0B
+20 Jul 2018 09:39:00 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+82+65+78+74+65+78+73+28+54+50+28+49+28+28+48+28+50+50+50+56+50+49+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+55+46+57+28+109+103+47+76+28+28+48+66+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*MESANDU6310372821160718111RCRP1.6mg/L13
+20 Jul 2018 09:39:04 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+69+83+65+78+68+85+28+54+51+28+49+28+28+48+28+51+55+50+56+50+49+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+49+46+54+28+109+103+47+76+28+28+49+51+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*65WILSON10325321160718113NA8K3.3mmol/LCL68mmol/LA7
+20 Jul 2018 09:39:08 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+54+53+28+87+73+76+83+79+78+28+49+28+28+48+28+51+50+53+51+50+49+49+54+48+55+49+56+28+49+28+49+28+51+28+78+65+28+28+28+56+28+75+28+51+46+51+28+109+109+111+108+47+76+28+28+67+76+28+54+56+28+109+109+111+108+47+76+28+28+65+55+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*SEHANSA6610455321160718111RCRP13.0mg/L36
+20 Jul 2018 09:39:12 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+69+72+65+78+83+65+28+54+54+28+49+28+28+48+28+52+53+53+51+50+49+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+49+51+46+48+28+109+103+47+76+28+28+51+54+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*LATHA6710575321160718111RCRP19FA
+20 Jul 2018 09:39:16 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+76+65+84+72+65+28+54+55+28+49+28+28+48+28+53+55+53+51+50+49+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+28+28+49+57+28+70+65+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*676710430422160718111RCRP3.6mg/L71
+20 Jul 2018 09:39:20 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+54+55+28+54+55+28+49+28+28+48+28+52+51+48+52+50+50+49+54+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+51+46+54+28+109+103+47+76+28+28+55+49+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*CHEM 2CHEM 2100246071707181125NA8K6.3mmol/LCL97mmol/LTP4.7g/dLGLOB2.1g/dLAHDL25mg/dLRISK3.7______TBI9ALPI493U/LTGL98mg/dLCHOL92mg/dLLDL47.4mg/dLPHOS7.7mg/dLAST207U/LALTI110U/LURCA9DBI0.7mg/dLAMY479U/LALB2.6g/dLA/G1.2______BUN108mg/dL2GLUC270mg/dLGGT9CA12.2mg/dLCRE26.37mg/dL15
+20 Jul 2018 09:39:24 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+69+77+32+50+28+67+72+69+77+32+50+28+49+28+28+48+28+48+50+52+54+48+55+49+55+48+55+49+56+28+49+28+49+28+50+53+28+78+65+28+28+28+56+28+75+28+54+46+51+28+109+109+111+108+47+76+28+28+67+76+28+57+55+28+109+109+111+108+47+76+28+28+84+80+28+52+46+55+28+103+47+100+76+28+28+71+76+79+66+28+50+46+49+28+103+47+100+76+28+28+65+72+68+76+28+50+53+28+109+103+47+100+76+28+28+82+73+83+75+28+51+46+55+28+95+95+95+95+95+95+28+28+84+66+73+28+28+28+57+28+65+76+80+73+28+52+57+51+28+85+47+76+28+28+84+71+76+28+57+56+28+109+103+47+100+76+28+28+67+72+79+76+28+57+50+28+109+103+47+100+76+28+28+76+68+76+28+52+55+46+52+28+109+103+47+100+76+28+28+80+72+79+83+28+55+46+55+28+109+103+47+100+76+28+28+65+83+84+28+50+48+55+28+85+47+76+28+28+65+76+84+73+28+49+49+48+28+85+47+76+28+28+85+82+67+65+28+28+28+57+28+68+66+73+28+48+46+55+28+109+103+47+100+76+28+28+65+77+89+28+52+55+57+28+85+47+76+28+28+65+76+66+28+50+46+54+28+103+47+100+76+28+28+65+47+71+28+49+46+50+28+95+95+95+95+95+95+28+28+66+85+78+28+49+48+56+28+109+103+47+100+76+28+50+28+71+76+85+67+28+50+55+48+28+109+103+47+100+76+28+28+71+71+84+28+28+28+57+28+67+65+28+49+50+46+50+28+109+103+47+100+76+28+28+67+82+69+50+28+54+46+51+55+28+109+103+47+100+76+28+28+49+53+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*THY 2THY 210364607170718112FT4L2.46ng/dL2TSHL5.761uIU/mL2B8
+20 Jul 2018 09:39:28 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+84+72+89+32+50+28+84+72+89+32+50+28+49+28+28+48+28+51+54+52+54+48+55+49+55+48+55+49+56+28+49+28+49+28+50+28+70+84+52+76+28+50+46+52+54+28+110+103+47+100+76+28+50+28+84+83+72+76+28+53+46+55+54+49+28+117+73+85+47+109+76+28+50+28+66+56+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*CRP 1CRP 110564607170718111RCRP14.8mg/L45
+20 Jul 2018 09:39:32 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+82+80+32+49+28+67+82+80+32+49+28+49+28+28+48+28+53+54+52+54+48+55+49+55+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+49+52+46+56+28+109+103+47+76+28+28+52+53+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*CHEM 1CHEM 1532137081707181120NA8K3.9mmol/LCL121mmol/LTP6.5g/dLAHDL52mg/dLTBI9ALPI102U/LTGL190mg/dLCHOL229mg/dLPHOS3.3mg/dLAST44U/LALTI54U/LDBI0.2mg/dLAMY77U/LALB3.7g/dLBUN32mg/dL2GLUC85mg/dLGGT9CA8.8mg/dLCRE22.80mg/dLEE
+20 Jul 2018 09:39:36 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+69+77+32+49+28+67+72+69+77+32+49+28+53+28+28+51+28+50+49+51+55+48+56+49+55+48+55+49+56+28+49+28+49+28+50+48+28+78+65+28+28+28+56+28+75+28+51+46+57+28+109+109+111+108+47+76+28+28+67+76+28+49+50+49+28+109+109+111+108+47+76+28+28+84+80+28+54+46+53+28+103+47+100+76+28+28+65+72+68+76+28+53+50+28+109+103+47+100+76+28+28+84+66+73+28+28+28+57+28+65+76+80+73+28+49+48+50+28+85+47+76+28+28+84+71+76+28+49+57+48+28+109+103+47+100+76+28+28+67+72+79+76+28+50+50+57+28+109+103+47+100+76+28+28+80+72+79+83+28+51+46+51+28+109+103+47+100+76+28+28+65+83+84+28+52+52+28+85+47+76+28+28+65+76+84+73+28+53+52+28+85+47+76+28+28+68+66+73+28+48+46+50+28+109+103+47+100+76+28+28+65+77+89+28+55+55+28+85+47+76+28+28+65+76+66+28+51+46+55+28+103+47+100+76+28+28+66+85+78+28+51+50+28+109+103+47+100+76+28+50+28+71+76+85+67+28+56+53+28+109+103+47+100+76+28+28+71+71+84+28+28+28+57+28+67+65+28+56+46+56+28+109+103+47+100+76+28+28+67+82+69+50+28+50+46+56+48+28+109+103+47+100+76+28+28+69+69+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*THY 1THY 153483708170718112FT4L4.92ng/dL2TSHL33.963uIU/mL2F9
+20 Jul 2018 09:39:40 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+84+72+89+32+49+28+84+72+89+32+49+28+53+28+28+51+28+52+56+51+55+48+56+49+55+48+55+49+56+28+49+28+49+28+50+28+70+84+52+76+28+52+46+57+50+28+110+103+47+100+76+28+50+28+84+83+72+76+28+51+51+46+57+54+51+28+117+73+85+47+109+76+28+50+28+70+57+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*CRP 1 CRP 153013808170718111RCRP7.6mg/L34
+20 Jul 2018 09:39:44 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+82+80+32+49+32+28+67+82+80+32+49+28+53+28+28+51+28+48+49+51+56+48+56+49+55+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+55+46+54+28+109+103+47+76+28+28+51+52+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*RANJITH0210125208170718111GLUC138mg/dL6A
+20 Jul 2018 09:39:48 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+82+65+78+74+73+84+72+28+48+50+28+49+28+28+48+28+49+50+53+50+48+56+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+51+56+28+109+103+47+100+76+28+28+54+65+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*RASNJITH0210505208170718116AHDL35mg/dLRISK6.1______TGL105mg/dLCHOL215mg/dLLDL159.0mg/dLCRE21.21mg/dL64
+20 Jul 2018 09:39:52 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+82+65+83+78+74+73+84+72+28+48+50+28+49+28+28+48+28+53+48+53+50+48+56+49+55+48+55+49+56+28+49+28+49+28+54+28+65+72+68+76+28+51+53+28+109+103+47+100+76+28+28+82+73+83+75+28+54+46+49+28+95+95+95+95+95+95+28+28+84+71+76+28+49+48+53+28+109+103+47+100+76+28+28+67+72+79+76+28+50+49+53+28+109+103+47+100+76+28+28+76+68+76+28+49+53+57+46+48+28+109+103+47+100+76+28+28+67+82+69+50+28+49+46+50+49+28+109+103+47+100+76+28+28+54+52+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:39 Received a message from Dimension. <ACK> sent.
+R*PREMAWATHI1310155308170718111GLUC106mg/dL4D
+20 Jul 2018 09:39:56 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+80+82+69+77+65+87+65+84+72+73+28+49+51+28+49+28+28+48+28+49+53+53+51+48+56+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+48+54+28+109+103+47+100+76+28+28+52+68+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*AVEESH1510325308170718111RCRP4.1mg/LBC
+20 Jul 2018 09:40:00 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+86+69+69+83+72+28+49+53+28+49+28+28+48+28+51+50+53+51+48+56+49+55+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+52+46+49+28+109+103+47+76+28+28+66+67+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*SUMANA0310125408170718116AHDL32mg/dLRISK3.8______TGL123mg/dLCHOL120mg/dLLDL63.4mg/dLCRE20.92mg/dL98
+20 Jul 2018 09:40:04 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+85+77+65+78+65+28+48+51+28+49+28+28+48+28+49+50+53+52+48+56+49+55+48+55+49+56+28+49+28+49+28+54+28+65+72+68+76+28+51+50+28+109+103+47+100+76+28+28+82+73+83+75+28+51+46+56+28+95+95+95+95+95+95+28+28+84+71+76+28+49+50+51+28+109+103+47+100+76+28+28+67+72+79+76+28+49+50+48+28+109+103+47+100+76+28+28+76+68+76+28+54+51+46+52+28+109+103+47+100+76+28+28+67+82+69+50+28+48+46+57+50+28+109+103+47+100+76+28+28+57+56+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*SUMANA0310595408170718111GLUC173mg/dL2C
+20 Jul 2018 09:40:08 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+85+77+65+78+65+28+48+51+28+49+28+28+48+28+53+57+53+52+48+56+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+55+51+28+109+103+47+100+76+28+28+50+67+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*SHIROMI1910365508170718111GLUC213mg/dL80
+20 Jul 2018 09:40:12 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+72+73+82+79+77+73+28+49+57+28+49+28+28+48+28+51+54+53+53+48+56+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+50+49+51+28+109+103+47+100+76+28+28+56+48+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*SIMAYA2010555508170718111GLUC166mg/dL29
+20 Jul 2018 09:40:16 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+73+77+65+89+65+28+50+48+28+49+28+28+48+28+53+53+53+53+48+56+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+54+54+28+109+103+47+100+76+28+28+50+57+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*RASIKA1810345608170718114TSHL10TP19ALB10CRE21044
+20 Jul 2018 09:40:20 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+82+65+83+73+75+65+28+49+56+28+49+28+28+48+28+51+52+53+54+48+56+49+55+48+55+49+56+28+49+28+49+28+52+28+84+83+72+76+28+28+28+49+48+28+84+80+28+28+28+49+57+28+65+76+66+28+28+28+49+48+28+67+82+69+50+28+28+28+49+48+28+52+52+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*SUDESH2210265708170718111GLUC358mg/dL36
+20 Jul 2018 09:40:24 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+85+68+69+83+72+28+50+50+28+49+28+28+48+28+50+54+53+55+48+56+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+51+53+56+28+109+103+47+100+76+28+28+51+54+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*CRP 1CRP 153380509170718111RCRP7.6mg/L19
+20 Jul 2018 09:40:28 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+82+80+32+49+28+67+82+80+32+49+28+53+28+28+51+28+51+56+48+53+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+55+46+54+28+109+103+47+76+28+28+49+57+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*THY 3THY 373550509170718112FT4L4.90ng/dL2TSHL34.934uIU/mL2F6
+20 Jul 2018 09:40:32 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+84+72+89+32+51+28+84+72+89+32+51+28+55+28+28+51+28+53+53+48+53+48+57+49+55+48+55+49+56+28+49+28+49+28+50+28+70+84+52+76+28+52+46+57+48+28+110+103+47+100+76+28+50+28+84+83+72+76+28+51+52+46+57+51+52+28+117+73+85+47+109+76+28+50+28+70+54+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*PIYASIRI410540709170718111GLUC154mg/dL9B
+20 Jul 2018 09:40:36 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+80+73+89+65+83+73+82+73+28+52+28+49+28+28+48+28+53+52+48+55+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+53+52+28+109+103+47+100+76+28+28+57+66+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*ASHOKA510170809170718111RCRP1.6mg/L8C
+20 Jul 2018 09:40:40 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+83+72+79+75+65+28+53+28+49+28+28+48+28+49+55+48+56+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+49+46+54+28+109+103+47+76+28+28+56+67+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*KLERA0610470809170718111GLUC111mg/dLCE
+20 Jul 2018 09:40:44 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+76+69+82+65+28+48+54+28+49+28+28+48+28+52+55+48+56+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+49+49+28+109+103+47+100+76+28+28+67+69+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*PREMASIRI0710030909170718111GLUC102mg/dL05
+20 Jul 2018 09:40:48 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+80+82+69+77+65+83+73+82+73+28+48+55+28+49+28+28+48+28+48+51+48+57+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+48+50+28+109+103+47+100+76+28+28+48+53+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*RAMANI0810220909170718111GLUC122mg/dL15
+20 Jul 2018 09:40:52 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+82+65+77+65+78+73+28+48+56+28+49+28+28+48+28+50+50+48+57+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+50+50+28+109+103+47+100+76+28+28+49+53+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:40 Received a message from Dimension. <ACK> sent.
+R*SIRIVISUDDI0910450909170718111GLUC119mg/dLB8
+20 Jul 2018 09:40:56 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+73+82+73+86+73+83+85+68+68+73+28+48+57+28+49+28+28+48+28+52+53+48+57+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+49+57+28+109+103+47+100+76+28+28+66+56+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*KASUNI0110361009170718111GLUC93mg/dLF5
+20 Jul 2018 09:41:00 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+65+83+85+78+73+28+48+49+28+49+28+28+48+28+51+54+49+48+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+57+51+28+109+103+47+100+76+28+28+70+53+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*KASUNI0110001209170718111TSHL4.737uIU/mL20F
+20 Jul 2018 09:41:04 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+65+83+85+78+73+28+48+49+28+49+28+28+48+28+48+48+49+50+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+84+83+72+76+28+52+46+55+51+55+28+117+73+85+47+109+76+28+50+28+48+70+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*GANGA1010521209170718111GLUC10CA
+20 Jul 2018 09:41:08 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+71+65+78+71+65+28+49+48+28+49+28+28+48+28+53+50+49+50+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+28+28+49+48+28+67+65+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*MALLIKA1210001409170718111GLUC103mg/dL4A
+20 Jul 2018 09:41:12 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+65+76+76+73+75+65+28+49+50+28+49+28+28+48+28+48+48+49+52+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+48+51+28+109+103+47+100+76+28+28+52+65+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*CRP 1CRP 153254109170718111RCRP7.5mg/L14
+20 Jul 2018 09:41:16 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+82+80+32+49+28+67+82+80+32+49+28+53+28+28+51+28+50+53+52+49+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+55+46+53+28+109+103+47+76+28+28+49+52+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*RASIKA1810514109170718114TSHL10TP19ALB10CRE2103E
+20 Jul 2018 09:41:20 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+82+65+83+73+75+65+28+49+56+28+49+28+28+48+28+53+49+52+49+48+57+49+55+48+55+49+56+28+49+28+49+28+52+28+84+83+72+76+28+28+28+49+48+28+84+80+28+28+28+49+57+28+65+76+66+28+28+28+49+48+28+67+82+69+50+28+28+28+49+48+28+51+69+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*KARUNAWATHI1610124209170718111CA9.3mg/dLF5
+20 Jul 2018 09:41:24 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+65+82+85+78+65+87+65+84+72+73+28+49+54+28+49+28+28+48+28+49+50+52+50+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+67+65+28+57+46+51+28+109+103+47+100+76+28+28+70+53+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*KUMUDU2410294209170718111GLUC96mg/dL14
+20 Jul 2018 09:41:28 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+85+77+85+68+85+28+50+52+28+49+28+28+48+28+50+57+52+50+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+57+54+28+109+103+47+100+76+28+28+49+52+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*KUMUDU2410434209170718115AHDL43mg/dLRISK3.6______TGL53mg/dLCHOL153mg/dLLDL99.4mg/dL9B
+20 Jul 2018 09:41:32 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+85+77+85+68+85+28+50+52+28+49+28+28+48+28+52+51+52+50+48+57+49+55+48+55+49+56+28+49+28+49+28+53+28+65+72+68+76+28+52+51+28+109+103+47+100+76+28+28+82+73+83+75+28+51+46+54+28+95+95+95+95+95+95+28+28+84+71+76+28+53+51+28+109+103+47+100+76+28+28+67+72+79+76+28+49+53+51+28+109+103+47+100+76+28+28+76+68+76+28+57+57+46+52+28+109+103+47+100+76+28+28+57+66+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*SIRIVISUDSDI0910094309170718115AHDL49mg/dLRISK3.8______TGL241mg/dLCHOL187mg/dLLDL89.8mg/dLA9
+20 Jul 2018 09:41:36 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+73+82+73+86+73+83+85+68+83+68+73+28+48+57+28+49+28+28+48+28+48+57+52+51+48+57+49+55+48+55+49+56+28+49+28+49+28+53+28+65+72+68+76+28+52+57+28+109+103+47+100+76+28+28+82+73+83+75+28+51+46+56+28+95+95+95+95+95+95+28+28+84+71+76+28+50+52+49+28+109+103+47+100+76+28+28+67+72+79+76+28+49+56+55+28+109+103+47+100+76+28+28+76+68+76+28+56+57+46+56+28+109+103+47+100+76+28+28+65+57+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*ABIRU1110254309170718111FT4L1.16ng/dL21E
+20 Jul 2018 09:41:40 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+65+66+73+82+85+28+49+49+28+49+28+28+48+28+50+53+52+51+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+70+84+52+76+28+49+46+49+54+28+110+103+47+100+76+28+50+28+49+69+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*WIMALA1410424309170718111TSHL6.096uIU/mL20D
+20 Jul 2018 09:41:44 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+87+73+77+65+76+65+28+49+52+28+49+28+28+48+28+52+50+52+51+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+84+83+72+76+28+54+46+48+57+54+28+117+73+85+47+109+76+28+50+28+48+68+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*GANGA1010584309170718111GLUC100mg/dLB7
+20 Jul 2018 09:41:48 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+71+65+78+71+65+28+49+48+28+49+28+28+48+28+53+56+52+51+48+57+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+48+48+28+109+103+47+100+76+28+28+66+55+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*CRP 1CRP 153352910170718111RCRP15.1mg/L3E
+20 Jul 2018 09:41:52 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+82+80+32+49+28+67+82+80+32+49+28+53+28+28+51+28+51+53+50+57+49+48+49+55+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+49+53+46+49+28+109+103+47+76+28+28+51+69+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:41 Received a message from Dimension. <ACK> sent.
+R*CHEM 1CHEM 153353010170718114TBI0.8mg/dLPHOS3.4mg/dLALTI55U/LGGT74U/LD9
+20 Jul 2018 09:41:56 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+69+77+32+49+28+67+72+69+77+32+49+28+53+28+28+51+28+51+53+51+48+49+48+49+55+48+55+49+56+28+49+28+49+28+52+28+84+66+73+28+48+46+56+28+109+103+47+100+76+28+28+80+72+79+83+28+51+46+52+28+109+103+47+100+76+28+28+65+76+84+73+28+53+53+28+85+47+76+28+28+71+71+84+28+55+52+28+85+47+76+28+28+68+57+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*RASIKA1810043510170718116TSHL4.987uIU/mL2TP7.2g/dLGLOB3.6g/dLALB3.6g/dLA/G1.0______CRE20.68mg/dL7D
+20 Jul 2018 09:42:00 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+82+65+83+73+75+65+28+49+56+28+49+28+28+48+28+48+52+51+53+49+48+49+55+48+55+49+56+28+49+28+49+28+54+28+84+83+72+76+28+52+46+57+56+55+28+117+73+85+47+109+76+28+50+28+84+80+28+55+46+50+28+103+47+100+76+28+28+71+76+79+66+28+51+46+54+28+103+47+100+76+28+28+65+76+66+28+51+46+54+28+103+47+100+76+28+28+65+47+71+28+49+46+48+28+95+95+95+95+95+95+28+28+67+82+69+50+28+48+46+54+56+28+109+103+47+100+76+28+28+55+68+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*GANGA10 2H10353510170718111GLUC110mg/dL46
+20 Jul 2018 09:42:04 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+71+65+78+71+65+28+49+48+32+50+72+28+49+28+28+48+28+51+53+51+53+49+48+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+49+48+28+109+103+47+100+76+28+28+52+54+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*PRIYANGIKA3110543510170718111GLUC97mg/dL1F
+20 Jul 2018 09:42:08 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+80+82+73+89+65+78+71+73+75+65+28+51+49+28+49+28+28+48+28+53+52+51+53+49+48+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+57+55+28+109+103+47+100+76+28+28+49+70+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*PRIOYANGIKA3110093610170718115AHDL53mg/dLRISK4.2______TGL69mg/dLCHOL225mg/dLLDL158.2mg/dL28
+20 Jul 2018 09:42:12 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+80+82+73+79+89+65+78+71+73+75+65+28+51+49+28+49+28+28+48+28+48+57+51+54+49+48+49+55+48+55+49+56+28+49+28+49+28+53+28+65+72+68+76+28+53+51+28+109+103+47+100+76+28+28+82+73+83+75+28+52+46+50+28+95+95+95+95+95+95+28+28+84+71+76+28+54+57+28+109+103+47+100+76+28+28+67+72+79+76+28+50+50+53+28+109+103+47+100+76+28+28+76+68+76+28+49+53+56+46+50+28+109+103+47+100+76+28+28+50+56+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*SUJEEWA2810363610170718111GLUC232mg/dL72
+20 Jul 2018 09:42:16 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+85+74+69+69+87+65+28+50+56+28+49+28+28+48+28+51+54+51+54+49+48+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+50+51+50+28+109+103+47+100+76+28+28+55+50+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*SUJEEWA2810593610170718116AHDL38mg/dLRISK5.2______TGL131mg/dLCHOL197mg/dLLDL132.8mg/dLCRE20.71mg/dL2F
+20 Jul 2018 09:42:20 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+85+74+69+69+87+65+28+50+56+28+49+28+28+48+28+53+57+51+54+49+48+49+55+48+55+49+56+28+49+28+49+28+54+28+65+72+68+76+28+51+56+28+109+103+47+100+76+28+28+82+73+83+75+28+53+46+50+28+95+95+95+95+95+95+28+28+84+71+76+28+49+51+49+28+109+103+47+100+76+28+28+67+72+79+76+28+49+57+55+28+109+103+47+100+76+28+28+76+68+76+28+49+51+50+46+56+28+109+103+47+100+76+28+28+67+82+69+50+28+48+46+55+49+28+109+103+47+100+76+28+28+50+70+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*SADEWMI3010163710170718111RCRP0.9mg/L08
+20 Jul 2018 09:42:24 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+65+68+69+87+77+73+28+51+48+28+49+28+28+48+28+49+54+51+55+49+48+49+55+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+48+46+57+28+109+103+47+76+28+28+48+56+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*HASINI3310343710170718111CA9.4mg/dL6A8
+20 Jul 2018 09:42:28 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+72+65+83+73+78+73+28+51+51+28+49+28+28+48+28+51+52+51+55+49+48+49+55+48+55+49+56+28+49+28+49+28+49+28+67+65+28+57+46+52+28+109+103+47+100+76+28+54+28+65+56+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*WANNIARACHCHI2710533710170718111GLUC108mg/dL0F
+20 Jul 2018 09:42:32 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+87+65+78+78+73+65+82+65+67+72+67+72+73+28+50+55+28+49+28+28+48+28+53+51+51+55+49+48+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+48+56+28+109+103+47+100+76+28+28+48+70+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*MADUSHIKA4010151612170718111GLUC100mg/dLE6
+20 Jul 2018 09:42:36 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+65+68+85+83+72+73+75+65+28+52+48+28+49+28+28+48+28+49+53+49+54+49+50+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+48+48+28+109+103+47+100+76+28+28+69+54+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*DIEBETES 1DIEBETES 153471812170718111HB1C9.5%2A7
+20 Jul 2018 09:42:40 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+68+73+69+66+69+84+69+83+32+49+28+68+73+69+66+69+84+69+83+32+49+28+53+28+28+51+28+52+55+49+56+49+50+49+55+48+55+49+56+28+49+28+49+28+49+28+72+66+49+67+28+57+46+53+28+37+28+50+28+65+55+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*DISHANI3910421912170718111GLUC106mg/dL60
+20 Jul 2018 09:42:44 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+68+73+83+72+65+78+73+28+51+57+28+49+28+28+48+28+52+50+49+57+49+50+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+48+54+28+109+103+47+100+76+28+28+54+48+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*GAYANI3810102012170718111TSHL1.457uIU/mL2FD
+20 Jul 2018 09:42:48 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+71+65+89+65+78+73+28+51+56+28+49+28+28+48+28+49+48+50+48+49+50+49+55+48+55+49+56+28+49+28+49+28+49+28+84+83+72+76+28+49+46+52+53+55+28+117+73+85+47+109+76+28+50+28+70+68+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*KAMANI3710292012170718111GLUC117mg/dL0E
+20 Jul 2018 09:42:52 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+65+77+65+78+73+28+51+55+28+49+28+28+48+28+50+57+50+48+49+50+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+49+55+28+109+103+47+100+76+28+28+48+69+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:42 Received a message from Dimension. <ACK> sent.
+R*KAMANI3710442012170718116AHDL64mg/dLRISK3.6______TGL48mg/dLCHOL232mg/dLLDL158.4mg/dLCRE20.78mg/dL9A
+20 Jul 2018 09:42:56 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+65+77+65+78+73+28+51+55+28+49+28+28+48+28+52+52+50+48+49+50+49+55+48+55+49+56+28+49+28+49+28+54+28+65+72+68+76+28+54+52+28+109+103+47+100+76+28+28+82+73+83+75+28+51+46+54+28+95+95+95+95+95+95+28+28+84+71+76+28+52+56+28+109+103+47+100+76+28+28+67+72+79+76+28+50+51+50+28+109+103+47+100+76+28+28+76+68+76+28+49+53+56+46+52+28+109+103+47+100+76+28+28+67+82+69+50+28+48+46+55+56+28+109+103+47+100+76+28+28+57+65+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*CHINTHAKA3410042112170718111BUN19mg/dL29C
+20 Jul 2018 09:43:00 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+73+78+84+72+65+75+65+28+51+52+28+49+28+28+48+28+48+52+50+49+49+50+49+55+48+55+49+56+28+49+28+49+28+49+28+66+85+78+28+49+57+28+109+103+47+100+76+28+50+28+57+67+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*WANNI27103022121707181125NA8K8CL8TP8.1g/dLGLOB3.9g/dLAHDL50mg/dLRISK3.1______TBI0.4mg/dLALPI67U/LTGL111mg/dLCHOL157mg/dLLDL84.8mg/dLPHOS3.5mg/dLAST40U/LALTI69U/LURCA7.4mg/dLDBI0.1mg/dLIBIL0.30mg/dLRCRP1.8mg/LALB4.2g/dLA/G1.1______BUN37mg/dL2GGT49U/LCA10.3mg/dL6CRE21.36mg/dLDD
+20 Jul 2018 09:43:04 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+87+65+78+78+73+28+50+55+28+49+28+28+48+28+51+48+50+50+49+50+49+55+48+55+49+56+28+49+28+49+28+50+53+28+78+65+28+28+28+56+28+75+28+28+28+56+28+67+76+28+28+28+56+28+84+80+28+56+46+49+28+103+47+100+76+28+28+71+76+79+66+28+51+46+57+28+103+47+100+76+28+28+65+72+68+76+28+53+48+28+109+103+47+100+76+28+28+82+73+83+75+28+51+46+49+28+95+95+95+95+95+95+28+28+84+66+73+28+48+46+52+28+109+103+47+100+76+28+28+65+76+80+73+28+54+55+28+85+47+76+28+28+84+71+76+28+49+49+49+28+109+103+47+100+76+28+28+67+72+79+76+28+49+53+55+28+109+103+47+100+76+28+28+76+68+76+28+56+52+46+56+28+109+103+47+100+76+28+28+80+72+79+83+28+51+46+53+28+109+103+47+100+76+28+28+65+83+84+28+52+48+28+85+47+76+28+28+65+76+84+73+28+54+57+28+85+47+76+28+28+85+82+67+65+28+55+46+52+28+109+103+47+100+76+28+28+68+66+73+28+48+46+49+28+109+103+47+100+76+28+28+73+66+73+76+28+48+46+51+48+28+109+103+47+100+76+28+28+82+67+82+80+28+49+46+56+28+109+103+47+76+28+28+65+76+66+28+52+46+50+28+103+47+100+76+28+28+65+47+71+28+49+46+49+28+95+95+95+95+95+95+28+28+66+85+78+28+51+55+28+109+103+47+100+76+28+50+28+71+71+84+28+52+57+28+85+47+76+28+28+67+65+28+49+48+46+51+28+109+103+47+100+76+28+54+28+67+82+69+50+28+49+46+51+54+28+109+103+47+100+76+28+28+68+68+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*WANNI27W0522212170718111HB1C6.1%270
+20 Jul 2018 09:43:08 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+87+65+78+78+73+28+50+55+28+87+28+28+48+28+53+50+50+50+49+50+49+55+48+55+49+56+28+49+28+49+28+49+28+72+66+49+67+28+54+46+49+28+37+28+50+28+55+48+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*CHEM 1CHEM 153171313170718114NA144mmol/LK3.9mmol/LCL118mmol/LALTI55U/LDC
+20 Jul 2018 09:43:12 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+67+72+69+77+32+49+28+67+72+69+77+32+49+28+53+28+28+51+28+49+55+49+51+49+51+49+55+48+55+49+56+28+49+28+49+28+52+28+78+65+28+49+52+52+28+109+109+111+108+47+76+28+28+75+28+51+46+57+28+109+109+111+108+47+76+28+28+67+76+28+49+49+56+28+109+109+111+108+47+76+28+28+65+76+84+73+28+53+53+28+85+47+76+28+28+68+67+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*INDUWARA4210591313170718111AMY35U/L62
+20 Jul 2018 09:43:16 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+73+78+68+85+87+65+82+65+28+52+50+28+49+28+28+48+28+53+57+49+51+49+51+49+55+48+55+49+56+28+49+28+49+28+49+28+65+77+89+28+51+53+28+85+47+76+28+28+54+50+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*WANNI2710091413170718113NA143mmol/LK4.8mmol/LCL105mmol/L07
+20 Jul 2018 09:43:20 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+87+65+78+78+73+28+50+55+28+49+28+28+48+28+48+57+49+52+49+51+49+55+48+55+49+56+28+49+28+49+28+51+28+78+65+28+49+52+51+28+109+109+111+108+47+76+28+28+75+28+52+46+56+28+109+109+111+108+47+76+28+28+67+76+28+49+48+53+28+109+109+111+108+47+76+28+28+48+55+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*WILSON6510221413170718113NA106mmol/LK3.6mmol/LCL68mmol/L37
+20 Jul 2018 09:43:24 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+87+73+76+83+79+78+28+54+53+28+49+28+28+48+28+50+50+49+52+49+51+49+55+48+55+49+56+28+49+28+49+28+51+28+78+65+28+49+48+54+28+109+109+111+108+47+76+28+28+75+28+51+46+54+28+109+109+111+108+47+76+28+28+67+76+28+54+56+28+109+109+111+108+47+76+28+28+51+55+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*DIBETES 2DIABETES 253573113170718111HB1C9.4%25C
+20 Jul 2018 09:43:28 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+68+73+66+69+84+69+83+32+50+28+68+73+65+66+69+84+69+83+32+50+28+53+28+28+51+28+53+55+51+49+49+51+49+55+48+55+49+56+28+49+28+49+28+49+28+72+66+49+67+28+57+46+52+28+37+28+50+28+53+67+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*WANNI27W0173213170718111HB1C6.1%273
+20 Jul 2018 09:43:32 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+87+65+78+78+73+28+50+55+28+87+28+28+48+28+49+55+51+50+49+51+49+55+48+55+49+56+28+49+28+49+28+49+28+72+66+49+67+28+54+46+49+28+37+28+50+28+55+51+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*SIMAYAPOST LUNCH10421915170718111GLUC175mg/dLA1
+20 Jul 2018 09:43:36 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+73+77+65+89+65+28+80+79+83+84+32+76+85+78+67+72+28+49+28+28+48+28+52+50+49+57+49+53+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+55+53+28+109+103+47+100+76+28+28+65+49+3+
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>GlassFish Server Open Source Edition  4.1.2  - Error report</title><style type="text/css"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*KAWSHALYA4510581915170718111CRE20.67mg/dL21
+20 Jul 2018 09:43:40 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+75+65+87+83+72+65+76+89+65+28+52+53+28+49+28+28+48+28+53+56+49+57+49+53+49+55+48+55+49+56+28+49+28+49+28+49+28+67+82+69+50+28+48+46+54+55+28+109+103+47+100+76+28+28+50+49+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*RANJITHPPBS10473415170718111GLUC182mg/dL42
+20 Jul 2018 09:43:44 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+82+65+78+74+73+84+72+28+80+80+66+83+28+49+28+28+48+28+52+55+51+52+49+53+49+55+48+55+49+56+28+49+28+49+28+49+28+71+76+85+67+28+49+56+50+28+109+103+47+100+76+28+28+52+50+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*BINADI10550017170718112RCRP19AMY107F
+20 Jul 2018 09:43:48 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+66+73+78+65+68+73+28+28+49+28+28+48+28+53+53+48+48+49+55+49+55+48+55+49+56+28+49+28+49+28+50+28+82+67+82+80+28+28+28+49+57+28+65+77+89+28+28+28+49+48+28+55+70+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*SAMAN10070117170718112RCRP0.4mg/L3CRE20.99mg/dL37
+20 Jul 2018 09:43:52 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+83+65+77+65+78+28+28+49+28+28+48+28+48+55+48+49+49+55+49+55+48+55+49+56+28+49+28+49+28+50+28+82+67+82+80+28+48+46+52+28+109+103+47+76+28+51+28+67+82+69+50+28+48+46+57+57+28+109+103+47+100+76+28+28+51+55+3+
+success=true|toAnalyzer=2+48+3+
+Bytes written to Port = System.Byte[]
+20/Jul/18 21:43 Received a message from Dimension. <ACK> sent.
+R*MALEESHA10180117170718111RCRP1.8mg/LDB
+20 Jul 2018 09:43:56 PM Sending Data to LIMS
+http://35.187.229.47:8080/arogya/faces/requests/mwapi.xhtml?machine=Dimension&username=inoka&password=inoka1&msg=2+82+28+42+28+77+65+76+69+69+83+72+65+28+28+49+28+28+48+28+49+56+48+49+49+55+49+55+48+55+49+56+28+49+28+49+28+49+28+82+67+82+80+28+49+46+56+28+109+103+47+76+28+28+68+66+3+
+success=true|toAnalyzer=2+48+3+

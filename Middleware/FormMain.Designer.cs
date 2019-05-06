@@ -43,13 +43,16 @@
             this.cmbSysMexPort = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.cmbDimPort = new System.Windows.Forms.ComboBox();
+            this.chkSysmex = new System.Windows.Forms.CheckBox();
+            this.chkDim = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // BtnClear
             // 
-            this.BtnClear.Location = new System.Drawing.Point(584, 65);
+            this.BtnClear.Location = new System.Drawing.Point(779, 80);
+            this.BtnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnClear.Name = "BtnClear";
-            this.BtnClear.Size = new System.Drawing.Size(97, 23);
+            this.BtnClear.Size = new System.Drawing.Size(129, 28);
             this.BtnClear.TabIndex = 26;
             this.BtnClear.Text = "Clear";
             this.BtnClear.UseVisualStyleBackColor = true;
@@ -57,82 +60,92 @@
             // 
             // txtOutput
             // 
-            this.txtOutput.Location = new System.Drawing.Point(15, 141);
+            this.txtOutput.Location = new System.Drawing.Point(20, 174);
+            this.txtOutput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtOutput.Name = "txtOutput";
-            this.txtOutput.Size = new System.Drawing.Size(532, 372);
+            this.txtOutput.Size = new System.Drawing.Size(708, 457);
             this.txtOutput.TabIndex = 36;
             this.txtOutput.Text = "";
             // 
             // txtStatus
             // 
-            this.txtStatus.Location = new System.Drawing.Point(553, 141);
+            this.txtStatus.Location = new System.Drawing.Point(737, 174);
+            this.txtStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(512, 384);
+            this.txtStatus.Size = new System.Drawing.Size(681, 472);
             this.txtStatus.TabIndex = 39;
             this.txtStatus.Text = "";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(118, 61);
+            this.txtPassword.Location = new System.Drawing.Point(157, 75);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(446, 20);
+            this.txtPassword.Size = new System.Drawing.Size(593, 22);
             this.txtPassword.TabIndex = 46;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 66);
+            this.label4.Location = new System.Drawing.Point(21, 81);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 13);
+            this.label4.Size = new System.Drawing.Size(69, 17);
             this.label4.TabIndex = 45;
             this.label4.Text = "Password";
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(118, 35);
+            this.txtUsername.Location = new System.Drawing.Point(157, 43);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(446, 20);
+            this.txtUsername.Size = new System.Drawing.Size(593, 22);
             this.txtUsername.TabIndex = 44;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(16, 39);
+            this.label3.Location = new System.Drawing.Point(21, 48);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 13);
+            this.label3.Size = new System.Drawing.Size(73, 17);
             this.label3.TabIndex = 43;
             this.label3.Text = "Username";
             // 
             // txtUrl
             // 
-            this.txtUrl.Location = new System.Drawing.Point(118, 9);
+            this.txtUrl.Location = new System.Drawing.Point(157, 11);
+            this.txtUrl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUrl.Name = "txtUrl";
-            this.txtUrl.Size = new System.Drawing.Size(446, 20);
+            this.txtUrl.Size = new System.Drawing.Size(593, 22);
             this.txtUrl.TabIndex = 42;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(16, 12);
+            this.label9.Location = new System.Drawing.Point(21, 15);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(73, 13);
+            this.label9.Size = new System.Drawing.Size(95, 17);
             this.label9.TabIndex = 41;
             this.label9.Text = "LIMS Address";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 93);
+            this.label1.Location = new System.Drawing.Point(21, 114);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 13);
+            this.label1.Size = new System.Drawing.Size(86, 17);
             this.label1.TabIndex = 50;
             this.label1.Text = "Sysmex Port";
             // 
             // BtnClose
             // 
-            this.BtnClose.Location = new System.Drawing.Point(584, 37);
+            this.BtnClose.Location = new System.Drawing.Point(779, 46);
+            this.BtnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnClose.Name = "BtnClose";
-            this.BtnClose.Size = new System.Drawing.Size(97, 23);
+            this.BtnClose.Size = new System.Drawing.Size(129, 28);
             this.BtnClose.TabIndex = 49;
             this.BtnClose.Text = "Close";
             this.BtnClose.UseVisualStyleBackColor = true;
@@ -140,9 +153,10 @@
             // 
             // BtnOpen
             // 
-            this.BtnOpen.Location = new System.Drawing.Point(584, 9);
+            this.BtnOpen.Location = new System.Drawing.Point(779, 11);
+            this.BtnOpen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnOpen.Name = "BtnOpen";
-            this.BtnOpen.Size = new System.Drawing.Size(97, 23);
+            this.BtnOpen.Size = new System.Drawing.Size(129, 28);
             this.BtnOpen.TabIndex = 48;
             this.BtnOpen.Text = "Open";
             this.BtnOpen.UseVisualStyleBackColor = true;
@@ -151,33 +165,58 @@
             // cmbSysMexPort
             // 
             this.cmbSysMexPort.FormattingEnabled = true;
-            this.cmbSysMexPort.Location = new System.Drawing.Point(118, 87);
+            this.cmbSysMexPort.Location = new System.Drawing.Point(182, 107);
+            this.cmbSysMexPort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbSysMexPort.Name = "cmbSysMexPort";
-            this.cmbSysMexPort.Size = new System.Drawing.Size(446, 21);
+            this.cmbSysMexPort.Size = new System.Drawing.Size(568, 24);
             this.cmbSysMexPort.TabIndex = 47;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 120);
+            this.label2.Location = new System.Drawing.Point(21, 148);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 13);
+            this.label2.Size = new System.Drawing.Size(112, 17);
             this.label2.TabIndex = 54;
             this.label2.Text = "Diamension Port";
             // 
             // cmbDimPort
             // 
             this.cmbDimPort.FormattingEnabled = true;
-            this.cmbDimPort.Location = new System.Drawing.Point(118, 114);
+            this.cmbDimPort.Location = new System.Drawing.Point(182, 140);
+            this.cmbDimPort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbDimPort.Name = "cmbDimPort";
-            this.cmbDimPort.Size = new System.Drawing.Size(446, 21);
+            this.cmbDimPort.Size = new System.Drawing.Size(568, 24);
             this.cmbDimPort.TabIndex = 51;
+            // 
+            // chkSysmex
+            // 
+            this.chkSysmex.AutoSize = true;
+            this.chkSysmex.Checked = true;
+            this.chkSysmex.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkSysmex.Location = new System.Drawing.Point(157, 107);
+            this.chkSysmex.Name = "chkSysmex";
+            this.chkSysmex.Size = new System.Drawing.Size(18, 17);
+            this.chkSysmex.TabIndex = 55;
+            this.chkSysmex.UseVisualStyleBackColor = true;
+            // 
+            // chkDim
+            // 
+            this.chkDim.AutoSize = true;
+            this.chkDim.Location = new System.Drawing.Point(157, 147);
+            this.chkDim.Name = "chkDim";
+            this.chkDim.Size = new System.Drawing.Size(18, 17);
+            this.chkDim.TabIndex = 56;
+            this.chkDim.UseVisualStyleBackColor = true;
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1065, 525);
+            this.ClientSize = new System.Drawing.Size(1420, 646);
+            this.Controls.Add(this.chkDim);
+            this.Controls.Add(this.chkSysmex);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cmbDimPort);
             this.Controls.Add(this.label1);
@@ -193,6 +232,7 @@
             this.Controls.Add(this.txtStatus);
             this.Controls.Add(this.txtOutput);
             this.Controls.Add(this.BtnClear);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormMain";
             this.Text = "SSS Middleware";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormDimensionSettings_FormClosing);
@@ -218,5 +258,7 @@
         private System.Windows.Forms.ComboBox cmbSysMexPort;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cmbDimPort;
+        private System.Windows.Forms.CheckBox chkSysmex;
+        private System.Windows.Forms.CheckBox chkDim;
     }
 }

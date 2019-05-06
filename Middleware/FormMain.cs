@@ -562,46 +562,56 @@ namespace Middleware
 
             url = txtUrl.Text;
 
-            try
+            if (chkSysmex.Checked)
             {
-                comSm.PortName = cmbSysMexPort.Text;
-                comSm.BaudRate = 9600;
-                comSm.DataBits = 8;
-                comSm.ReadBufferSize = 10000000;
-                comSm.StopBits = StopBits.One;
-                comSm.Parity = Parity.None;
-                comSm.DtrEnable = true;
-                comSm.RtsEnable = true;
-                comSm.Open();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            comSm.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_Sm);
-            comSm.Write(Enq());
 
-            try
-            {
-                comDim.PortName = cmbDimPort.Text;
-                comDim.BaudRate = 9600;
-                comDim.DataBits = 8;
-                comDim.ReadBufferSize = 10000000;
-                comDim.StopBits = StopBits.One;
-                comDim.Parity = Parity.None;
-                comDim.DtrEnable = true;
-                comDim.RtsEnable = true;
-                comDim.Open();
+                try
+                {
+                    comSm.PortName = cmbSysMexPort.Text;
+                    comSm.BaudRate = 9600;
+                    comSm.DataBits = 8;
+                    comSm.ReadBufferSize = 10000000;
+                    comSm.StopBits = StopBits.One;
+                    comSm.Parity = Parity.None;
+                    comSm.DtrEnable = true;
+                    comSm.RtsEnable = true;
+                    comSm.Open();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                comSm.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_Sm);
+                comSm.Write(Enq());
             }
-            catch (Exception ex)
+
+            if (chkDim.Checked)
             {
-                comSm.Close();
-                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+
+                try
+                {
+                    comDim.PortName = cmbDimPort.Text;
+                    comDim.BaudRate = 9600;
+                    comDim.DataBits = 8;
+                    comDim.ReadBufferSize = 10000000;
+                    comDim.StopBits = StopBits.One;
+                    comDim.Parity = Parity.None;
+                    comDim.DtrEnable = true;
+                    comDim.RtsEnable = true;
+                    comDim.Open();
+                }
+                catch (Exception ex)
+                {
+                    comSm.Close();
+                    MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                comDim.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_Dim);
+                comDim.Write(Enq());
+
             }
-            comDim.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_Dim);
-            comDim.Write(Enq());
+
 
             BtnOpen.Enabled = false;
             BtnClose.Enabled = true;

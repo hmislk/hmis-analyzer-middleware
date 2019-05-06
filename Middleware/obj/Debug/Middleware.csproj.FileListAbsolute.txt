@@ -29,3 +29,12 @@ E:\Company\Development\Middleware\New SysMex\Middleware\bin\Debug\Middleware.pdb
 E:\Company\Development\Middleware\New SysMex\Middleware\obj\Debug\Middleware.Properties.Resources.resources
 E:\Company\Development\Middleware\New SysMex\Middleware\obj\Debug\Middleware.exe
 E:\Company\Development\Middleware\New SysMex\Middleware\obj\Debug\Middleware.pdb
+D:\SSS\Development\C#\dim\Middleware\bin\Debug\Middleware.exe.config
+D:\SSS\Development\C#\dim\Middleware\bin\Debug\Middleware.exe
+D:\SSS\Development\C#\dim\Middleware\bin\Debug\Middleware.pdb
+D:\SSS\Development\C#\dim\Middleware\obj\Debug\Middleware.FormMain.resources
+D:\SSS\Development\C#\dim\Middleware\obj\Debug\Middleware.Properties.Resources.resources
+D:\SSS\Development\C#\dim\Middleware\obj\Debug\Middleware.csproj.GenerateResource.cache
+D:\SSS\Development\C#\dim\Middleware\obj\Debug\Middleware.csproj.CoreCompileInputs.cache
+D:\SSS\Development\C#\dim\Middleware\obj\Debug\Middleware.exe
+D:\SSS\Development\C#\dim\Middleware\obj\Debug\Middleware.pdb

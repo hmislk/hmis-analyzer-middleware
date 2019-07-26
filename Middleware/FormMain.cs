@@ -505,30 +505,38 @@ namespace Middleware
             cmbSysMexPort.SelectedIndex = 0;
             BtnClose.Enabled = false;
 
-
-            Registry.CurrentUser.CreateSubKey("SOFTWARE\\SSS\\Middleware\\Middleware", true);
-            Registry.CurrentUser.CreateSubKey("SOFTWARE\\SSS\\Middleware\\Dimension", true);
-            Registry.CurrentUser.CreateSubKey("SOFTWARE\\SSS\\Middleware\\Sysmex", true);
-
-            RegistryKey KeyMiddleware = Registry.CurrentUser.OpenSubKey
-                        ("SOFTWARE\\SSS\\Middleware\\Middleware", true);
-            RegistryKey KeyDimension = Registry.CurrentUser.OpenSubKey
-                        ("SOFTWARE\\SSS\\Middleware\\Dimension", true);
-            RegistryKey KeySysmex = Registry.CurrentUser.OpenSubKey
-                        ("SOFTWARE\\SSS\\Middleware\\Sysmex", true);
-
-
-            if (KeyMiddleware != null)
+            try
             {
-                txtUrl.Text = (String)KeyMiddleware.GetValue("url", "");
+
+           
+                Registry.CurrentUser.CreateSubKey("SOFTWARE\\SSS\\Middleware\\Middleware");
+                Registry.CurrentUser.CreateSubKey("SOFTWARE\\SSS\\Middleware\\Dimension");
+                Registry.CurrentUser.CreateSubKey("SOFTWARE\\SSS\\Middleware\\Sysmex");
+
+                RegistryKey KeyMiddleware = Registry.CurrentUser.OpenSubKey
+                            ("SOFTWARE\\SSS\\Middleware\\Middleware", true);
+                RegistryKey KeyDimension = Registry.CurrentUser.OpenSubKey
+                            ("SOFTWARE\\SSS\\Middleware\\Dimension", true);
+                RegistryKey KeySysmex = Registry.CurrentUser.OpenSubKey
+                            ("SOFTWARE\\SSS\\Middleware\\Sysmex", true);
+
+
+                if (KeyMiddleware != null)
+                {
+                    txtUrl.Text = (String)KeyMiddleware.GetValue("url", "");
+                }
+                if (KeyDimension != null)
+                {
+                    cmbDimPort.Text = (String)KeyDimension.GetValue("port", "");
+                }
+                if (KeySysmex != null)
+                {
+                    cmbSysMexPort.Text = (String)KeySysmex.GetValue("port", "");
+                }
             }
-            if (KeyDimension != null)
+            catch (Exception er)
             {
-                cmbDimPort.Text = (String)KeyDimension.GetValue("port", "");
-            }
-            if (KeySysmex != null)
-            {
-                cmbSysMexPort.Text = (String)KeySysmex.GetValue("port", "");
+                MessageBox.Show("Error " + er.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -576,14 +584,20 @@ namespace Middleware
                     comSm.DtrEnable = true;
                     comSm.RtsEnable = true;
                     comSm.Open();
+                    status += "SysMex Port Opened";
+                    txtStatus.Text = status;
+                    MessageBox.Show("Connected", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception ex)
                 {
+                    status += "Error in connecting";
                     MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
                 comSm.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_Sm);
                 comSm.Write(Enq());
+                status += "Enq Sent";
+                txtStatus.Text = status;
             }
 
             if (chkDim.Checked)

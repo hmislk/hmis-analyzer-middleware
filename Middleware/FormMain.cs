@@ -375,7 +375,7 @@ namespace Middleware
 
             foreach (Byte b in buffer)
             {
-                //status += (char)b;
+                
                 if (b == ByteEnq())
                 {
                     com1.Write(Ack());
@@ -694,7 +694,7 @@ namespace Middleware
             cmbPort6.SelectedIndex = 0;
 
 
-            BtnClose.Enabled = false;
+         
 
             try
             {
@@ -772,6 +772,10 @@ namespace Middleware
             {
                 MessageBox.Show("Error " + er.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+            portStatus = "No Ports Open Yet.";
+            txtPortStatus.Text = portStatus;
+
         }
 
         private void FormDimensionSettings_FormClosing(object sender, FormClosingEventArgs e)
@@ -826,9 +830,7 @@ namespace Middleware
 
         private void BtnOpen_Click(object sender, EventArgs e)
         {
-            BtnOpen.Enabled = true;
-            BtnClose.Enabled = true;
-
+           
             portStatus = "";
 
             url = txtUrl.Text;
@@ -996,8 +998,7 @@ namespace Middleware
             }
 
             txtPortStatus.Text = portStatus;
-            BtnOpen.Enabled = true;
-            BtnClose.Enabled = true;
+         
 
         }
 
@@ -1044,15 +1045,63 @@ namespace Middleware
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            
+
+            txtPortStatus.Text = portStatus;
 
         }
 
         #endregion
 
-        private void label1_Click(object sender, EventArgs e)
-        {
+        
 
+        private void btnEnq1_Click(object sender, EventArgs e)
+        {
+            if (com1.IsOpen)
+            {
+                com1.Write(Enq());
+            }
+        }
+
+       
+        private void btnEnq3_Click(object sender, EventArgs e)
+        {
+            if (com3.IsOpen)
+            {
+                com3.Write(Enq());
+            }
+        }
+
+        private void btnEnq2_Click(object sender, EventArgs e)
+        {
+            if (com2.IsOpen)
+            {
+                com2.Write(Enq());
+            }
+
+        }
+
+        private void btnEnq4_Click(object sender, EventArgs e)
+        {
+            if (com4.IsOpen)
+            {
+                com4.Write(Enq());
+            }
+        }
+
+        private void btnEnq5_Click(object sender, EventArgs e)
+        {
+            if (com5.IsOpen)
+            {
+                com5.Write(Enq());
+            }
+        }
+
+        private void btnEnq6_Click(object sender, EventArgs e)
+        {
+            if (com6.IsOpen)
+            {
+                com6.Write(Enq());
+            }
         }
     }
 }

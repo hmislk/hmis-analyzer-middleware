@@ -54,6 +54,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPortStatus = new System.Windows.Forms.RichTextBox();
+            this.btnEnq1 = new System.Windows.Forms.Button();
+            this.btnEnq2 = new System.Windows.Forms.Button();
+            this.btnEnq3 = new System.Windows.Forms.Button();
+            this.btnEnq4 = new System.Windows.Forms.Button();
+            this.btnEnq5 = new System.Windows.Forms.Button();
+            this.btnEnq6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnClear
@@ -224,7 +230,7 @@
             // 
             // txtAnalyzer2
             // 
-            this.txtAnalyzer2.Location = new System.Drawing.Point(272, 210);
+            this.txtAnalyzer2.Location = new System.Drawing.Point(272, 206);
             this.txtAnalyzer2.Name = "txtAnalyzer2";
             this.txtAnalyzer2.Size = new System.Drawing.Size(263, 22);
             this.txtAnalyzer2.TabIndex = 66;
@@ -265,7 +271,6 @@
             this.label1.Size = new System.Drawing.Size(34, 17);
             this.label1.TabIndex = 71;
             this.label1.Text = "Port";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -285,11 +290,77 @@
             this.txtPortStatus.TabIndex = 73;
             this.txtPortStatus.Text = "";
             // 
+            // btnEnq1
+            // 
+            this.btnEnq1.Location = new System.Drawing.Point(553, 172);
+            this.btnEnq1.Name = "btnEnq1";
+            this.btnEnq1.Size = new System.Drawing.Size(136, 23);
+            this.btnEnq1.TabIndex = 74;
+            this.btnEnq1.Text = "Send ENQ";
+            this.btnEnq1.UseVisualStyleBackColor = true;
+            this.btnEnq1.Click += new System.EventHandler(this.btnEnq1_Click);
+            // 
+            // btnEnq2
+            // 
+            this.btnEnq2.Location = new System.Drawing.Point(553, 207);
+            this.btnEnq2.Name = "btnEnq2";
+            this.btnEnq2.Size = new System.Drawing.Size(136, 23);
+            this.btnEnq2.TabIndex = 75;
+            this.btnEnq2.Text = "Send ENQ";
+            this.btnEnq2.UseVisualStyleBackColor = true;
+            this.btnEnq2.Click += new System.EventHandler(this.btnEnq2_Click);
+            // 
+            // btnEnq3
+            // 
+            this.btnEnq3.Location = new System.Drawing.Point(553, 240);
+            this.btnEnq3.Name = "btnEnq3";
+            this.btnEnq3.Size = new System.Drawing.Size(136, 23);
+            this.btnEnq3.TabIndex = 76;
+            this.btnEnq3.Text = "Send ENQ";
+            this.btnEnq3.UseVisualStyleBackColor = true;
+            this.btnEnq3.Click += new System.EventHandler(this.btnEnq3_Click);
+            // 
+            // btnEnq4
+            // 
+            this.btnEnq4.Location = new System.Drawing.Point(553, 274);
+            this.btnEnq4.Name = "btnEnq4";
+            this.btnEnq4.Size = new System.Drawing.Size(136, 23);
+            this.btnEnq4.TabIndex = 77;
+            this.btnEnq4.Text = "Send ENQ";
+            this.btnEnq4.UseVisualStyleBackColor = true;
+            this.btnEnq4.Click += new System.EventHandler(this.btnEnq4_Click);
+            // 
+            // btnEnq5
+            // 
+            this.btnEnq5.Location = new System.Drawing.Point(553, 306);
+            this.btnEnq5.Name = "btnEnq5";
+            this.btnEnq5.Size = new System.Drawing.Size(136, 23);
+            this.btnEnq5.TabIndex = 78;
+            this.btnEnq5.Text = "Send ENQ";
+            this.btnEnq5.UseVisualStyleBackColor = true;
+            this.btnEnq5.Click += new System.EventHandler(this.btnEnq5_Click);
+            // 
+            // btnEnq6
+            // 
+            this.btnEnq6.Location = new System.Drawing.Point(553, 338);
+            this.btnEnq6.Name = "btnEnq6";
+            this.btnEnq6.Size = new System.Drawing.Size(136, 23);
+            this.btnEnq6.TabIndex = 79;
+            this.btnEnq6.Text = "Send ENQ";
+            this.btnEnq6.UseVisualStyleBackColor = true;
+            this.btnEnq6.Click += new System.EventHandler(this.btnEnq6_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1420, 646);
+            this.Controls.Add(this.btnEnq6);
+            this.Controls.Add(this.btnEnq5);
+            this.Controls.Add(this.btnEnq4);
+            this.Controls.Add(this.btnEnq3);
+            this.Controls.Add(this.btnEnq2);
+            this.Controls.Add(this.btnEnq1);
             this.Controls.Add(this.txtPortStatus);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -353,5 +424,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox txtPortStatus;
+        private System.Windows.Forms.Button btnEnq1;
+        private System.Windows.Forms.Button btnEnq2;
+        private System.Windows.Forms.Button btnEnq3;
+        private System.Windows.Forms.Button btnEnq4;
+        private System.Windows.Forms.Button btnEnq5;
+        private System.Windows.Forms.Button btnEnq6;
     }
 }

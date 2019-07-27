@@ -164,9 +164,6 @@ namespace Middleware
         private async Task SendRequestToLimsAsync(List<byte> bytes, String machine, SerialPort com)
         {
 
-           
-
-
             String sendingStr = "";
             foreach (byte b in bytes)
             {
@@ -525,7 +522,7 @@ namespace Middleware
                     status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from  " + txtAnalyzer1.Text + ". <ACK> sent." + Environment.NewLine;
                     status += BytesToString(msg1) + Environment.NewLine;
                     this.Invoke(new EventHandler(DisplayText));
-                    SendRequestToLimsAsync(msg1, txtAnalyzer1.Text, com1).Wait();
+                   // SendRequestToLimsAsync(msg1, txtAnalyzer1.Text, com1).Wait();
                     msg1 = new List<byte>();
 
                 }
@@ -546,20 +543,20 @@ namespace Middleware
                 if (b == ByteEnq())
                 {
                     com2.Write(Ack());
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ> from SysMex. <ACK> sent." + Environment.NewLine;
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ> from " + txtAnalyzer2.Text + " <ACK> sent." + Environment.NewLine;
                     msg2 = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteAck())
                 {
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from SysMex. " + Environment.NewLine;
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from  " + txtAnalyzer2.Text + ". " + Environment.NewLine;
                     msg2 = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteEot() || b == ByteEtx())
                 {
                     com2.Write(Ack());
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from SysMex. <ACK> sent." + Environment.NewLine;
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from  " + txtAnalyzer2.Text + ". <ACK> sent." + Environment.NewLine;
                     status += BytesToString(msg2) + Environment.NewLine;
                     this.Invoke(new EventHandler(DisplayText));
                     SendRequestToLimsAsync(msg2, txtAnalyzer2.Text, com2).Wait();
@@ -572,41 +569,41 @@ namespace Middleware
 
         private void Com_DataReceived_3(object sender, SerialDataReceivedEventArgs e)
         {
-            int bytes = com1.BytesToRead;
+            int bytes = com3.BytesToRead;
             byte[] buffer = new byte[bytes];
-            com1.Read(buffer, 0, bytes);
-            msg1.AddRange(buffer);
+            com3.Read(buffer, 0, bytes);
+            msg3.AddRange(buffer);
 
             foreach (Byte b in buffer)
             {
                 //status += (char)b;
                 if (b == ByteEnq())
                 {
-                    com1.Write(Ack());
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ> from Dimension. <ACK> sent." + Environment.NewLine;
-                    msg1 = new List<byte>();
+                    com3.Write(Ack());
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ> from  " + txtAnalyzer3.Text + ". <ACK> sent." + Environment.NewLine;
+                    msg3 = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteAck())
                 {
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from Dimension. " + Environment.NewLine;
-                    msg1 = new List<byte>();
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from  " + txtAnalyzer3.Text + ". " + Environment.NewLine;
+                    msg3 = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteNak())
                 {
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <NAK> from Dimension. " + Environment.NewLine;
-                    msg1 = new List<byte>();
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <NAK> from  " + txtAnalyzer3.Text + ". " + Environment.NewLine;
+                    msg3 = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteEot() || b == ByteEtx())
                 {
-                    com1.Write(Ack());
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from Dimension. <ACK> sent." + Environment.NewLine;
-                    status += BytesToString(msg1) + Environment.NewLine;
+                    com3.Write(Ack());
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from  " + txtAnalyzer3.Text + ". <ACK> sent." + Environment.NewLine;
+                    status += BytesToString(msg3) + Environment.NewLine;
                     this.Invoke(new EventHandler(DisplayText));
-                    SendDataToLimsAsync(msg1, Analyzer.Dimension).Wait();
-                    msg1 = new List<byte>();
+                    SendDataToLimsAsync(msg3, Analyzer.Dimension).Wait();
+                    msg3 = new List<byte>();
 
                 }
             }
@@ -615,35 +612,35 @@ namespace Middleware
 
         private void Com_DataReceived_4(object sender, SerialDataReceivedEventArgs e)
         {
-            int bytes = com2.BytesToRead;
+            int bytes = com4.BytesToRead;
             byte[] buffer = new byte[bytes];
-            com2.Read(buffer, 0, bytes);
-            msg2.AddRange(buffer);
+            com4.Read(buffer, 0, bytes);
+            msg4.AddRange(buffer);
 
             foreach (Byte b in buffer)
             {
                 //status += (char)b;
                 if (b == ByteEnq())
                 {
-                    com2.Write(Ack());
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ> from SysMex. <ACK> sent." + Environment.NewLine;
-                    msg2 = new List<byte>();
+                    com4.Write(Ack());
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ> from  " + txtAnalyzer4.Text + ". <ACK> sent." + Environment.NewLine;
+                    msg4 = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteAck())
                 {
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from SysMex. " + Environment.NewLine;
-                    msg2 = new List<byte>();
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from  " + txtAnalyzer4.Text + ". " + Environment.NewLine;
+                    msg4 = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteEot() || b == ByteEtx())
                 {
-                    com2.Write(Ack());
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from SysMex. <ACK> sent." + Environment.NewLine;
+                    com4.Write(Ack());
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from  " + txtAnalyzer2.Text + ". <ACK> sent." + Environment.NewLine;
                     status += BytesToString(msg2) + Environment.NewLine;
                     this.Invoke(new EventHandler(DisplayText));
                     SendDataToLimsAsync(msg2, Analyzer.SysMex).Wait();
-                    msg2 = new List<byte>();
+                    msg4 = new List<byte>();
 
                 }
             }
@@ -652,37 +649,37 @@ namespace Middleware
 
         private void Com_DataReceived_5(object sender, SerialDataReceivedEventArgs e)
         {
-            int bytes = com1.BytesToRead;
+            int bytes = com5.BytesToRead;
             byte[] buffer = new byte[bytes];
-            com1.Read(buffer, 0, bytes);
-            msg1.AddRange(buffer);
+            com5.Read(buffer, 0, bytes);
+            msg5.AddRange(buffer);
 
             foreach (Byte b in buffer)
             {
                 //status += (char)b;
                 if (b == ByteEnq())
                 {
-                    com1.Write(Ack());
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ> from Dimension. <ACK> sent." + Environment.NewLine;
-                    msg1 = new List<byte>();
+                    com5.Write(Ack());
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ> from  " + txtAnalyzer5.Text + ". <ACK> sent." + Environment.NewLine;
+                    msg5 = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteAck())
                 {
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from Dimension. " + Environment.NewLine;
-                    msg1 = new List<byte>();
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from  " + txtAnalyzer5.Text + ". " + Environment.NewLine;
+                    msg5 = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteNak())
                 {
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <NAK> from Dimension. " + Environment.NewLine;
-                    msg1 = new List<byte>();
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <NAK> from  " + txtAnalyzer5.Text + ". " + Environment.NewLine;
+                    msg5 = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteEot() || b == ByteEtx())
                 {
-                    com1.Write(Ack());
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from Dimension. <ACK> sent." + Environment.NewLine;
+                    com5.Write(Ack());
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from  " + txtAnalyzer5.Text + ". <ACK> sent." + Environment.NewLine;
                     status += BytesToString(msg1) + Environment.NewLine;
                     this.Invoke(new EventHandler(DisplayText));
                     SendDataToLimsAsync(msg1, Analyzer.Dimension).Wait();
@@ -695,35 +692,35 @@ namespace Middleware
 
         private void Com_DataReceived_6(object sender, SerialDataReceivedEventArgs e)
         {
-            int bytes = com2.BytesToRead;
+            int bytes = com6.BytesToRead;
             byte[] buffer = new byte[bytes];
-            com2.Read(buffer, 0, bytes);
-            msg2.AddRange(buffer);
+            com6.Read(buffer, 0, bytes);
+            msg6.AddRange(buffer);
 
             foreach (Byte b in buffer)
             {
                 //status += (char)b;
                 if (b == ByteEnq())
                 {
-                    com2.Write(Ack());
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ> from SysMex. <ACK> sent." + Environment.NewLine;
-                    msg2 = new List<byte>();
+                    com6.Write(Ack());
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ> from  " + txtAnalyzer6.Text + ". <ACK> sent." + Environment.NewLine;
+                    msg6 = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteAck())
                 {
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from SysMex. " + Environment.NewLine;
-                    msg2 = new List<byte>();
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from  " + txtAnalyzer6.Text + ". " + Environment.NewLine;
+                    msg6 = new List<byte>();
                     this.Invoke(new EventHandler(DisplayText));
                 }
                 else if (b == ByteEot() || b == ByteEtx())
                 {
-                    com2.Write(Ack());
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from SysMex. <ACK> sent." + Environment.NewLine;
+                    com6.Write(Ack());
+                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from  " + txtAnalyzer6.Text + ". <ACK> sent." + Environment.NewLine;
                     status += BytesToString(msg2) + Environment.NewLine;
                     this.Invoke(new EventHandler(DisplayText));
                     SendDataToLimsAsync(msg2, Analyzer.SysMex).Wait();
-                    msg2 = new List<byte>();
+                    msg6 = new List<byte>();
 
                 }
             }
@@ -1179,7 +1176,8 @@ namespace Middleware
         {
             if (com1.IsOpen)
             {
-                com1.Write(Enq());
+                String s = Stx() + txtCmd1 + Etx();
+                com1.Write(s);
             }
         }
 

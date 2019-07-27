@@ -497,12 +497,12 @@ namespace Middleware
         private void FormDimensionSettings_Load(object sender, EventArgs e)
         {
             String[] ports = SerialPort.GetPortNames();
-            cmbDimPort.Items.AddRange(ports);
-            cmbDimPort.SelectedIndex = 0;
+            cmbPort2.Items.AddRange(ports);
+            cmbPort2.SelectedIndex = 0;
 
 
-            cmbSysMexPort.Items.AddRange(ports);
-            cmbSysMexPort.SelectedIndex = 0;
+            cmbPort1.Items.AddRange(ports);
+            cmbPort1.SelectedIndex = 0;
             BtnClose.Enabled = false;
 
             try
@@ -527,11 +527,11 @@ namespace Middleware
                 }
                 if (KeyDimension != null)
                 {
-                    cmbDimPort.Text = (String)KeyDimension.GetValue("port", "");
+                    cmbPort2.Text = (String)KeyDimension.GetValue("port", "");
                 }
                 if (KeySysmex != null)
                 {
-                    cmbSysMexPort.Text = (String)KeySysmex.GetValue("port", "");
+                    cmbPort1.Text = (String)KeySysmex.GetValue("port", "");
                 }
             }
             catch (Exception er)
@@ -550,8 +550,8 @@ namespace Middleware
                         ("SOFTWARE\\SSS\\Middleware\\Sysmex", true);
 
             KeyMiddleware.SetValue("url", txtUrl.Text);
-            KeyDimension.SetValue("port", cmbDimPort.Text);
-            KeySysmex.SetValue("port", cmbSysMexPort.Text);
+            KeyDimension.SetValue("port", cmbPort2.Text);
+            KeySysmex.SetValue("port", cmbPort1.Text);
         }
 
         private void BtnClearStatus_Click(object sender, EventArgs e)
@@ -570,12 +570,12 @@ namespace Middleware
 
             url = txtUrl.Text;
 
-            if (chkSysmex.Checked)
+            if (chkPort1.Checked)
             {
 
                 try
                 {
-                    comSm.PortName = cmbSysMexPort.Text;
+                    comSm.PortName = cmbPort1.Text;
                     comSm.BaudRate = 9600;
                     comSm.DataBits = 8;
                     comSm.ReadBufferSize = 10000000;
@@ -600,12 +600,12 @@ namespace Middleware
                 txtStatus.Text = status;
             }
 
-            if (chkDim.Checked)
+            if (chkPort2.Checked)
             {
 
                 try
                 {
-                    comDim.PortName = cmbDimPort.Text;
+                    comDim.PortName = cmbPort2.Text;
                     comDim.BaudRate = 9600;
                     comDim.DataBits = 8;
                     comDim.ReadBufferSize = 10000000;

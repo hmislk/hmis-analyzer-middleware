@@ -1,0 +1,2 @@
+﻿Opening repositories:
+D:\SSS\Development\C#\analyzer middleware

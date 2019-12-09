@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Net.Http;
 using System.Web;
 using System.Timers;
+using RestSharp;
 
 namespace Middleware
 {
@@ -17,6 +18,8 @@ namespace Middleware
     {
 
         #region classVariables
+
+
 
         SerialPort com1 = new SerialPort();
         SerialPort com2 = new SerialPort();
@@ -161,121 +164,49 @@ namespace Middleware
 
         #region mainFunctions
 
-        private async Task SendRequestToLimsAsync(List<byte> bytes, String machine, SerialPort com)
+        private void SendRestfulRequestToLims(List<byte> bytes, String machine, SerialPort com)
         {
+            MessageBox.Show(machine, "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            String sendingStr = "";
-            foreach (byte b in bytes)
+            try
             {
-                sendingStr += b + " ";
+                Console.WriteLine("SendRestfulRequestToLims");
+                var client = new RestClient(url);
+                var request = new RestRequest("api/lims/middleware", Method.GET);
+                request.AddUrlSegment("machine", machine); // replaces matching token in request.Resource
+                request.AddUrlSegment("message", machine);
+                request.AddUrlSegment("username", txtUsername.Text);
+                request.AddUrlSegment("password", txtPassword.Text);
+
+                Console.WriteLine(request.Resource);
+
+                MessageBox.Show(request.Resource);
+
+                IRestResponse response = client.Execute(request);
+                var content = response.Content; // raw content as string
+
+
+                Console.WriteLine(response.Content);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.Message);
             }
 
-            String initialPoll = "2 80 28 68 73 77 49 28 49 28 49 28 48 28 55 57 3 ";
-            String conversationalPoll = "2 80 28 68 73 77 49 28 48 28 49 28 48 28 55 56 3 ";
-            String noRequestPoll = "2+78+28+54+65+3+";
 
-            //MessageBox.Show("|" + sendingStr + "|");
-
-            if (sendingStr.Equals(initialPoll) || sendingStr.Equals(conversationalPoll))
-            {
-
-                List<byte> lstBytes = GetBytesFromMessage(noRequestPoll, true);
-                Console.Write("lstBytes = " + lstBytes);
-                if (lstBytes != null && lstBytes.Count > 0)
-                {
-                    byte[] temBytesToWrite = lstBytes.ToArray();
-                    com1.Write(temBytesToWrite, 0, temBytesToWrite.Length);
-                }
-                String temStatus = "";
-                if (sendingStr == initialPoll)
-                {
-                    temStatus += DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + " Received Initial Poll Message. No Request Message Sent." + Environment.NewLine;
-                }
-                else if (sendingStr == conversationalPoll)
-                {
-                    temStatus += DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + " Received Conversational Poll Message. No Request Message Sent." + Environment.NewLine;
-                }
-                //MessageBox.Show(temStatus);
-                status += temStatus;
-                this.Invoke(new EventHandler(DisplayOutput));
-            }
-            else
-            {
-                #region sendingDataToLims
-
-                string longurl = url + "faces/requests/mwapi.xhtml";
-                var uriBuilder = new UriBuilder(longurl);
-
-                var query = HttpUtility.ParseQueryString(uriBuilder.Query);
-                query["machine"] = machine.ToString();
-                query["username"] = txtUsername.Text;
-                query["password"] = txtPassword.Text;
-                query["msg"] = sendingStr;
-
-                uriBuilder.Query = query.ToString();
-                longurl = uriBuilder.ToString();
-
-                status += DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + " Sending Data to LIMS" + Environment.NewLine + longurl + Environment.NewLine;
-
-                var response = await client.GetAsync(longurl);
-                var responseString = await response.Content.ReadAsStringAsync();
-                responseString = ExtractMessageFromHtml(responseString);
-
-                if (responseString == "Error in LIMS Response. Please check.")
-                {
-                    status += responseString + Environment.NewLine;
-                    this.Invoke(new EventHandler(DisplayText));
-
-                    output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + Environment.NewLine + " " + machine + " Error. Please send results again." + Environment.NewLine;
-                    color = Color.Red;
-                    this.Invoke(new EventHandler(DisplayOutput));
-
-                    com2.Write(Nak());
+            
 
 
-                }
-                else if (responseString.Contains("success=false"))
-                {
-                    status += responseString + Environment.NewLine;
-                    this.Invoke(new EventHandler(DisplayText));
 
-                    output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh:mm:ss tt") + Environment.NewLine + " " + machine + " Error. Please send results again." + Environment.NewLine;
-                    color = Color.Red;
-                    this.Invoke(new EventHandler(DisplayOutput));
-                    com.Write(Nak());
-                }
-                else if (responseString.Contains("success=true"))
-                {
-                    Console.WriteLine("Success = true");
-                    status += responseString + Environment.NewLine;
-                    this.Invoke(new EventHandler(DisplayText));
 
-                    output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh: mm:ss tt") + Environment.NewLine + " " + machine + " Results added. " + Environment.NewLine;
-                    color = Color.Green;
-                    this.Invoke(new EventHandler(DisplayOutput));
-                    Console.WriteLine("machine = " + machine);
 
-                    List<byte> lstBytes = GetBytesFromMessage(responseString);
-                    Console.Write("lstBytes = " + lstBytes);
-                    if (lstBytes != null && lstBytes.Count > 0)
-                    {
-                        byte[] temBytesToWrite = lstBytes.ToArray();
-                        com.Write(temBytesToWrite, 0, temBytesToWrite.Length);
-                    }
-                }
-                else
-                {
-                    status += responseString + Environment.NewLine;
-                    this.Invoke(new EventHandler(DisplayText));
-                    output = Environment.NewLine + DateTime.Now.ToString("dd MMM yyyy hh: mm:ss tt") + Environment.NewLine + " Can't send data from " + machine + " to LIMS. Please check LIMS." + Environment.NewLine;
-                    color = Color.Red;
-                    this.Invoke(new EventHandler(DisplayOutput));
-                    com.Write(Nak());
-                }
 
-                #endregion
 
-            }
+
+            #endregion
+
+
+
 
         }
 
@@ -489,45 +420,8 @@ namespace Middleware
 
         private void Com_DataReceived_1(object sender, SerialDataReceivedEventArgs e)
         {
-            int bytes = com1.BytesToRead;
-            byte[] buffer = new byte[bytes];
-            com1.Read(buffer, 0, bytes);
-            msg1.AddRange(buffer);
-
-            foreach (Byte b in buffer)
-            {
-
-                if (b == ByteEnq())
-                {
-                    com1.Write(Ack());
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ENQ> from " + txtAnalyzer1.Text + ". <ACK> sent." + Environment.NewLine;
-                    msg1 = new List<byte>();
-                    this.Invoke(new EventHandler(DisplayText));
-                }
-                else if (b == ByteAck())
-                {
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <ACK> from  " + txtAnalyzer1.Text + ". " + Environment.NewLine;
-                    msg1 = new List<byte>();
-                    this.Invoke(new EventHandler(DisplayText));
-                }
-                else if (b == ByteNak())
-                {
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received <NAK> from  " + txtAnalyzer1.Text + ". " + Environment.NewLine;
-                    msg1 = new List<byte>();
-                    this.Invoke(new EventHandler(DisplayText));
-                }
-                else if (b == ByteEot() || b == ByteEtx())
-                {
-                    com1.Write(Ack());
-                    status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from  " + txtAnalyzer1.Text + ". <ACK> sent." + Environment.NewLine;
-                    status += BytesToString(msg1) + Environment.NewLine;
-                    this.Invoke(new EventHandler(DisplayText));
-                   // SendRequestToLimsAsync(msg1, txtAnalyzer1.Text, com1).Wait();
-                    msg1 = new List<byte>();
-
-                }
-            }
-
+            Console.WriteLine("Com_DataReceived_1");
+            SendRestfulRequestToLims(msg1, txtAnalyzer1.Text, com1);
         }
 
         private void Com_DataReceived_2(object sender, SerialDataReceivedEventArgs e)
@@ -559,8 +453,7 @@ namespace Middleware
                     status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from  " + txtAnalyzer2.Text + ". <ACK> sent." + Environment.NewLine;
                     status += BytesToString(msg2) + Environment.NewLine;
                     this.Invoke(new EventHandler(DisplayText));
-                    SendRequestToLimsAsync(msg2, txtAnalyzer2.Text, com2).Wait();
-                    msg2 = new List<byte>();
+                                        msg2 = new List<byte>();
 
                 }
             }
@@ -639,7 +532,7 @@ namespace Middleware
                     status += DateTime.Now.ToString("dd/MMM/yy H:mm") + " Received a message from  " + txtAnalyzer2.Text + ". <ACK> sent." + Environment.NewLine;
                     status += BytesToString(msg2) + Environment.NewLine;
                     this.Invoke(new EventHandler(DisplayText));
-                    SendDataToLimsAsync(msg2, Analyzer.SysMex).Wait();
+                 //   SendDataToLimsAsync(msg2, Analyzer.SysMex).Wait();
                     msg4 = new List<byte>();
 
                 }
@@ -729,8 +622,7 @@ namespace Middleware
 
 
 
-        #endregion
-
+    
         #region supportiveFunctions
 
         private void DisplayText(object sender, EventArgs e)
@@ -964,7 +856,7 @@ namespace Middleware
                     com1.PortName = cmbPort1.Text;
                     com1.BaudRate = 9600;
                     com1.DataBits = 8;
-                    com1.ReadBufferSize = 10000000;
+                    //com1.ReadBufferSize = 10000000;
                     com1.StopBits = StopBits.One;
                     com1.Parity = Parity.None;
                     com1.DtrEnable = true;
@@ -973,13 +865,13 @@ namespace Middleware
                     status += "Port One Opened";
                     txtStatus.Text = status;
                     MessageBox.Show("Connected", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    portStatus += cmbPort1.Text + " is Open.";
+                    portStatus += cmbPort1.Text + " opened successfully." + Environment.NewLine;
                     com1.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_1);
                     com1.Write(Enq());
                 }
                 catch (Exception ex)
                 {
-                    portStatus += cmbPort1.Text + " can NOT Open. " + ex.Message;
+                    portStatus += cmbPort1.Text + " could NOT Open. " + ex.Message + Environment.NewLine;
                 }
 
             }
@@ -991,19 +883,19 @@ namespace Middleware
                     com2.PortName = cmbPort2.Text;
                     com2.BaudRate = 9600;
                     com2.DataBits = 8;
-                    com2.ReadBufferSize = 10000000;
+                    //com2.ReadBufferSize = 10000000;
                     com2.StopBits = StopBits.One;
                     com2.Parity = Parity.None;
                     com2.DtrEnable = true;
                     com2.RtsEnable = true;
                     com2.Open();
-                    portStatus += Environment.NewLine + cmbPort2.Text + " is Open";
+                    portStatus += Environment.NewLine + cmbPort2.Text + " Opened Successfully" + Environment.NewLine;
                     com2.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_2);
                     com2.Write(Enq());
                 }
                 catch (Exception ex)
                 {
-                    portStatus += Environment.NewLine + cmbPort2.Text + " can NOT Open. Aborting Connection. Please retry." + ex.Message;
+                    portStatus += Environment.NewLine + cmbPort2.Text + " could NOT Open. " + ex.Message + Environment.NewLine;
 
                 }
 
@@ -1024,13 +916,13 @@ namespace Middleware
                     com3.DtrEnable = true;
                     com3.RtsEnable = true;
                     com3.Open();
-                    portStatus += Environment.NewLine + cmbPort3.Text + " is Open.";
+                    portStatus += Environment.NewLine + cmbPort3.Text + " openned successfully." + Environment.NewLine;
                     com3.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_3);
                     com3.Write(Enq());
                 }
                 catch (Exception ex)
                 {
-                    portStatus += Environment.NewLine + cmbPort3.Text + " can NOT Open. Aborting Connection. Please retry." + ex.Message;
+                    portStatus += Environment.NewLine + cmbPort3.Text + " could NOT Open. " + ex.Message + Environment.NewLine;
 
                 }
 
@@ -1051,13 +943,13 @@ namespace Middleware
                     com4.DtrEnable = true;
                     com4.RtsEnable = true;
                     com4.Open();
-                    portStatus += Environment.NewLine + cmbPort4.Text + " is Open.";
+                    portStatus += Environment.NewLine + cmbPort4.Text + " openned successfully." + Environment.NewLine;
                     com4.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_4);
                     com4.Write(Enq());
                 }
                 catch (Exception ex)
                 {
-                    portStatus += Environment.NewLine + cmbPort4.Text + " can NOT Open. Aborting Connection. Please retry." + ex.Message;
+                    portStatus += Environment.NewLine + cmbPort4.Text + " could NOT Open." + ex.Message + Environment.NewLine;
 
                 }
 
@@ -1080,12 +972,12 @@ namespace Middleware
                     com5.Open();
                     com5.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_5);
                     com5.Write(Enq());
-                    portStatus += Environment.NewLine + cmbPort5.Text + " is Open.";
+                    portStatus += Environment.NewLine + cmbPort5.Text + " Opened successfully." + Environment.NewLine;
 
                 }
                 catch (Exception ex)
                 {
-                    portStatus += Environment.NewLine + cmbPort5.Text + " can NOT Open. Aborting Connection. Please retry." + ex.Message;
+                    portStatus += Environment.NewLine + cmbPort5.Text + " could NOT Open. " + ex.Message + Environment.NewLine;
 
                 }
 
@@ -1108,11 +1000,11 @@ namespace Middleware
                     com6.Open();
                     com6.DataReceived += new SerialDataReceivedEventHandler(Com_DataReceived_6);
                     com6.Write(Enq());
-                    portStatus += Environment.NewLine + cmbPort6.Text + " is Open.";
+                    portStatus += Environment.NewLine + cmbPort6.Text + " Openned Successfully." + Environment.NewLine;
                 }
                 catch (Exception ex)
                 {
-                    portStatus += Environment.NewLine + cmbPort6.Text + " can NOT Open. Aborting Connection. Please retry." + ex.Message;
+                    portStatus += Environment.NewLine + cmbPort6.Text + " could NOT Open. " + ex.Message + Environment.NewLine;
 
                 }
 
@@ -1193,7 +1085,12 @@ namespace Middleware
         {
             if (com2.IsOpen)
             {
-                com2.Write(Enq());
+             //   com2.Write(Enq());
+                String s = Stx() + txtCmd2.Text + Etx();
+                com2.Write(s);
+            }else
+            {
+                MessageBox.Show(txtAnalyzer2.Text, "Error. Port Closed.", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }

@@ -61,6 +61,7 @@
             this.btnEnq5 = new System.Windows.Forms.Button();
             this.btnEnq6 = new System.Windows.Forms.Button();
             this.txtCmd1 = new System.Windows.Forms.TextBox();
+            this.txtCmd2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // BtnClear
@@ -208,7 +209,7 @@
             // txtAnalyzer1
             // 
             this.txtAnalyzer1.Location = new System.Drawing.Point(204, 141);
-            this.txtAnalyzer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAnalyzer1.Margin = new System.Windows.Forms.Padding(2);
             this.txtAnalyzer1.Name = "txtAnalyzer1";
             this.txtAnalyzer1.Size = new System.Drawing.Size(198, 20);
             this.txtAnalyzer1.TabIndex = 65;
@@ -216,7 +217,7 @@
             // txtAnalyzer2
             // 
             this.txtAnalyzer2.Location = new System.Drawing.Point(204, 167);
-            this.txtAnalyzer2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAnalyzer2.Margin = new System.Windows.Forms.Padding(2);
             this.txtAnalyzer2.Name = "txtAnalyzer2";
             this.txtAnalyzer2.Size = new System.Drawing.Size(198, 20);
             this.txtAnalyzer2.TabIndex = 66;
@@ -224,7 +225,7 @@
             // txtAnalyzer3
             // 
             this.txtAnalyzer3.Location = new System.Drawing.Point(204, 195);
-            this.txtAnalyzer3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAnalyzer3.Margin = new System.Windows.Forms.Padding(2);
             this.txtAnalyzer3.Name = "txtAnalyzer3";
             this.txtAnalyzer3.Size = new System.Drawing.Size(198, 20);
             this.txtAnalyzer3.TabIndex = 67;
@@ -232,7 +233,7 @@
             // txtAnalyzer4
             // 
             this.txtAnalyzer4.Location = new System.Drawing.Point(204, 223);
-            this.txtAnalyzer4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAnalyzer4.Margin = new System.Windows.Forms.Padding(2);
             this.txtAnalyzer4.Name = "txtAnalyzer4";
             this.txtAnalyzer4.Size = new System.Drawing.Size(198, 20);
             this.txtAnalyzer4.TabIndex = 68;
@@ -240,7 +241,7 @@
             // txtAnalyzer5
             // 
             this.txtAnalyzer5.Location = new System.Drawing.Point(204, 249);
-            this.txtAnalyzer5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAnalyzer5.Margin = new System.Windows.Forms.Padding(2);
             this.txtAnalyzer5.Name = "txtAnalyzer5";
             this.txtAnalyzer5.Size = new System.Drawing.Size(198, 20);
             this.txtAnalyzer5.TabIndex = 69;
@@ -248,7 +249,7 @@
             // txtAnalyzer6
             // 
             this.txtAnalyzer6.Location = new System.Drawing.Point(204, 275);
-            this.txtAnalyzer6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAnalyzer6.Margin = new System.Windows.Forms.Padding(2);
             this.txtAnalyzer6.Name = "txtAnalyzer6";
             this.txtAnalyzer6.Size = new System.Drawing.Size(198, 20);
             this.txtAnalyzer6.TabIndex = 70;
@@ -275,16 +276,16 @@
             // 
             // txtPortStatus
             // 
-            this.txtPortStatus.Location = new System.Drawing.Point(789, 8);
+            this.txtPortStatus.Location = new System.Drawing.Point(688, 8);
             this.txtPortStatus.Name = "txtPortStatus";
-            this.txtPortStatus.Size = new System.Drawing.Size(128, 119);
+            this.txtPortStatus.Size = new System.Drawing.Size(503, 119);
             this.txtPortStatus.TabIndex = 73;
             this.txtPortStatus.Text = "";
             // 
             // btnEnq1
             // 
             this.btnEnq1.Location = new System.Drawing.Point(569, 141);
-            this.btnEnq1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEnq1.Margin = new System.Windows.Forms.Padding(2);
             this.btnEnq1.Name = "btnEnq1";
             this.btnEnq1.Size = new System.Drawing.Size(102, 19);
             this.btnEnq1.TabIndex = 74;
@@ -295,7 +296,7 @@
             // btnEnq2
             // 
             this.btnEnq2.Location = new System.Drawing.Point(569, 169);
-            this.btnEnq2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEnq2.Margin = new System.Windows.Forms.Padding(2);
             this.btnEnq2.Name = "btnEnq2";
             this.btnEnq2.Size = new System.Drawing.Size(102, 19);
             this.btnEnq2.TabIndex = 75;
@@ -306,7 +307,7 @@
             // btnEnq3
             // 
             this.btnEnq3.Location = new System.Drawing.Point(569, 196);
-            this.btnEnq3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEnq3.Margin = new System.Windows.Forms.Padding(2);
             this.btnEnq3.Name = "btnEnq3";
             this.btnEnq3.Size = new System.Drawing.Size(102, 19);
             this.btnEnq3.TabIndex = 76;
@@ -317,7 +318,7 @@
             // btnEnq4
             // 
             this.btnEnq4.Location = new System.Drawing.Point(569, 224);
-            this.btnEnq4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEnq4.Margin = new System.Windows.Forms.Padding(2);
             this.btnEnq4.Name = "btnEnq4";
             this.btnEnq4.Size = new System.Drawing.Size(102, 19);
             this.btnEnq4.TabIndex = 77;
@@ -328,7 +329,7 @@
             // btnEnq5
             // 
             this.btnEnq5.Location = new System.Drawing.Point(569, 250);
-            this.btnEnq5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEnq5.Margin = new System.Windows.Forms.Padding(2);
             this.btnEnq5.Name = "btnEnq5";
             this.btnEnq5.Size = new System.Drawing.Size(102, 19);
             this.btnEnq5.TabIndex = 78;
@@ -339,7 +340,7 @@
             // btnEnq6
             // 
             this.btnEnq6.Location = new System.Drawing.Point(569, 276);
-            this.btnEnq6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEnq6.Margin = new System.Windows.Forms.Padding(2);
             this.btnEnq6.Name = "btnEnq6";
             this.btnEnq6.Size = new System.Drawing.Size(102, 19);
             this.btnEnq6.TabIndex = 79;
@@ -355,11 +356,20 @@
             this.txtCmd1.Size = new System.Drawing.Size(159, 20);
             this.txtCmd1.TabIndex = 80;
             // 
+            // txtCmd2
+            // 
+            this.txtCmd2.Location = new System.Drawing.Point(406, 168);
+            this.txtCmd2.Margin = new System.Windows.Forms.Padding(2);
+            this.txtCmd2.Name = "txtCmd2";
+            this.txtCmd2.Size = new System.Drawing.Size(159, 20);
+            this.txtCmd2.TabIndex = 81;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1203, 525);
+            this.Controls.Add(this.txtCmd2);
             this.Controls.Add(this.txtCmd1);
             this.Controls.Add(this.btnEnq6);
             this.Controls.Add(this.btnEnq5);
@@ -436,5 +446,6 @@
         private System.Windows.Forms.Button btnEnq5;
         private System.Windows.Forms.Button btnEnq6;
         private System.Windows.Forms.TextBox txtCmd1;
+        private System.Windows.Forms.TextBox txtCmd2;
     }
 }

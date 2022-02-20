@@ -11,5 +11,7 @@ namespace Middleware
         SysMex,
         Dimension,
         MiniVidaz,
+        maglumi_800,
+        BA_400,
     }
 }

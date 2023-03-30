@@ -1,5 +1,8 @@
 # The Middleware for the Open-Source Hospital Management System Initiated by Dr M H B Ariyaratne
 
+> **Note:** This middleware is no longer supported and has been replaced by a new Java-based middleware available at [https://github.com/hmislk/limsmw](https://github.com/hmislk/limsmw).
+
+
 ## Title - The Middleware for the Open Source Hospital Management Information System
 
 ## Description - This is the middleware for analyzers to connect to HMIS API throuhgh RESTFul service.
